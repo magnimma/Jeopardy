@@ -3,25 +3,29 @@ var Home = (function() {
          
         
     init = function() {
-        $('#el1').on('click', _handleClick);
-        $('#el2').on('click', _handleClick);
-        $('#el3').on('click', _handleClick);
+        document.getElementById("tfbutton").addEventListener("click",_handleClick);
+        document.getElementById("tfrandom").addEventListener("click",_handleClick);
+        var elems = document.getElementById("abccontainer").childNodes;
+        var elems2 = document.getElementById("numbercontainer").childNodes;
+        for (var i=0; i<elems.length; i++) {
+            elems[i].addEventListener("click",_handleClick);
+        }
+        for (var i=0; i<elems2.length; i++) {
+            elems2[i].addEventListener("click",_handleClick);
+        }
     },
     
     _handleClick = function(e) { 
-        switch(e.target.id){
-                 
-            case 'el1':
-                window.open("DesignURChar/index.html", '_self', false);
-                break;
-            case 'el2':
-                window.open("CheckURJava/index.html", '_self', false);
-                break;
-            case 'el3':
-                window.open("BoolURLogic/index.html", '_self', false);
-                break;
-             
+        if(e.target.id =="tfbutton"){
+            console.log("clicked search button");
         }
+        else if(e.target.id =="tfrandom"){
+            console.log("clicked random button");
+        }       
+        else{
+            console.log(e.target.id);
+        }
+               
         
     }
     ;

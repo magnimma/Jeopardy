@@ -2,38 +2,115 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>URGaming</title> 
-         
-        <link rel="stylesheet" href="_res/_css/carouselstyle.css">
+        <title>Jeopardy Search</title> 
+        <link rel="stylesheet" href="_res/_css/commonstyle.css">
 		 
     </head>
     
     <body>
-    <img id="logo" src="_res/_img/logo.png" alt="#LOGO#"/>
-        
- <div class="carousel">
-     <div class="indicator"></div>
-     <div class="wrap">
-     <ul>
-         <li><img id="el1" src="_res/_img/1.jpg"/></li>
-         <li><img id="el2" src="_res/_img/2.jpg"/></li>
-         <li><img id="el3" src="_res/_img/3.jpg"/></li>
-         </ul>
-     </div>
+        <!-- Head Line -->
+        <div id="Mainline">
+            <img id="logo" src="_res/_img/jeopardy.jpg" alt="#LOGO#"/>
+            <h1 id="header">Search</h1>
+            
         </div>
+	   <!-- SEARCH BAR -->
+	     <div class="tfheader">
+             <br/>
+             <br/>
+             <br/>
+             <br/>
+             <br/>
+             <br/>
+             <br/>
+		      <div id="tfnewsearch">
+                    <p id="tfwhatis">What is...</p>
+		            <input type="text" class="tftextinput" name="q" size="21" maxlength="120" id="tftext">
+                    <input type="submit" value="?" class="button" id="tfbutton">
+		      </div>
+              <div id="divrandom">
+                    <input type="submit" value="Random" class="button" id="tfrandom">
+              </div>
+             <div id="Result">
+             </div>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <hr />
+              <div class="selector">
+                <div class="explanation">
+                    <p >Subjects:</p>
+                </div>
+                <div class="childs"  id="abccontainer" >
+                    <input type="submit" value="A" id="A"  class="button selectorchild">
+                    <input type="submit" value="B" id="B"  class="button selectorchild">
+                    <input type="submit" value="C" id="C"  class="button selectorchild">
+                    <input type="submit" value="D" id="D"  class="button selectorchild">
+                    <input type="submit" value="E" id="E"  class="button selectorchild">
+                    <input type="submit" value="F" id="F"  class="button selectorchild">
+                    <input type="submit" value="G" id="G"  class="button selectorchild">
+                    <input type="submit" value="H" id="H"  class="button selectorchild">
+                    <input type="submit" value="I" id="I"  class="button selectorchild">
+                    <input type="submit" value="J" id="J"  class="button selectorchild">
+                    <input type="submit" value="K" id="K"  class="button selectorchild">
+                    <input type="submit" value="L" id="L"  class="button selectorchild">
+                    <input type="submit" value="M" id="M"  class="button selectorchild">
+                    <input type="submit" value="N" id="N"  class="button selectorchild">
+                    <input type="submit" value="O" id="O"  class="button selectorchild">
+                    <input type="submit" value="P" id="P"  class="button selectorchild">
+                    <input type="submit" value="Q" id="Q"  class="button selectorchild">
+                    <input type="submit" value="R" id="R"  class="button selectorchild">
+                    <input type="submit" value="S" id="S"  class="button selectorchild">
+                    <input type="submit" value="T" id="T"  class="button selectorchild">
+                    <input type="submit" value="U" id="U"  class="button selectorchild">
+                    <input type="submit" value="V" id="V"  class="button selectorchild">
+                    <input type="submit" value="W" id="W"  class="button selectorchild">
+                    <input type="submit" value="X" id="X"  class="button selectorchild">
+                    <input type="submit" value="Y" id="Y"  class="button selectorchild">
+                    <input type="submit" value="Z" id="Z"  class="button selectorchild">
+                </div>
+              </div>
+             <div class="selector">
+                <div class="explanation">
+                    <p >New Questions:</p>
+                </div>
+                <div  class="childs" id="numbercontainer">
+                    <input type="submit" value="100"  id="100"  class="button selectorchild">
+                    <input type="submit" value="200"  id="200"   class="button selectorchild">
+                    <input type="submit" value="300"  id="300"   class="button selectorchild">
+                    <input type="submit" value="400"  id="400"   class="button selectorchild">
+                    <input type="submit" value="500"  id="500"   class="button selectorchild">
+                    <input type="submit" value="600"  id="600"   class="button selectorchild">
+                    <input type="submit" value="700"  id="700"   class="button selectorchild">
+                    <input type="submit" value="800"  id="800"   class="button selectorchild">
+                    <input type="submit" value="900"  id="900"   class="button selectorchild">
+               </div> 
+              </div>
+              <br/>
+              <br/>
+              <br/>
+             <br/>
+              <br/>
+             <audio  id="audio" controls="controls"><source src="_res/_audio/Jeopardy-theme-song.mp3" type="audio/mpeg" /></audio>
+             <br/>
+             <br/>
+            </div>
+            
+       
         
-    </body>
+     </body>
+    
     <script src="_src/Home.js"></script>
 	<script src="_libs/jquery-2.1.4.js"></script> 
-    <script src="_src/jquery.hoverCarousel.js"></script>
-      
-
-
-	<script>
+    <script>
         $(function() { 
             Home.init();
         });
 	</script>
-    
-    
 </html>
