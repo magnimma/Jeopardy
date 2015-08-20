@@ -1,0 +1,149 @@
+.carousel
+{
+	background: #eeeeee;
+	border-radius: 6px;
+	box-shadow: 0 4px 10px #000;
+	display: block;
+	font-size: 0;
+	height: 200px;
+	margin: 50px auto;
+	min-width: 550px;
+	padding: 8px;
+	position: relative;
+	-webkit-box-shadow: 0 4px 10px #000;
+	-webkit-overflow-scrolling: touch; /*für tablet*/
+	-webkit-transform: translateZ(0);
+	width: 55%;
+}
+.touch .carousel
+{
+	overflow: auto;
+}
+.carousel:before, .carousel:after
+{
+	bottom: 0;
+	color: #555;
+	content: '';
+	font-family: arial;
+	font-size: 80px;
+	font-weight: bold;
+	line-height: 190px;
+	opacity: 0;
+	pointer-events: none;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	transition: 0.2s ease-out;
+	-webkit-transition: 0.2s ease-out;
+	width: 50px;
+	z-index: 2;
+}
+.carousel:before
+{
+	box-shadow: 50px 0 20px -20px #eeeeee inset;
+	content: '\2039';
+	left: 0;
+	text-indent: -80px;
+	-webkit-box-shadow: 50px 0 20px -20px #eeeeee inset;
+}
+.carousel:after
+{
+	box-shadow: -50px 0 20px -20px #eeeeee inset;
+	content: '\203A';
+	right: 0;
+	text-indent: 50px;
+	-webkit-box-shadow: -50px 0 20px -20px #eeeeee inset;
+}
+.carousel.right:after, .carousel.left:before
+{
+	opacity: 1;
+}
+.carousel.right:after
+{
+	right: 8px;
+	text-indent: 70px;
+}
+.carousel.left:before
+{
+	left: 8px;
+	text-indent: -120px;
+}
+.carousel > a
+{
+	bottom: 0;
+	color: #CCC;
+	font-size: 1.5em;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	transition: 0.1s;
+	-webkit-transition: 0.1s;
+}
+.carousel > a:hover
+{
+	color: #FFF;
+}
+.carousel > a.prev
+{
+	left: -20px;
+}
+.carousel > a.next
+{
+	right: -20px;
+}
+.carousel > .indicator
+{
+	background: #FF9966;
+	border-radius: 10px;
+	bottom: 0;
+	height: 4px;
+	left: 0;
+	opacity: 0;
+	pointer-events: none;
+	position: absolute;
+	transition: opacity 0.2s, bottom 0.2s;
+	-webkit-transition: opacity 0.2s, bottom 0.2s;
+	z-index: 4;
+}
+.carousel:hover > .indicator
+{
+	bottom: -10px;
+	opacity: 1;
+}
+.carousel > .wrap
+{
+	border-radius: 5px;
+	overflow: hidden;
+}
+.carousel > .wrap > ul
+{
+	height: 200px;
+	list-style: none;
+	white-space: nowrap;
+}
+.carousel > .wrap > ul > li
+{
+	display: inline-block;
+	height: 100%;
+	margin: 0 0 0 5px;
+	overflow: hidden;
+	position: relative;
+	transition: 0.25s ease-out;
+	vertical-align: middle;
+	-webkit-transition: 0.25s ease-out;
+}
+.carousel > .wrap > ul > li:first-child
+{
+	margin: 0;
+}
+.carousel > .wrap > ul > li > img
+{
+	display: block;
+	height: 100%;
+	margin: auto;
+	position: relative;
+	transition: 1s ease;
+	vertical-align: bottom;
+	-webkit-transition: 1s ease;
+	z-index: 1;
+}
