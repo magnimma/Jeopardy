@@ -11,6 +11,7 @@ html {
 }
 
 #logo{
+    cursor: pointer;
     float:left;
     height:80px;
     width:15%;
