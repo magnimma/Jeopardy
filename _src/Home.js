@@ -1,10 +1,10 @@
 var Home = (function() {
     var that = {},
         answers =  [50],
+        manager,
          
      
     init = function() {
-        _readDatabase();
         _events();
         
         
@@ -14,10 +14,18 @@ var Home = (function() {
      *  Eventfunktion
      */
     _events = function(e) {
-        document.getElementById("tfbutton").addEventListener("click",_handleClick);
+        //--------------------------Homepage--------------------------------------------
         document.getElementById("tfrandom").addEventListener("click",_handleClick);
+        //--------------------------Suchanfrage-----------------------------------------
+        document.getElementById("tfbutton").addEventListener("click",_handleSearch);
+        document.addEventListener('keydown', function(event) {
+            if(event.keyCode == 13) {
+                _handleSearch();
+            }
+        });
+        //--------------------------Random-Suche----------------------------------------
         document.getElementById("logo").addEventListener("click",_handleClick);
-        //------------------------------------------------------------------------------
+        //--------------------------ABC/Neueste-Suche-----------------------------------
         var elems = document.getElementById("abccontainer").childNodes,
             elems2 = document.getElementById("numbercontainer").childNodes;
         for (var i=0; i<elems.length; i++) {
@@ -27,49 +35,15 @@ var Home = (function() {
             elems2[i].addEventListener("click",_handleClick);
         }
         //------------------------------------------------------------------------------
-        document.addEventListener('keydown', function(event) {
-            if(event.keyCode == 13) {
-                _handleSearch();
-            }
-        });
-    },
-    
-    _readDatabase = function(e) {
-        $.getJSON("_res/_database/questions.json", function(json) {
-            for(var i = 0; i<50 ; i++){
-                answers[i] = json[i].answer;
-                document.getElementById("Result").innerHTML += json[i].answer + ", ";
-            }
-            
-            
-            
-            var text = "";
-            for(var j = 0; j<50 ; j++){
-                text+= j + answers[j].charAt(0).toUpperCase() + "; ";
-            }
-            window.alert(text);
-            
-            
-            
-            
-            
-            
-            
-            
-        });
-    },
-    
-    
-     
-    
-        
+    },   
         
         
     /*
      *  Suchanfrage
      */
     _handleSearch = function(e) {
-            window.alert("Sie suchen nach: What is "+document.getElementById("tftext").value+"?");
+           
+            $(document).trigger( "searched");
     },
     
     /*
@@ -77,7 +51,7 @@ var Home = (function() {
      */
     _handleClick = function(e) { 
         if(e.target.id =="tfbutton"){
-            _handleSearch();
+            //wird schon abgefangen
         }
         else if(e.target.id =="tfrandom"){
             console.log("clicked random button");

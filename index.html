@@ -4,7 +4,18 @@
         <meta charset="utf-8">
         <title>Jeopardy Search</title> 
         <link rel="stylesheet" href="_res/_css/commonstyle.css">
-		 
+        <script src="_libs/core/Core.js"></script> 
+        <script src="_libs/core/AbstractManager.js"></script> 
+        <script src="_libs/managers/Manager.jquery.js"></script>
+        <script src="_libs/core/Parameter.js"></script> 
+        <script src="_libs/core/ParameterStore.js"></script>
+        <script src="_libs/core/AbstractWidget.js"></script>
+        <script src="_libs/core/AbstractTextWidget.js"></script> 
+        <script src="_libs/jquery-2.1.4.js"></script> 
+        <script src="_src/Home.js"></script>
+        <script src="_src/solrManager.js"></script>
+        <script src="_src/resultWidget.js"></script>
+        <script src="_src/textWidget.js"></script> 
     </head>
     
     <body>
@@ -35,6 +46,7 @@
               <br/>
               <br/>
               <div id="Result">
+                 
               </div>
               <br/>
               <br/>
@@ -105,9 +117,6 @@
        
         
      </body>
-    
-    <script src="_src/Home.js"></script>
-	<script src="_libs/jquery-2.1.4.js"></script> 
     <script>
         $(function() { 
             Home.init();

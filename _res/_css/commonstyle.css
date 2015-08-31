@@ -116,5 +116,14 @@ audio{
 	  border: 0;
 }
 
+#resultList{
+    background: #dadada;
+    text-align: center;
+    font-size: 22dp;
+    margin-top: 5%;
+    border: 3px solid #FF9966;
+    border-radius: 7px; 
+    
+}
 
 
