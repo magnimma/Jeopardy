@@ -15,16 +15,9 @@ var Home = (function() {
      */
     _events = function(e) {
         //--------------------------Homepage--------------------------------------------
-        document.getElementById("tfrandom").addEventListener("click",_handleClick);
-        //--------------------------Suchanfrage-----------------------------------------
-        document.getElementById("tfbutton").addEventListener("click",_handleSearch);
-        document.addEventListener('keydown', function(event) {
-            if(event.keyCode == 13) {
-                _handleSearch();
-            }
-        });
-        //--------------------------Random-Suche----------------------------------------
         document.getElementById("logo").addEventListener("click",_handleClick);
+        //--------------------------Random-Suche----------------------------------------
+        document.getElementById("tfrandom").addEventListener("click",_handleClick);
         //--------------------------ABC/Neueste-Suche-----------------------------------
         var elems = document.getElementById("abccontainer").childNodes,
             elems2 = document.getElementById("numbercontainer").childNodes;
@@ -36,37 +29,27 @@ var Home = (function() {
         }
         //------------------------------------------------------------------------------
     },   
-        
-        
-    /*
-     *  Suchanfrage
-     */
-    _handleSearch = function(e) {
-           
-            $(document).trigger( "searched");
-    },
     
     /*
      *  Restliche Buttons
      */
     _handleClick = function(e) { 
-        if(e.target.id =="tfbutton"){
-            //wird schon abgefangen
+        if(e.target.id =="tfbutton"){//wird schon abgefangen
         }
         else if(e.target.id =="tfrandom"){
-            console.log("clicked random button");
+            document.getElementById("Result").innerHTML = ' <div id="resultList">'+"Random"+' </div>';
         }  
         else if(e.target.id =="logo"){//Homepage Startseite
             location.reload();
         }  
         else if(e.target.id <= "Z" &&e.target.id >= "A" ){
-            document.getElementById("Result").innerHTML = "";
+           /* document.getElementById("Result").innerHTML = "";
             for(var i = 0; i<answers.length ; i++){
                 
                 if (answers[i].charAt(0).toUpperCase() == e.target.id){
                     document.getElementById("Result").innerHTML += answers[i] + ", ";
                 }
-            }
+            }*/
             
         }
         else{

@@ -18,12 +18,73 @@ AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
     */
 
     afterRequest: function () {
-    var result = "";
-    result =this.manager.response.response.docs[0].question[0];
-    var template = ' <div id="resultList">'+result+' </div>';
-    document.getElementById("Result").innerHTML =template; 
+        
+        
+        
+    var question        = "",
+        answer        = "",
+        resultWidget  = document.getElementById("Result"),
+        currentSearch = document.getElementById("tftext").value.charAt(0).toUpperCase()
+                        +document.getElementById("tftext").value.substring(1);
+    if(currentSearch.charAt(0)==0){//if not defined
+         var template = ' <div id="resultList">'+"Undefined"+' </div>';
+         resultWidget.innerHTML = template; 
+    }
+    else if(currentSearch.charAt(0)>0 && currentSearch.charAt(0)<=9){//if it's an calculation
+         var template = ' <div id="resultList">'+"Ergebnis: "+currentSearch+" = "+eval(currentSearch)+' </div>';
+         resultWidget.innerHTML = template; 
+    }
+    else {//normal search
+        if(this.manager.response.response.docs.length > 0){//if there is any hit
+            question = this.manager.response.response.docs[0].question[0];
+            answer = this.manager.response.response.docs[0].answer[0];
+            var found = false;
+            for(var i = 0; i<answer.length; i++){
+                if(answer.substring (i,i+currentSearch.length) == currentSearch){
+                    found = true;
+                    break;
+                }
+            }
+        
+            if(found == true){//if there is a direct match in the answers
+                console.log(answer);
+                var template = ' <div id="resultList"><p style="text-decoration: underline; font-weight: bold;">Ergebnis(se) für: '+answer+'</p>';
+                var questions = this.manager.response.response.docs;
+                for ( var j = 0; j < questions.length ; j++){
+                    template += '<p>'+questions[j].question[0]+'</p>';
+                }
+                template += '<p>'+question+'</p>';
+                resultWidget.innerHTML =template; 
+            }
+            else{//if there are one or more matches in the questions and none in the answers
+                var template = ' <div id="resultList">Hier eventuell Treffer in den Fragen anzeigen?</div>';
+                resultWidget.innerHTML =template; 
+            }
+        }
+        else{//if there is no single hit
+            
+            var txt;
+            var r = confirm("Leider keine Ergebnisse. Möchten Sie in Google nach "+currentSearch+" suchen?");
+            if (r == true) {
+                var str="http://www.google.de/search?hl=en&source=hp&q=" + currentSearch + "&aq=f&oq=&aqi=";
+                var replaced=str.replace(" ","+");
+                window.location.replace(replaced)
+            } else {
+                var template = ' <div id="resultList">'+"Ergebnis: "+"Leider keine Ergebnisse. Versuchen Sie es doch mit einer anderen Eingabe."+' </div>';
+                resultWidget.innerHTML =template; 
+            }
+            
+            
+        }
+    }
         
     
+        
+        
+        
+        
+        
+        
     $(this.target).empty();
     for (var i = 0, l = this.manager.response.response.docs.length; i < l; i++) {
       var doc = this.manager.response.response.docs[i];
