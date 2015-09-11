@@ -4,18 +4,18 @@
         <meta charset="utf-8">
         <title>Jeopardy Search</title> 
         <link rel="stylesheet" href="_res/_css/commonstyle.css">
+        <script src="_libs/jquery-2.1.4.js"></script> 
         <script src="_libs/core/Core.js"></script> 
         <script src="_libs/core/AbstractManager.js"></script> 
         <script src="_libs/managers/Manager.jquery.js"></script>
         <script src="_libs/core/Parameter.js"></script> 
         <script src="_libs/core/ParameterStore.js"></script>
         <script src="_libs/core/AbstractWidget.js"></script>
+        <script src="_libs/widgets/jquery/PagerWidget.js"</script>
         <script src="_libs/core/AbstractTextWidget.js"></script> 
-        <script src="_libs/jquery-2.1.4.js"></script> 
         <script src="_src/Home.js"></script>
         <script src="_src/solrManager.js"></script>
         <script src="_src/resultWidget.js"></script>
-        <script src="_src/textWidget.js"></script> 
     </head>
     
     <body>
@@ -34,20 +34,35 @@
              <br/>
              <br/>
              <br/>
-		      <div id="tfnewsearch">
+             <div id="overall">
+                <div id="tfoldsearch">
+                    <p id="delete">Delete this</p>
+                    <p id="lastsearch">Last Searches</p>
+		        </div>
+                <div id="tfnewsearch">
                     <p id="tfwhatis">What is...</p>
 		            <input type="text" class="tftextinput" name="q" size="21" maxlength="120" id="tftext">
                     <input type="submit" value="?" class="button" id="tfbutton">
-		      </div>
-              <div id="divrandom">
+		        </div>
+                <div id="divrandom">
                     <input type="submit" value="Random" class="button" id="tfrandom">
+                </div>
               </div>
               <br/>
               <br/>
               <br/>
-              <div id="Result">
-                 
+              <div id="navigation" class="resultList" style="display:none">
+                <ul id="pager"></ul>
+                <div id="pager-header"></div>
               </div>
+              <div id="feedback" class="resultList" style="display:none">
+              </div>
+              <div id="docs">
+                 <!-- Hier die Ergebnisse anzeigen mit Widget-->
+              </div>
+              <br/>
+              <br/>
+              <br/>
               <br/>
               <br/>
               <br/>
@@ -93,15 +108,15 @@
                     <p >New Questions:</p>
                 </div>
                 <div  class="childs" id="numbercontainer">
-                    <input type="submit" value="100"  id="100"  class="button selectorchild">
-                    <input type="submit" value="200"  id="200"   class="button selectorchild">
-                    <input type="submit" value="300"  id="300"   class="button selectorchild">
-                    <input type="submit" value="400"  id="400"   class="button selectorchild">
-                    <input type="submit" value="500"  id="500"   class="button selectorchild">
-                    <input type="submit" value="600"  id="600"   class="button selectorchild">
-                    <input type="submit" value="700"  id="700"   class="button selectorchild">
-                    <input type="submit" value="800"  id="800"   class="button selectorchild">
-                    <input type="submit" value="900"  id="900"   class="button selectorchild">
+                    <input type="submit" value="  0-50"   id="1"   class="button selectorchild">
+                    <input type="submit" value="51-100"   id="2"   class="button selectorchild">
+                    <input type="submit" value="101-150"  id="3"   class="button selectorchild">
+                    <input type="submit" value="151-200"  id="4"   class="button selectorchild">
+                    <input type="submit" value="201-250"  id="5"   class="button selectorchild">
+                    <input type="submit" value="251-300"  id="6"   class="button selectorchild">
+                    <input type="submit" value="301-350"  id="7"   class="button selectorchild">
+                    <input type="submit" value="351-400"  id="8"   class="button selectorchild">
+                    <input type="submit" value="401-450"  id="9"   class="button selectorchild">
                </div> 
               </div>
               <br/>
