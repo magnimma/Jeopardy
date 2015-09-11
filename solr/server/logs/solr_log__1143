@@ -1,0 +1,1012 @@
+2015-09-04 10:55:56.780 INFO  (main) [   ] o.e.j.u.log Logging initialized @562ms
+2015-09-04 10:55:56.962 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2015-09-04 10:55:56.973 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2015-09-04 10:55:56.974 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/C:/Users/MyUse/Desktop/solr/server/contexts/] at interval 0
+2015-09-04 10:55:57.388 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2015-09-04 10:55:57.400 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@239963d8{/solr,file:/C:/Users/MyUse/Desktop/solr/server/solr-webapp/webapp/,STARTING}{C:\Users\MyUse\Desktop\solr\server/solr-webapp/webapp} has uncovered http methods for path: /
+2015-09-04 10:55:57.406 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1454127753@56ac3a89
+2015-09-04 10:55:57.421 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2015-09-04 10:55:57.421 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: C:\Users\MyUse\Desktop\solr\server\solr
+2015-09-04 10:55:57.423 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MyUse\Desktop\solr\server\solr\'
+2015-09-04 10:55:57.542 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Users\MyUse\Desktop\solr\server\solr\solr.xml
+2015-09-04 10:55:57.612 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: C:\Users\MyUse\Desktop\solr\server\solr
+2015-09-04 10:55:57.634 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 943870983
+2015-09-04 10:55:57.635 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=C:\Users\MyUse\Desktop\solr\server\solr\]
+2015-09-04 10:55:57.635 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: C:\Users\MyUse\Desktop\solr\server\solr\lib
+2015-09-04 10:55:57.635 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: C:\Users\MyUse\Desktop\solr\server\solr\lib).
+2015-09-04 10:55:57.648 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2015-09-04 10:55:57.742 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2015-09-04 10:55:57.744 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2015-09-04 10:55:57.745 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2015-09-04 10:55:57.747 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2015-09-04 10:55:57.747 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2015-09-04 10:55:57.790 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath C:\Users\MyUse\Desktop\solr\server\solr
+2015-09-04 10:55:57.827 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=gettingstarted, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted, absoluteInstDir=C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\, dataDir=data\}
+2015-09-04 10:55:57.827 INFO  (main) [   ] o.a.s.c.CoresLocator Found core gettingstarted in C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\
+2015-09-04 10:55:57.841 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=Mio, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=C:\Users\MyUse\Desktop\solr\server\solr\mio, absoluteInstDir=C:\Users\MyUse\Desktop\solr\server\solr\mio\, dataDir=data}
+2015-09-04 10:55:57.841 INFO  (main) [   ] o.a.s.c.CoresLocator Found core Mio in C:\Users\MyUse\Desktop\solr\server\solr\mio\
+2015-09-04 10:55:57.841 INFO  (main) [   ] o.a.s.c.CoresLocator Found 2 core definitions
+2015-09-04 10:55:57.844 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\'
+2015-09-04 10:55:57.844 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MyUse\Desktop\solr\server\solr\mio\'
+2015-09-04 10:55:57.844 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=C:\Users\MyUse\Desktop\solr\server
+2015-09-04 10:55:57.845 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2015-09-04 10:55:57.855 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@239963d8{/solr,file:/C:/Users/MyUse/Desktop/solr/server/solr-webapp/webapp/,AVAILABLE}{C:\Users\MyUse\Desktop\solr\server/solr-webapp/webapp}
+2015-09-04 10:55:57.903 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2015-09-04 10:55:57.905 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2015-09-04 10:55:57.905 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2015-09-04 10:55:57.914 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2015-09-04 10:55:57.915 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2015-09-04 10:55:57.915 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2015-09-04 10:55:57.915 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2015-09-04 10:55:57.915 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2015-09-04 10:55:57.915 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2015-09-04 10:55:57.915 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2015-09-04 10:55:57.915 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2015-09-04 10:55:57.916 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2015-09-04 10:55:57.916 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2015-09-04 10:55:57.916 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2015-09-04 10:55:57.916 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2015-09-04 10:55:57.916 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2015-09-04 10:55:57.916 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2015-09-04 10:55:57.916 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2015-09-04 10:55:57.916 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2015-09-04 10:55:57.916 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2015-09-04 10:55:57.916 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2015-09-04 10:55:57.917 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2015-09-04 10:55:57.917 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2015-09-04 10:55:57.917 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2015-09-04 10:55:57.917 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2015-09-04 10:55:57.917 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2015-09-04 10:55:57.917 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2015-09-04 10:55:57.917 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2015-09-04 10:55:57.917 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2015-09-04 10:55:57.917 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2015-09-04 10:55:57.918 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2015-09-04 10:55:57.918 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2015-09-04 10:55:57.918 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2015-09-04 10:55:57.918 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2015-09-04 10:55:57.918 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2015-09-04 10:55:57.918 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2015-09-04 10:55:57.918 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2015-09-04 10:55:57.918 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-3.11.jar' to classloader
+2015-09-04 10:55:57.918 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2015-09-04 10:55:57.919 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2015-09-04 10:55:57.919 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-3.11.jar' to classloader
+2015-09-04 10:55:57.919 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2015-09-04 10:55:57.919 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2015-09-04 10:55:57.919 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2015-09-04 10:55:57.919 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2015-09-04 10:55:57.919 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2015-09-04 10:55:57.919 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/rome-1.0.jar' to classloader
+2015-09-04 10:55:57.919 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/rome-1.0.jar' to classloader
+2015-09-04 10:55:57.919 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2015-09-04 10:55:57.919 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2015-09-04 10:55:57.920 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2015-09-04 10:55:57.920 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2015-09-04 10:55:57.920 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2015-09-04 10:55:57.920 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2015-09-04 10:55:57.920 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2015-09-04 10:55:57.920 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2015-09-04 10:55:57.920 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2015-09-04 10:55:57.920 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2015-09-04 10:55:57.920 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2015-09-04 10:55:57.920 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2015-09-04 10:55:57.921 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2015-09-04 10:55:57.921 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2015-09-04 10:55:57.921 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2015-09-04 10:55:57.921 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2015-09-04 10:55:57.921 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2015-09-04 10:55:57.921 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2015-09-04 10:55:57.921 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2015-09-04 10:55:57.921 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2015-09-04 10:55:57.921 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xz-1.5.jar' to classloader
+2015-09-04 10:55:57.921 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xz-1.5.jar' to classloader
+2015-09-04 10:55:57.923 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-cell-5.3.0.jar' to classloader
+2015-09-04 10:55:57.923 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-cell-5.3.0.jar' to classloader
+2015-09-04 10:55:57.924 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2015-09-04 10:55:57.924 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2015-09-04 10:55:57.924 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2015-09-04 10:55:57.924 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2015-09-04 10:55:57.925 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2015-09-04 10:55:57.925 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2015-09-04 10:55:57.925 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2015-09-04 10:55:57.925 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2015-09-04 10:55:57.925 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2015-09-04 10:55:57.925 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2015-09-04 10:55:57.925 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2015-09-04 10:55:57.925 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2015-09-04 10:55:57.925 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2015-09-04 10:55:57.925 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2015-09-04 10:55:57.925 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2015-09-04 10:55:57.925 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2015-09-04 10:55:57.926 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-clustering-5.3.0.jar' to classloader
+2015-09-04 10:55:57.927 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2015-09-04 10:55:57.927 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2015-09-04 10:55:57.927 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-langid-5.3.0.jar' to classloader
+2015-09-04 10:55:57.927 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-clustering-5.3.0.jar' to classloader
+2015-09-04 10:55:57.928 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2015-09-04 10:55:57.928 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2015-09-04 10:55:57.928 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2015-09-04 10:55:57.928 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2015-09-04 10:55:57.928 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2015-09-04 10:55:57.928 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2015-09-04 10:55:57.928 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-langid-5.3.0.jar' to classloader
+2015-09-04 10:55:57.929 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2015-09-04 10:55:57.929 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-velocity-5.3.0.jar' to classloader
+2015-09-04 10:55:57.929 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2015-09-04 10:55:57.929 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2015-09-04 10:55:57.929 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2015-09-04 10:55:57.929 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-velocity-5.3.0.jar' to classloader
+2015-09-04 10:55:57.961 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@331818d9{HTTP/1.1}{0.0.0.0:8983}
+2015-09-04 10:55:57.961 INFO  (main) [   ] o.e.j.s.Server Started @1745ms
+2015-09-04 10:55:58.237 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.0
+2015-09-04 10:55:58.237 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.0
+2015-09-04 10:55:58.345 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-09-04 10:55:58.352 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-09-04 10:55:58.354 INFO  (qtp429313384-22) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=50 
+2015-09-04 10:55:58.362 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\conf\managed-schema
+2015-09-04 10:55:58.362 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\managed-schema
+2015-09-04 10:55:58.404 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [gettingstarted] Schema name=example-data-driven-schema
+2015-09-04 10:55:58.410 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema [Mio] Schema name=example-data-driven-schema
+2015-09-04 10:55:58.723 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-09-04 10:55:58.723 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-09-04 10:55:58.926 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-04 10:55:58.938 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-04 10:55:58.939 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-04 10:55:58.949 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-04 10:55:58.962 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\conf'
+2015-09-04 10:55:58.962 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'gettingstarted' using configuration from instancedir C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\
+2015-09-04 10:55:58.963 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Users\MyUse\Desktop\solr\server\solr\mio\conf'
+2015-09-04 10:55:58.963 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.CoreContainer Creating SolrCore 'Mio' using configuration from instancedir C:\Users\MyUse\Desktop\solr\server\solr\mio\
+2015-09-04 10:55:58.967 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2015-09-04 10:55:58.967 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2015-09-04 10:55:58.977 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.SolrCore [[gettingstarted] ] Opening new SolrCore at [C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\], dataDir=[null]
+2015-09-04 10:55:58.977 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.c.SolrCore [[Mio] ] Opening new SolrCore at [C:\Users\MyUse\Desktop\solr\server\solr\mio\], dataDir=[null]
+2015-09-04 10:55:58.979 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-09-04 10:55:58.979 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-09-04 10:55:58.982 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.c.SolrCore [[Mio] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-09-04 10:55:58.982 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.c.SolrCore [[Mio] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-09-04 10:55:58.992 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.SolrCore [[gettingstarted] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-09-04 10:55:58.992 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.SolrCore [[gettingstarted] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-09-04 10:55:58.995 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MyUse\Desktop\solr\server\solr\mio\data
+2015-09-04 10:55:58.995 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\data
+2015-09-04 10:55:58.996 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index/
+2015-09-04 10:55:58.996 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\data\index/
+2015-09-04 10:55:58.996 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index
+2015-09-04 10:55:58.998 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\data\index
+2015-09-04 10:55:59.009 INFO  (OldIndexDirectoryCleanupThreadForCore-Mio) [   x:Mio] o.a.s.c.SolrCore Looking for old index directories to cleanup for core Mio in C:\Users\MyUse\Desktop\solr\server\solr\mio\data\
+2015-09-04 10:55:59.009 INFO  (OldIndexDirectoryCleanupThreadForCore-gettingstarted) [   x:gettingstarted] o.a.s.c.SolrCore Looking for old index directories to cleanup for core gettingstarted in C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\data\
+2015-09-04 10:55:59.011 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2015-09-04 10:55:59.011 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2015-09-04 10:55:59.014 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2015-09-04 10:55:59.014 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2015-09-04 10:55:59.090 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "add-unknown-fields-to-the-schema"
+2015-09-04 10:55:59.090 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "add-unknown-fields-to-the-schema"
+2015-09-04 10:55:59.141 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2015-09-04 10:55:59.141 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2015-09-04 10:55:59.179 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-04 10:55:59.179 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-04 10:55:59.181 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-04 10:55:59.181 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-04 10:55:59.182 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-04 10:55:59.183 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-04 10:55:59.186 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-04 10:55:59.186 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-04 10:55:59.192 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2015-09-04 10:55:59.193 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2015-09-04 10:55:59.199 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-09-04 10:55:59.199 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-09-04 10:55:59.199 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-09-04 10:55:59.199 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-09-04 10:55:59.201 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2015-09-04 10:55:59.201 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2015-09-04 10:55:59.201 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2015-09-04 10:55:59.201 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-09-04 10:55:59.201 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2015-09-04 10:55:59.201 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/replication,/config,/stream,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/update/extract
+2015-09-04 10:55:59.201 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2015-09-04 10:55:59.202 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-09-04 10:55:59.203 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-09-04 10:55:59.203 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2015-09-04 10:55:59.204 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/replication,/config,/stream,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/update/extract
+2015-09-04 10:55:59.204 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-09-04 10:55:59.211 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2015-09-04 10:55:59.211 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2015-09-04 10:55:59.211 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2015-09-04 10:55:59.211 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2015-09-04 10:55:59.218 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2015-09-04 10:55:59.218 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2015-09-04 10:55:59.225 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2015-09-04 10:55:59.226 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2015-09-04 10:55:59.250 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4c5a84bd; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+2015-09-04 10:55:59.250 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.c.SolrCore newest commit generation = 1
+2015-09-04 10:55:59.259 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.s.SolrIndexSearcher Opening Searcher@665ad292[Mio] main
+2015-09-04 10:55:59.264 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\MyUse\Desktop\solr\server\solr\mio\conf
+2015-09-04 10:55:59.264 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=C:\Users\MyUse\Desktop\solr\server\solr\mio\conf}
+2015-09-04 10:55:59.273 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=C:\Users\MyUse\Desktop\solr\server\solr\mio\conf
+2015-09-04 10:55:59.273 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2015-09-04 10:55:59.279 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2015-09-04 10:55:59.283 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2015-09-04 10:55:59.288 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2015-09-04 10:55:59.289 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\elevate.xml
+2015-09-04 10:55:59.302 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2015-09-04 10:55:59.306 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2015-09-04 10:55:59.306 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2015-09-04 10:55:59.306 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.u.VersionInfo No terms found for _version_, cannot seed version bucket highest value from index
+2015-09-04 10:55:59.306 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1511379864708448256
+2015-09-04 10:55:59.306 INFO  (searcherExecutor-8-thread-1-processing-x:Mio) [   x:Mio] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@665ad292[Mio] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2015-09-04 10:55:59.307 INFO  (searcherExecutor-8-thread-1-processing-x:Mio) [   x:Mio] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-04 10:55:59.307 INFO  (searcherExecutor-8-thread-1-processing-x:Mio) [   x:Mio] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2015-09-04 10:55:59.307 INFO  (searcherExecutor-8-thread-1-processing-x:Mio) [   x:Mio] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2015-09-04 10:55:59.307 INFO  (searcherExecutor-8-thread-1-processing-x:Mio) [   x:Mio] o.a.s.c.SolrCore [Mio] Registered new searcher Searcher@665ad292[Mio] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2015-09-04 10:55:59.309 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.u.UpdateLog Took 3 ms to seed version buckets with highest version 1511379864708448256
+2015-09-04 10:55:59.310 INFO  (coreLoadExecutor-6-thread-2) [   x:Mio] o.a.s.c.CoreContainer registering core: Mio
+2015-09-04 10:55:59.311 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4c5a84bd; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_a,generation=10}
+2015-09-04 10:55:59.311 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.SolrCore newest commit generation = 10
+2015-09-04 10:55:59.828 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.s.SolrIndexSearcher Opening Searcher@67fa0d1d[gettingstarted] main
+2015-09-04 10:55:59.829 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\conf
+2015-09-04 10:55:59.829 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\conf}
+2015-09-04 10:55:59.829 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\conf
+2015-09-04 10:55:59.829 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2015-09-04 10:55:59.829 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2015-09-04 10:55:59.829 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2015-09-04 10:55:59.829 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2015-09-04 10:55:59.830 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\conf\elevate.xml
+2015-09-04 10:55:59.837 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2015-09-04 10:55:59.837 INFO  (searcherExecutor-7-thread-1-processing-x:gettingstarted) [   x:gettingstarted] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@67fa0d1d[gettingstarted] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_2(5.3.0):C32) Uninverting(_3(5.3.0):C3) Uninverting(_4(5.3.0):C88593) Uninverting(_5(5.3.0):C14627) Uninverting(_6(5.3.0):C5920) Uninverting(_7(5.3.0):C88741) Uninverting(_8(5.3.0):C16912) Uninverting(_9(5.3.0):C2137) Uninverting(_a(5.3.0):C88576) Uninverting(_b(5.3.0):C22184) Uninverting(_c(5.3.0):C8549) Uninverting(_d(5.3.0):C88735) Uninverting(_e(5.3.0):C8886)))}
+2015-09-04 10:55:59.837 INFO  (searcherExecutor-7-thread-1-processing-x:gettingstarted) [   x:gettingstarted] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-04 10:55:59.837 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2015-09-04 10:55:59.837 INFO  (searcherExecutor-7-thread-1-processing-x:gettingstarted) [   x:gettingstarted] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2015-09-04 10:55:59.837 INFO  (searcherExecutor-7-thread-1-processing-x:gettingstarted) [   x:gettingstarted] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2015-09-04 10:55:59.838 INFO  (searcherExecutor-7-thread-1-processing-x:gettingstarted) [   x:gettingstarted] o.a.s.c.SolrCore [gettingstarted] Registered new searcher Searcher@67fa0d1d[gettingstarted] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_2(5.3.0):C32) Uninverting(_3(5.3.0):C3) Uninverting(_4(5.3.0):C88593) Uninverting(_5(5.3.0):C14627) Uninverting(_6(5.3.0):C5920) Uninverting(_7(5.3.0):C88741) Uninverting(_8(5.3.0):C16912) Uninverting(_9(5.3.0):C2137) Uninverting(_a(5.3.0):C88576) Uninverting(_b(5.3.0):C22184) Uninverting(_c(5.3.0):C8549) Uninverting(_d(5.3.0):C88735) Uninverting(_e(5.3.0):C8886)))}
+2015-09-04 10:55:59.838 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2015-09-04 10:55:59.857 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.u.VersionInfo Found MAX value 1511021861128896516 from Terms for _version_ in index
+2015-09-04 10:55:59.858 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.u.UpdateLog Took 21 ms to seed version buckets with highest version 1511021861128896516
+2015-09-04 10:55:59.859 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.CoreContainer registering core: gettingstarted
+2015-09-04 10:56:02.998 INFO  (qtp429313384-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1441364162989} status=0 QTime=5 
+2015-09-04 10:56:03.013 INFO  (qtp429313384-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1441364163011} status=0 QTime=0 
+2015-09-04 10:56:06.522 ERROR (qtp429313384-22) [   x:gettingstarted] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-top.html [C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\conf\admin-extra.menu-top.html]
+2015-09-04 10:56:06.522 ERROR (qtp429313384-18) [   x:gettingstarted] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-bottom.html [C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\conf\admin-extra.menu-bottom.html]
+2015-09-04 10:56:06.523 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1441364166513} status=404 QTime=1 
+2015-09-04 10:56:06.523 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1441364166513} status=404 QTime=1 
+2015-09-04 10:56:06.534 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1441364166530} status=0 QTime=0 
+2015-09-04 10:56:06.537 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/admin/system params={wt=json&_=1441364166534} status=0 QTime=0 
+2015-09-04 10:56:06.543 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/replication params={wt=json&command=details&_=1441364166532} status=0 QTime=6 
+2015-09-04 10:56:06.544 ERROR (qtp429313384-19) [   x:gettingstarted] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\conf\admin-extra.html]
+2015-09-04 10:56:06.544 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1441364166535} status=404 QTime=0 
+2015-09-04 10:56:06.545 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1441364166538} status=503 QTime=1 
+2015-09-04 10:58:16.534 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214025838252549520335_1441364293353&indent=trueselect?q%3D*:*&fq=dsffdsfds&wt=json&wt=json&_=1441364293354} hits=0 status=0 QTime=38 
+2015-09-04 10:58:17.526 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214025838252549520335_1441364293353&indent=trueselect?q%3D*:*&fq=dsffdsfds&wt=json&wt=json&_=1441364293355} hits=0 status=0 QTime=1 
+2015-09-04 10:58:17.701 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214025838252549520335_1441364293353&indent=trueselect?q%3D*:*&fq=dsffdsfds&wt=json&wt=json&_=1441364293356} hits=0 status=0 QTime=0 
+2015-09-04 10:58:17.877 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214025838252549520335_1441364293353&indent=trueselect?q%3D*:*&fq=dsffdsfds&wt=json&wt=json&_=1441364293357} hits=0 status=0 QTime=0 
+2015-09-04 10:58:18.060 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214025838252549520335_1441364293353&indent=trueselect?q%3D*:*&fq=dsffdsfds&wt=json&wt=json&_=1441364293358} hits=0 status=0 QTime=0 
+2015-09-04 10:58:18.237 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214025838252549520335_1441364293353&indent=trueselect?q%3D*:*&fq=dsffdsfds&wt=json&wt=json&_=1441364293359} hits=0 status=0 QTime=0 
+2015-09-04 10:58:18.408 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214025838252549520335_1441364293353&indent=trueselect?q%3D*:*&fq=dsffdsfds&wt=json&wt=json&_=1441364293360} hits=0 status=0 QTime=0 
+2015-09-04 10:58:18.608 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214025838252549520335_1441364293353&indent=trueselect?q%3D*:*&fq=dsffdsfds&wt=json&wt=json&_=1441364293361} hits=0 status=0 QTime=0 
+2015-09-04 10:58:18.780 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214025838252549520335_1441364293353&indent=trueselect?q%3D*:*&fq=dsffdsfds&wt=json&wt=json&_=1441364293362} hits=0 status=0 QTime=0 
+2015-09-04 10:58:19.226 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214025838252549520335_1441364293353&indent=trueselect?q%3D*:*&fq=dsffdsfds&wt=json&wt=json&_=1441364293363} hits=0 status=0 QTime=0 
+2015-09-04 10:58:19.397 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214025838252549520335_1441364293353&indent=trueselect?q%3D*:*&fq=dsffdsfds&wt=json&wt=json&_=1441364293364} hits=0 status=0 QTime=0 
+2015-09-04 10:58:42.891 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21406426779645052353_1441364318589&indent=trueselect?q%3D*:*&fq=hello&wt=json&wt=json&_=1441364318590} hits=703 status=0 QTime=9 
+2015-09-04 10:58:44.629 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21406426779645052353_1441364318589&indent=trueselect?q%3D*:*&fq=hello&wt=json&wt=json&_=1441364318591} hits=703 status=0 QTime=0 
+2015-09-04 10:58:45.089 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21406426779645052353_1441364318589&indent=trueselect?q%3D*:*&fq=hello&wt=json&wt=json&_=1441364318592} hits=703 status=0 QTime=0 
+2015-09-04 10:58:45.276 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21406426779645052353_1441364318589&indent=trueselect?q%3D*:*&fq=hello&wt=json&wt=json&_=1441364318593} hits=703 status=0 QTime=0 
+2015-09-04 10:58:45.461 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21406426779645052353_1441364318589&indent=trueselect?q%3D*:*&fq=hello&wt=json&wt=json&_=1441364318594} hits=703 status=0 QTime=0 
+2015-09-04 10:58:45.661 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21406426779645052353_1441364318589&indent=trueselect?q%3D*:*&fq=hello&wt=json&wt=json&_=1441364318595} hits=703 status=0 QTime=0 
+2015-09-04 10:58:45.861 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21406426779645052353_1441364318589&indent=trueselect?q%3D*:*&fq=hello&wt=json&wt=json&_=1441364318596} hits=703 status=0 QTime=0 
+2015-09-04 10:58:46.054 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21406426779645052353_1441364318589&indent=trueselect?q%3D*:*&fq=hello&wt=json&wt=json&_=1441364318597} hits=703 status=0 QTime=0 
+2015-09-04 10:59:14.928 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21406426779645052353_1441364318589&indent=trueselect?q%3D*:*&fq=best&wt=json&wt=json&_=1441364318598} hits=3556 status=0 QTime=11 
+2015-09-04 10:59:38.434 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21406426779645052353_1441364318589&indent=trueselect?q%3D*:*&fq=caesar&wt=json&wt=json&_=1441364318599} hits=618 status=0 QTime=8 
+2015-09-04 10:59:51.186 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21406426779645052353_1441364318589&indent=trueselect?q%3D*:*&fq=deal&wt=json&wt=json&_=1441364318600} hits=488 status=0 QTime=9 
+2015-09-04 10:59:57.619 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21406426779645052353_1441364318589&indent=trueselect?q%3D*:*&fq=napoleon&wt=json&wt=json&_=1441364318601} hits=684 status=0 QTime=11 
+2015-09-04 11:01:06.669 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&indent=true&fq=cicero&wt=json} hits=42 status=0 QTime=7 
+2015-09-04 11:08:07.509 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214015797527099793385_1441364881855&indent=trueselect?q%3D*:*&fq=1&wt=json&wt=json&_=1441364881856} hits=7795 status=0 QTime=23 
+2015-09-04 11:09:03.773 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214098797395383114_1441364941028&indent=trueselect?q%3D*:*&fq=1&wt=json&wt=json&_=1441364941029} hits=7795 status=0 QTime=0 
+2015-09-04 11:09:29.932 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214003353087196189408_1441364967634&indent=trueselect?q%3D*:*&fq=1&wt=json&wt=json&_=1441364967635} hits=7795 status=0 QTime=0 
+2015-09-04 11:09:50.214 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214003353087196189408_1441364967634&indent=trueselect?q%3D*:*&fq=bart&wt=json&wt=json&_=1441364967636} hits=106 status=0 QTime=10 
+2015-09-04 11:09:58.377 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214003353087196189408_1441364967634&indent=trueselect?q%3D*:*&fq=king&wt=json&wt=json&_=1441364967637} hits=6932 status=0 QTime=16 
+2015-09-04 11:10:52.308 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214003353087196189408_1441364967634&indent=trueselect?q%3D*:*&fq=Copernicus&wt=json&wt=json&_=1441364967638} hits=68 status=0 QTime=7 
+2015-09-04 11:11:00.354 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214003353087196189408_1441364967634&indent=trueselect?q%3D*:*&fq=copernicus&wt=json&wt=json&_=1441364967639} hits=68 status=0 QTime=0 
+2015-09-04 11:11:47.204 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21409643040695730621_1441365104157&indent=trueselect?q%3D*:*&fq=copernicus&wt=json&wt=json&_=1441365104158} hits=68 status=0 QTime=0 
+2015-09-04 11:11:52.154 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21409643040695730621_1441365104157&indent=trueselect?q%3D*:*&fq=Copernicus&wt=json&wt=json&_=1441365104159} hits=68 status=0 QTime=0 
+2015-09-04 11:11:53.717 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21409643040695730621_1441365104157&indent=trueselect?q%3D*:*&fq=Copernicus&wt=json&wt=json&_=1441365104160} hits=68 status=0 QTime=0 
+2015-09-04 11:14:17.430 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214043984002066903316_1441365255668&indent=trueselect?q%3D*:*&fq=1&wt=json&wt=json&_=1441365255669} hits=7795 status=0 QTime=0 
+2015-09-04 11:15:38.398 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21406904225677874889_1441365335642&indent=trueselect?q%3D*:*&fq=1+1&wt=json&wt=json&_=1441365335643} hits=7795 status=0 QTime=17 
+2015-09-04 11:19:45.118 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214026503370693658057_1441365582850&indent=trueselect?q%3D*:*&fq=1+1&wt=json&wt=json&_=1441365582851} hits=7795 status=0 QTime=0 
+2015-09-04 11:19:51.552 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214026503370693658057_1441365582850&indent=trueselect?q%3D*:*&fq=2*2+1&wt=json&wt=json&_=1441365582852} hits=47720 status=0 QTime=57 
+2015-09-04 11:19:53.603 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214026503370693658057_1441365582850&indent=trueselect?q%3D*:*&fq=2*2+1&wt=json&wt=json&_=1441365582853} hits=47720 status=0 QTime=1 
+2015-09-04 11:20:08.304 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21403185246903221549_1441365603102&indent=trueselect?q%3D*:*&fq=4*2+1&wt=json&wt=json&_=1441365603103} hits=48259 status=0 QTime=44 
+2015-09-04 11:20:48.462 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21400766199702778888_1441365639340&indent=trueselect?q%3D*:*&fq=4*5+9/3&wt=json&wt=json&_=1441365639341} hits=51750 status=0 QTime=31 
+2015-09-04 11:21:40.692 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21407227294402582795_1441365697631&indent=trueselect?q%3D*:*&fq=4+3&wt=json&wt=json&_=1441365697632} hits=16094 status=0 QTime=7 
+2015-09-04 11:25:16.247 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21409626137609681059_1441365913455&indent=trueselect?q%3D*:*&fq=&wt=json&wt=json&_=1441365913456} hits=433895 status=0 QTime=17 
+2015-09-04 11:25:18.219 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21409626137609681059_1441365913455&indent=trueselect?q%3D*:*&fq=&wt=json&wt=json&_=1441365913457} hits=433895 status=0 QTime=0 
+2015-09-04 11:27:02.950 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140019169062991409747_1441366021274&indent=trueselect?q%3D*:*&fq=&wt=json&wt=json&_=1441366021275} hits=433895 status=0 QTime=0 
+2015-09-04 11:27:07.290 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140008046978115828662_1441366025174&indent=trueselect?q%3D*:*&fq=dafdasf&wt=json&wt=json&_=1441366025175} hits=0 status=0 QTime=6 
+2015-09-04 11:27:08.402 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140008046978115828662_1441366025174&indent=trueselect?q%3D*:*&fq=dafdasf&wt=json&wt=json&_=1441366025176} hits=0 status=0 QTime=0 
+2015-09-04 11:27:08.706 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140008046978115828662_1441366025174&indent=trueselect?q%3D*:*&fq=dafdasf&wt=json&wt=json&_=1441366025177} hits=0 status=0 QTime=0 
+2015-09-04 11:27:08.889 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140008046978115828662_1441366025174&indent=trueselect?q%3D*:*&fq=dafdasf&wt=json&wt=json&_=1441366025178} hits=0 status=0 QTime=0 
+2015-09-04 11:27:09.073 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140008046978115828662_1441366025174&indent=trueselect?q%3D*:*&fq=dafdasf&wt=json&wt=json&_=1441366025179} hits=0 status=0 QTime=0 
+2015-09-04 11:27:09.250 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140008046978115828662_1441366025174&indent=trueselect?q%3D*:*&fq=dafdasf&wt=json&wt=json&_=1441366025180} hits=0 status=0 QTime=0 
+2015-09-04 11:27:09.465 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140008046978115828662_1441366025174&indent=trueselect?q%3D*:*&fq=dafdasf&wt=json&wt=json&_=1441366025181} hits=0 status=0 QTime=0 
+2015-09-04 11:27:09.761 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140008046978115828662_1441366025174&indent=trueselect?q%3D*:*&fq=dafdasf&wt=json&wt=json&_=1441366025182} hits=0 status=0 QTime=0 
+2015-09-04 11:27:09.953 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140008046978115828662_1441366025174&indent=trueselect?q%3D*:*&fq=dafdasf&wt=json&wt=json&_=1441366025183} hits=0 status=0 QTime=0 
+2015-09-04 11:27:10.162 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140008046978115828662_1441366025174&indent=trueselect?q%3D*:*&fq=dafdasf&wt=json&wt=json&_=1441366025184} hits=0 status=0 QTime=0 
+2015-09-04 11:27:10.482 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140008046978115828662_1441366025174&indent=trueselect?q%3D*:*&fq=dafdasf&wt=json&wt=json&_=1441366025185} hits=0 status=0 QTime=0 
+2015-09-04 11:27:10.698 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140008046978115828662_1441366025174&indent=trueselect?q%3D*:*&fq=dafdasf&wt=json&wt=json&_=1441366025186} hits=0 status=0 QTime=0 
+2015-09-04 11:27:10.890 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140008046978115828662_1441366025174&indent=trueselect?q%3D*:*&fq=dafdasf&wt=json&wt=json&_=1441366025187} hits=0 status=0 QTime=0 
+2015-09-04 11:27:11.857 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140008046978115828662_1441366025174&indent=trueselect?q%3D*:*&fq=dafdasf&wt=json&wt=json&_=1441366025188} hits=0 status=0 QTime=0 
+2015-09-04 11:27:13.154 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140008046978115828662_1441366025174&indent=trueselect?q%3D*:*&fq=dafdasf&wt=json&wt=json&_=1441366025189} hits=0 status=0 QTime=0 
+2015-09-04 11:27:30.118 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214041401745893260056_1441366047332&indent=trueselect?q%3D*:*&fq=dafdasfas&wt=json&wt=json&_=1441366047333} hits=0 status=0 QTime=0 
+2015-09-04 11:28:03.716 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214003455505442840834_1441366080534&indent=trueselect?q%3D*:*&fq=Copernicus&wt=json&wt=json&_=1441366080535} hits=68 status=0 QTime=0 
+2015-09-04 11:29:37.597 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140005826360435481681_1441366169601&indent=trueselect?q%3D*:*&fq=Copernicus&wt=json&wt=json&_=1441366169602} hits=68 status=0 QTime=0 
+2015-09-04 11:32:07.049 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21407240546935432415_1441366322910&indent=trueselect?q%3D*:*&fq=Copernicus&wt=json&wt=json&_=1441366322911} hits=68 status=0 QTime=0 
+2015-09-04 11:55:55.575 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214007916765899922262_1441367753209&indent=trueselect?q%3D*:*&fq=1+1&wt=json&wt=json&_=1441367753210} hits=7795 status=0 QTime=0 
+2015-09-04 11:57:39.160 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214042558269314164077_1441367856482&indent=trueselect?q%3D*:*&fq=1+1&wt=json&wt=json&_=1441367856483} hits=7795 status=0 QTime=1 
+2015-09-04 11:58:12.711 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21406451830206829229_1441367890073&indent=trueselect?q%3D*:*&fq=1+1&wt=json&wt=json&_=1441367890074} hits=7795 status=0 QTime=0 
+2015-09-04 11:58:58.501 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21404085523919999329_1441367935492&indent=trueselect?q%3D*:*&fq=1+1&wt=json&wt=json&_=1441367935493} hits=7795 status=0 QTime=0 
+2015-09-04 11:59:27.327 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21405283712026935077_1441367963836&indent=trueselect?q%3D*:*&fq=1+1&wt=json&wt=json&_=1441367963837} hits=7795 status=0 QTime=0 
+2015-09-04 11:59:27.328 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21405283712026935077_1441367963838&indent=trueselect?q%3D*:*&fq=1+1&wt=json&wt=json&_=1441367963839} hits=7795 status=0 QTime=0 
+2015-09-04 11:59:46.021 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21402935613678966187_1441367983536&indent=trueselect?q%3D*:*&fq=1+1&wt=json&wt=json&_=1441367983537} hits=7795 status=0 QTime=0 
+2015-09-04 11:59:58.536 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21402935613678966187_1441367983536&indent=trueselect?q%3D*:*&fq=Copernicus&wt=json&wt=json&_=1441367983538} hits=68 status=0 QTime=0 
+2015-09-04 12:06:32.783 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21409153868996403084_1441368387686&indent=trueselect?q%3D*:*&fq=1111&wt=json&wt=json&_=1441368387687} hits=9 status=0 QTime=7 
+2015-09-04 12:07:44.695 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140019361931660443976_1441368462869&indent=trueselect?q%3D*:*&fq=1&wt=json&wt=json&_=1441368462870} hits=7795 status=0 QTime=0 
+2015-09-04 12:07:48.510 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140019361931660443976_1441368462869&indent=trueselect?q%3D*:*&fq=copernicus&wt=json&wt=json&_=1441368462871} hits=68 status=0 QTime=0 
+2015-09-04 12:07:53.008 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140019361931660443976_1441368462869&indent=trueselect?q%3D*:*&fq=Copernicus&wt=json&wt=json&_=1441368462872} hits=68 status=0 QTime=0 
+2015-09-04 12:10:22.536 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21405996935876921495_1441368617578&indent=trueselect?q%3D*:*&fq=Copernicus&wt=json&wt=json&_=1441368617579} hits=68 status=0 QTime=0 
+2015-09-04 12:10:26.760 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21405996935876921495_1441368617578&indent=trueselect?q%3D*:*&fq=copernicus&wt=json&wt=json&_=1441368617580} hits=68 status=0 QTime=0 
+2015-09-04 12:10:31.844 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21405996935876921495_1441368617578&indent=trueselect?q%3D*:*&fq=1&wt=json&wt=json&_=1441368617581} hits=7795 status=0 QTime=0 
+2015-09-04 12:10:34.935 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21405996935876921495_1441368617578&indent=trueselect?q%3D*:*&fq=copernicus&wt=json&wt=json&_=1441368617582} hits=68 status=0 QTime=0 
+2015-09-04 12:15:27.801 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21404890870662065947_1441368923277&indent=trueselect?q%3D*:*&fq=adolf&wt=json&wt=json&_=1441368923278} hits=110 status=0 QTime=8 
+2015-09-04 12:15:32.101 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21404890870662065947_1441368923277&indent=trueselect?q%3D*:*&fq=copernicus&wt=json&wt=json&_=1441368923279} hits=68 status=0 QTime=0 
+2015-09-04 12:18:05.504 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21401762780844777323_1441369082116&indent=trueselect?q%3D*:*&fq=copernicus&wt=json&wt=json&_=1441369082117} hits=68 status=0 QTime=0 
+2015-09-04 12:18:35.375 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21408657068380719511_1441369112473&indent=trueselect?q%3D*:*&fq=copernicus&wt=json&wt=json&_=1441369112474} hits=68 status=0 QTime=0 
+2015-09-04 12:18:40.222 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21408657068380719511_1441369112473&indent=trueselect?q%3D*:*&fq=toyota&wt=json&wt=json&_=1441369112475} hits=140 status=0 QTime=9 
+2015-09-04 12:18:50.177 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21408657068380719511_1441369112473&indent=trueselect?q%3D*:*&fq=stone&wt=json&wt=json&_=1441369112476} hits=1314 status=0 QTime=9 
+2015-09-04 12:18:55.283 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21408657068380719511_1441369112473&indent=trueselect?q%3D*:*&fq=a+stone&wt=json&wt=json&_=1441369112477} hits=173915 status=0 QTime=22 
+2015-09-04 12:19:25.501 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21408657068380719511_1441369112473&indent=trueselect?q%3D*:*&fq=quakers&wt=json&wt=json&_=1441369112478} hits=110 status=0 QTime=8 
+2015-09-04 12:19:54.406 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21407861567774441468_1441369191193&indent=trueselect?q%3D*:*&fq=quakers&wt=json&wt=json&_=1441369191194} hits=110 status=0 QTime=0 
+2015-09-04 12:20:02.577 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21407861567774441468_1441369191193&indent=trueselect?q%3D*:*&fq=stone&wt=json&wt=json&_=1441369191195} hits=1314 status=0 QTime=0 
+2015-09-04 12:20:33.477 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21407861567774441468_1441369191193&indent=trueselect?q%3D*:*&fq=easton&wt=json&wt=json&_=1441369191196} hits=56 status=0 QTime=7 
+2015-09-04 12:27:32.510 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21408413734205279487_1441369648924&indent=trueselect?q%3D*:*&fq=kacka&wt=json&wt=json&_=1441369648925} hits=0 status=0 QTime=5 
+2015-09-04 12:27:35.015 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21408413734205279487_1441369648924&indent=trueselect?q%3D*:*&fq=kacka&wt=json&wt=json&_=1441369648926} hits=0 status=0 QTime=0 
+2015-09-04 12:27:41.702 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21408413734205279487_1441369648924&indent=trueselect?q%3D*:*&fq=mam&wt=json&wt=json&_=1441369648927} hits=0 status=0 QTime=6 
+2015-09-04 12:27:47.199 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21408413734205279487_1441369648924&indent=trueselect?q%3D*:*&fq=copernicus&wt=json&wt=json&_=1441369648928} hits=68 status=0 QTime=0 
+2015-09-04 12:29:03.400 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21407401598634331858_1441369740951&indent=trueselect?q%3D*:*&fq=mam&wt=json&wt=json&_=1441369740952} hits=0 status=0 QTime=0 
+2015-09-04 12:29:17.439 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21408200050778653931_1441369755517&indent=trueselect?q%3D*:*&fq=mam&wt=json&wt=json&_=1441369755518} hits=0 status=0 QTime=0 
+2015-09-04 12:29:41.431 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214028189110928502203_1441369779370&indent=trueselect?q%3D*:*&fq=mam&wt=json&wt=json&_=1441369779371} hits=0 status=0 QTime=0 
+2015-09-04 12:30:01.991 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214028189110928502203_1441369779370&indent=trueselect?q%3D*:*&fq=copernicus&wt=json&wt=json&_=1441369779372} hits=68 status=0 QTime=0 
+2015-09-04 12:32:10.616 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21409664414651152448_1441369928423&indent=trueselect?q%3D*:*&fq=mam&wt=json&wt=json&_=1441369928424} hits=0 status=0 QTime=0 
+2015-09-04 12:33:57.152 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214006213852558886557_1441370034882&indent=trueselect?q%3D*:*&fq=mam&wt=json&wt=json&_=1441370034883} hits=0 status=0 QTime=0 
+2015-09-04 12:34:01.239 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214006213852558886557_1441370034882&indent=trueselect?q%3D*:*&fq=tiger&wt=json&wt=json&_=1441370034884} hits=546 status=0 QTime=7 
+2015-09-04 12:34:27.544 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214006213852558886557_1441370034882&indent=trueselect?q%3D*:*&fq=Tiger&wt=json&wt=json&_=1441370034885} hits=546 status=0 QTime=0 
+2015-09-04 12:34:30.013 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214006213852558886557_1441370034882&indent=trueselect?q%3D*:*&fq=Tiger+Woods&wt=json&wt=json&_=1441370034886} hits=882 status=0 QTime=8 
+2015-09-04 12:35:15.071 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21407067924911659599_1441370112467&indent=trueselect?q%3D*:*&fq=tiger&wt=json&wt=json&_=1441370112468} hits=546 status=0 QTime=0 
+2015-09-04 12:36:17.736 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214022852149837456348_1441370175399&indent=trueselect?q%3D*:*&fq=tiger&wt=json&wt=json&_=1441370175400} hits=546 status=0 QTime=0 
+2015-09-04 12:36:46.135 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21409566875626183153_1441370203576&indent=trueselect?q%3D*:*&fq=tiger&wt=json&wt=json&_=1441370203577} hits=546 status=0 QTime=0 
+2015-09-04 12:37:03.055 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21409566875626183153_1441370203576&indent=trueselect?q%3D*:*&fq=copernicus&wt=json&wt=json&_=1441370203578} hits=68 status=0 QTime=0 
+2015-09-04 12:43:51.275 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214016489672088276142_1441370628835&indent=trueselect?q%3D*:*&fq=age&wt=json&wt=json&_=1441370628836} hits=2262 status=0 QTime=1 
+2015-09-04 12:44:19.464 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21405905575756385533_1441370657851&indent=trueselect?q%3D*:*&fq=age&wt=json&wt=json&_=1441370657852} hits=2262 status=0 QTime=0 
+2015-09-04 12:44:47.913 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21405905575756385533_1441370657851&indent=trueselect?q%3D*:*&fq=countries&wt=json&wt=json&_=1441370657853} hits=2196 status=0 QTime=0 
+2015-09-04 12:45:17.671 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21408620281903803576_1441370715679&indent=trueselect?q%3D*:*&fq=age&wt=json&wt=json&_=1441370715680} hits=2262 status=0 QTime=0 
+2015-09-04 12:46:01.295 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21403983833623939824_1441370759526&indent=trueselect?q%3D*:*&fq=age&wt=json&wt=json&_=1441370759527} hits=2262 status=0 QTime=0 
+2015-09-04 12:47:25.941 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214035980266149134765_1441370844129&indent=trueselect?q%3D*:*&fq=age&wt=json&wt=json&_=1441370844130} hits=2262 status=0 QTime=0 
+2015-09-04 12:48:13.216 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21405778300046227356_1441370891440&indent=trueselect?q%3D*:*&fq=age&wt=json&wt=json&_=1441370891441} hits=2262 status=0 QTime=0 
+2015-09-04 12:53:54.546 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21409565140802320418_1441371232326&indent=trueselect?q%3D*:*&fq=dafdas&wt=json&wt=json&_=1441371232327} hits=0 status=0 QTime=0 
+2015-09-04 12:57:44.384 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21408838410233953317_1441371460422&indent=trueselect?q%3D*:*&fq=sdfdsfds&wt=json&wt=json&_=1441371460423} hits=0 status=0 QTime=5 
+2015-09-04 12:58:05.988 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140038064311061411615_1441371481622&indent=trueselect?q%3D*:*&fq=sdfdsf&wt=json&wt=json&_=1441371481623} hits=0 status=0 QTime=0 
+2015-09-04 13:48:44.854 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214043127718236945_1441374441287&indent=trueselect?q%3D*:*&fq=copernicus&wt=json&wt=json&_=1441374441288} hits=68 status=0 QTime=0 
+2015-09-04 13:49:11.889 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214081983171114838_1441374549591&indent=trueselect?q%3D*:*&fq=c&wt=json&wt=json&_=1441374549592} hits=3782 status=0 QTime=7 
+2015-09-04 13:49:22.487 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214081983171114838_1441374549591&indent=trueselect?q%3D*:*&fq=ejaja&wt=json&wt=json&_=1441374549593} hits=0 status=0 QTime=6 
+2015-09-04 13:49:49.574 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21408060747570264388_1441374588090&indent=trueselect?q%3D*:*&fq=a&wt=json&wt=json&_=1441374588091} hits=173221 status=0 QTime=11 
+2015-09-04 13:49:52.302 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21408060747570264388_1441374588090&indent=trueselect?q%3D*:*&fq=ad&wt=json&wt=json&_=1441374588092} hits=536 status=0 QTime=6 
+2015-09-04 13:51:13.817 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140463946661447729_1441374671197&indent=trueselect?q%3D*:*&fq=my&wt=json&wt=json&_=1441374671198} hits=8526 status=0 QTime=13 
+2015-09-04 13:51:32.532 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140463946661447729_1441374671197&indent=trueselect?q%3D*:*&fq=harry&wt=json&wt=json&_=1441374671199} hits=1182 status=0 QTime=8 
+2015-09-04 13:51:38.130 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140463946661447729_1441374671197&indent=trueselect?q%3D*:*&fq=this&wt=json&wt=json&_=1441374671200} hits=256898 status=0 QTime=17 
+2015-09-04 13:51:39.280 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140463946661447729_1441374671197&indent=trueselect?q%3D*:*&fq=this&wt=json&wt=json&_=1441374671201} hits=256898 status=0 QTime=0 
+2015-09-04 13:51:41.982 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140463946661447729_1441374671197&indent=trueselect?q%3D*:*&fq=come&wt=json&wt=json&_=1441374671202} hits=2276 status=0 QTime=6 
+2015-09-04 13:51:47.999 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140463946661447729_1441374671197&indent=trueselect?q%3D*:*&fq=along&wt=json&wt=json&_=1441374671203} hits=1136 status=0 QTime=6 
+2015-09-04 13:51:50.246 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140463946661447729_1441374671197&indent=trueselect?q%3D*:*&fq=with&wt=json&wt=json&_=1441374671204} hits=38420 status=0 QTime=13 
+2015-09-04 13:51:55.356 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140463946661447729_1441374671197&indent=trueselect?q%3D*:*&fq=tooth&wt=json&wt=json&_=1441374671205} hits=238 status=0 QTime=5 
+2015-09-04 13:51:59.836 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140463946661447729_1441374671197&indent=trueselect?q%3D*:*&fq=health&wt=json&wt=json&_=1441374671206} hits=1024 status=0 QTime=5 
+2015-09-04 13:52:04.528 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140463946661447729_1441374671197&indent=trueselect?q%3D*:*&fq=president&wt=json&wt=json&_=1441374671207} hits=6558 status=0 QTime=8 
+2015-09-04 13:52:09.456 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140463946661447729_1441374671197&indent=trueselect?q%3D*:*&fq=colorado&wt=json&wt=json&_=1441374671208} hits=772 status=0 QTime=0 
+2015-09-04 13:52:24.794 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140463946661447729_1441374671197&indent=trueselect?q%3D*:*&fq=mississippi&wt=json&wt=json&_=1441374671209} hits=896 status=0 QTime=6 
+2015-09-04 13:52:39.836 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140463946661447729_1441374671197&indent=trueselect?q%3D*:*&fq=president&wt=json&wt=json&_=1441374671210} hits=6558 status=0 QTime=0 
+2015-09-04 13:52:45.750 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140463946661447729_1441374671197&indent=trueselect?q%3D*:*&fq=tattoo&wt=json&wt=json&_=1441374671211} hits=84 status=0 QTime=5 
+2015-09-04 13:52:51.204 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140463946661447729_1441374671197&indent=trueselect?q%3D*:*&fq=a+tattoo&wt=json&wt=json&_=1441374671212} hits=173259 status=0 QTime=12 
+2015-09-04 13:52:58.936 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140463946661447729_1441374671197&indent=trueselect?q%3D*:*&fq=copernicus&wt=json&wt=json&_=1441374671213} hits=68 status=0 QTime=0 
+2015-09-04 13:55:06.869 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21401296764377097509_1441374902443&indent=trueselect?q%3D*:*&fq=copernicus&wt=json&wt=json&_=1441374902444} hits=68 status=0 QTime=0 
+2015-09-04 14:30:01.676 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&wt=json&_=1441377001671} status=0 QTime=2 
+2015-09-04 14:30:05.136 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/admin/file params={wt=json&_=1441377005132} status=0 QTime=1 
+2015-09-04 14:30:06.767 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/admin/ping params={wt=json&ts=1441377006760&_=1441377006760} hits=433895 status=0 QTime=5 
+2015-09-04 14:30:06.768 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/admin/ping params={wt=json&ts=1441377006760&_=1441377006760} status=0 QTime=5 
+2015-09-04 14:30:08.006 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1441377008000} status=0 QTime=3 
+2015-09-04 14:30:08.818 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1441377008815} status=0 QTime=0 
+2015-09-04 14:30:08.820 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/admin/system params={wt=json&_=1441377008818} status=0 QTime=0 
+2015-09-04 14:30:08.820 ERROR (qtp429313384-13) [   x:gettingstarted] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\conf\admin-extra.html]
+2015-09-04 14:30:08.820 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1441377008818} status=404 QTime=0 
+2015-09-04 14:30:08.823 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1441377008819} status=503 QTime=0 
+2015-09-04 14:30:08.825 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/replication params={wt=json&command=details&_=1441377008817} status=0 QTime=6 
+2015-09-04 14:33:41.493 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&fq='copernicus} hits=68 status=0 QTime=0 
+2015-09-04 14:34:32.332 ERROR (qtp429313384-22) [   x:gettingstarted] o.a.s.c.SolrCore org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse '(copernicus': Encountered "<EOF>" at line 1, column 11.
+Was expecting one of:
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    ")" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:215)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:251)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse '(copernicus': Encountered "<EOF>" at line 1, column 11.
+Was expecting one of:
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    ")" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:155)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:204)
+	... 27 more
+Caused by: org.apache.solr.parser.ParseException: Encountered "<EOF>" at line 1, column 11.
+Was expecting one of:
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    ")" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:649)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:531)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:190)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	... 30 more
+
+2015-09-04 14:34:32.350 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&fq=(copernicus} status=400 QTime=26 
+2015-09-04 14:34:50.091 ERROR (qtp429313384-15) [   x:gettingstarted] o.a.s.c.SolrCore org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse '(Copernicus': Encountered "<EOF>" at line 1, column 11.
+Was expecting one of:
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    ")" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:215)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:251)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse '(Copernicus': Encountered "<EOF>" at line 1, column 11.
+Was expecting one of:
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    ")" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:155)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:204)
+	... 27 more
+Caused by: org.apache.solr.parser.ParseException: Encountered "<EOF>" at line 1, column 11.
+Was expecting one of:
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    ")" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:649)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:531)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:190)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	... 30 more
+
+2015-09-04 14:34:50.091 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&fq=(Copernicus} status=400 QTime=1 
+2015-09-04 14:34:56.435 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&fq=%26Copernicus} hits=68 status=0 QTime=0 
+2015-09-04 14:39:05.400 WARN  (qtp429313384-19) [   x:gettingstarted] o.e.j.s.ServletHandler /solr/gettingstarted/select
+org.apache.solr.common.SolrException: URLDecoder: Invalid digit (l) in escape (%) pattern
+	at org.apache.solr.servlet.SolrRequestParsers.digit16(SolrRequestParsers.java:423)
+	at org.apache.solr.servlet.SolrRequestParsers.parseFormDataContent(SolrRequestParsers.java:348)
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:273)
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:243)
+	at org.apache.solr.servlet.HttpSolrCall.<init>(HttpSolrCall.java:172)
+	at org.apache.solr.servlet.SolrDispatchFilter.getHttpSolrCall(SolrDispatchFilter.java:232)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+2015-09-04 14:39:10.187 WARN  (qtp429313384-19) [   x:gettingstarted] o.e.j.s.ServletHandler /solr/gettingstarted/select
+org.apache.solr.common.SolrException: URLDecoder: Invalid digit (l) in escape (%) pattern
+	at org.apache.solr.servlet.SolrRequestParsers.digit16(SolrRequestParsers.java:423)
+	at org.apache.solr.servlet.SolrRequestParsers.parseFormDataContent(SolrRequestParsers.java:348)
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:273)
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:243)
+	at org.apache.solr.servlet.HttpSolrCall.<init>(HttpSolrCall.java:172)
+	at org.apache.solr.servlet.SolrDispatchFilter.getHttpSolrCall(SolrDispatchFilter.java:232)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+2015-09-04 14:39:15.724 WARN  (qtp429313384-13) [   x:gettingstarted] o.e.j.s.ServletHandler /solr/gettingstarted/select
+org.apache.solr.common.SolrException: URLDecoder: Invalid digit (o) in escape (%) pattern
+	at org.apache.solr.servlet.SolrRequestParsers.digit16(SolrRequestParsers.java:423)
+	at org.apache.solr.servlet.SolrRequestParsers.parseFormDataContent(SolrRequestParsers.java:348)
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:273)
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:243)
+	at org.apache.solr.servlet.HttpSolrCall.<init>(HttpSolrCall.java:172)
+	at org.apache.solr.servlet.SolrDispatchFilter.getHttpSolrCall(SolrDispatchFilter.java:232)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+2015-09-04 14:39:24.627 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&fq=%26Copernicus} hits=68 status=0 QTime=0 
+2015-09-04 14:39:28.186 WARN  (qtp429313384-15) [   x:gettingstarted] o.e.j.s.ServletHandler /solr/gettingstarted/select
+org.apache.solr.common.SolrException: URLDecoder: Invalid digit (o) in escape (%) pattern
+	at org.apache.solr.servlet.SolrRequestParsers.digit16(SolrRequestParsers.java:423)
+	at org.apache.solr.servlet.SolrRequestParsers.parseFormDataContent(SolrRequestParsers.java:348)
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:273)
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:243)
+	at org.apache.solr.servlet.HttpSolrCall.<init>(HttpSolrCall.java:172)
+	at org.apache.solr.servlet.SolrDispatchFilter.getHttpSolrCall(SolrDispatchFilter.java:232)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+2015-09-04 14:39:53.963 WARN  (qtp429313384-16) [   x:gettingstarted] o.e.j.s.ServletHandler /solr/gettingstarted/select
+org.apache.solr.common.SolrException: URLDecoder: Invalid digit (&) in escape (%) pattern
+	at org.apache.solr.servlet.SolrRequestParsers.digit16(SolrRequestParsers.java:423)
+	at org.apache.solr.servlet.SolrRequestParsers.parseFormDataContent(SolrRequestParsers.java:346)
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:273)
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:243)
+	at org.apache.solr.servlet.HttpSolrCall.<init>(HttpSolrCall.java:172)
+	at org.apache.solr.servlet.SolrDispatchFilter.getHttpSolrCall(SolrDispatchFilter.java:232)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+2015-09-04 14:40:14.029 ERROR (qtp429313384-21) [   x:gettingstarted] o.a.s.c.SolrCore org.apache.solr.common.SolrException: Error parsing fieldname: Expected identifier at pos 0 str='&Copernicus'
+	at org.apache.solr.search.SolrReturnFields.add(SolrReturnFields.java:356)
+	at org.apache.solr.search.SolrReturnFields.parseFieldList(SolrReturnFields.java:113)
+	at org.apache.solr.search.SolrReturnFields.<init>(SolrReturnFields.java:99)
+	at org.apache.solr.search.SolrReturnFields.<init>(SolrReturnFields.java:75)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:137)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:251)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.search.SyntaxError: Expected identifier at pos 0 str='&Copernicus'
+	at org.apache.solr.search.QueryParsing$StrParser.getId(QueryParsing.java:759)
+	at org.apache.solr.search.QueryParsing$StrParser.getId(QueryParsing.java:738)
+	at org.apache.solr.search.FunctionQParser.parseValueSource(FunctionQParser.java:361)
+	at org.apache.solr.search.FunctionQParser.parse(FunctionQParser.java:80)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.search.SolrReturnFields.add(SolrReturnFields.java:297)
+	... 31 more
+
+2015-09-04 14:40:14.029 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&fl=%26Copernicus&fq=%26} status=400 QTime=1 
+2015-09-04 14:40:40.227 ERROR (qtp429313384-18) [   x:gettingstarted] o.a.s.c.SolrCore org.apache.solr.common.SolrException: can not use FieldCache on multivalued field: answer
+	at org.apache.solr.schema.SchemaField.checkFieldCacheSource(SchemaField.java:187)
+	at org.apache.solr.schema.StrField.getValueSource(StrField.java:82)
+	at org.apache.solr.search.FunctionQParser.parseValueSource(FunctionQParser.java:378)
+	at org.apache.solr.search.FunctionQParser.parse(FunctionQParser.java:80)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.search.SolrReturnFields.add(SolrReturnFields.java:297)
+	at org.apache.solr.search.SolrReturnFields.parseFieldList(SolrReturnFields.java:113)
+	at org.apache.solr.search.SolrReturnFields.<init>(SolrReturnFields.java:99)
+	at org.apache.solr.search.SolrReturnFields.<init>(SolrReturnFields.java:75)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:137)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:251)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+
+2015-09-04 14:40:40.227 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&fl=answer%26Copernicus&fq=%26} status=400 QTime=0 
+2015-09-04 14:41:08.641 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&fq=answer%26Copernicus} hits=400 status=0 QTime=13 
+2015-09-04 14:50:18.573 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&fq=answer'Copernicus} hits=0 status=0 QTime=0 
+2015-09-04 14:50:24.404 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&fq=answer'Copernicus'} hits=0 status=0 QTime=0 
+2015-09-04 14:50:43.988 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&fq='Copernicus'} hits=68 status=0 QTime=0 
+2015-09-04 14:51:39.515 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&fl='answer'&fq='Copernicus'} hits=68 status=0 QTime=4 
+2015-09-04 14:51:56.375 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214032074849102321257_1441375985038&indent=trueselect?q%3D*:*&fq=answer&wt=json&wt=json&_=1441375985039} hits=332 status=0 QTime=0 
+2015-09-04 14:53:06.084 WARN  (qtp429313384-16) [   x:gettingstarted] o.e.j.s.ServletHandler /solr/gettingstarted/select
+org.apache.solr.common.SolrException: URLDecoder: Invalid digit (&) in escape (%) pattern
+	at org.apache.solr.servlet.SolrRequestParsers.digit16(SolrRequestParsers.java:423)
+	at org.apache.solr.servlet.SolrRequestParsers.parseFormDataContent(SolrRequestParsers.java:346)
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:273)
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:243)
+	at org.apache.solr.servlet.HttpSolrCall.<init>(HttpSolrCall.java:172)
+	at org.apache.solr.servlet.SolrDispatchFilter.getHttpSolrCall(SolrDispatchFilter.java:232)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+2015-09-04 14:53:10.923 WARN  (qtp429313384-16) [   x:gettingstarted] o.e.j.s.ServletHandler /solr/gettingstarted/select
+org.apache.solr.common.SolrException: URLDecoder: Invalid digit (%) in escape (%) pattern
+	at org.apache.solr.servlet.SolrRequestParsers.digit16(SolrRequestParsers.java:423)
+	at org.apache.solr.servlet.SolrRequestParsers.parseFormDataContent(SolrRequestParsers.java:346)
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:273)
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:243)
+	at org.apache.solr.servlet.HttpSolrCall.<init>(HttpSolrCall.java:172)
+	at org.apache.solr.servlet.SolrDispatchFilter.getHttpSolrCall(SolrDispatchFilter.java:232)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+2015-09-04 14:53:14.526 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&fq='Copernicus+27answer'} hits=68 status=0 QTime=2 
+2015-09-04 14:53:21.069 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&fq='Copernicus+answer'} hits=400 status=0 QTime=1 
+2015-09-04 14:53:39.940 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&fq='Copernicus'} hits=68 status=0 QTime=0 
+2015-09-04 14:56:16.737 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&fq=answer:Copernicus} hits=28 status=0 QTime=20 
+2015-09-04 14:56:39.124 ERROR (qtp429313384-22) [   x:gettingstarted] o.a.s.c.SolrCore org.apache.solr.common.SolrException: Can't determine a Sort Order (asc or desc) in sort spec 'answer', pos=6
+	at org.apache.solr.search.QueryParsing.parseSortSpec(QueryParsing.java:329)
+	at org.apache.solr.search.QParser.getSort(QParser.java:247)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:185)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:251)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+
+2015-09-04 14:56:39.124 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&fq=answer:Copernicus&sort=answer} status=400 QTime=0 
+2015-09-04 14:57:42.678 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&fq=copernicus} hits=68 status=0 QTime=0 
+2015-09-04 15:00:23.333 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&fq=copernicus&wt=json} hits=68 status=0 QTime=0 
+2015-09-04 15:00:36.807 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&fq=answer:copernicus&wt=json} hits=0 status=0 QTime=19 
+2015-09-04 15:00:51.269 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&fq=answer:Copernicus&wt=json} hits=28 status=0 QTime=0 
+2015-09-04 15:01:07.900 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&fq=Copernicus&wt=json} hits=68 status=0 QTime=0 
+2015-09-04 15:03:40.025 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214008355597759300992_1441379016681&indent=trueselect?q%3D*:*&fq=answer:Copernicus&wt=json&wt=json&_=1441379016682} hits=28 status=0 QTime=0 
+2015-09-04 15:10:14.394 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140015890360096574963_1441379410713&indent=trueselect?q%3D*:*&fq=answer:copernicus&wt=json&wt=json&_=1441379410714} hits=0 status=0 QTime=0 
+2015-09-04 15:11:25.248 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214005051226911491569_1441379483303&indent=trueselect?q%3D*:*&fq=answer:1&wt=json&wt=json&_=1441379483304} hits=84 status=0 QTime=8 
+2015-09-04 15:11:31.285 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214005051226911491569_1441379483303&indent=trueselect?q%3D*:*&fq=answer:copernicus&wt=json&wt=json&_=1441379483305} hits=0 status=0 QTime=0 
+2015-09-04 15:12:06.638 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214029029002297489226_1441379523438&indent=trueselect?q%3D*:*&fq=answer:Copernicus&wt=json&wt=json&_=1441379523439} hits=28 status=0 QTime=0 
+2015-09-04 15:12:40.430 INFO  (qtp429313384-22) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery214033209346489982083_1441379556686&indent=trueselect?q%3D*:*&fq=answer:Copernicus&wt=json&wt=json&_=1441379556687} hits=28 status=0 QTime=0 
+2015-09-04 15:13:23.343 INFO  (qtp429313384-16) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21406369881920586887_1441379600279&indent=trueselect?q%3D*:*&fq=answer:Copernicus&wt=json&wt=json&_=1441379600280} hits=28 status=0 QTime=0 
+2015-09-04 15:13:26.980 INFO  (qtp429313384-19) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21406369881920586887_1441379600279&indent=trueselect?q%3D*:*&fq=answer:Tiger&wt=json&wt=json&_=1441379600281} hits=20 status=0 QTime=8 
+2015-09-04 15:17:19.561 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21406369881920586887_1441379600279&indent=trueselect?q%3D*:*&fq=answer:Light&wt=json&wt=json&_=1441379600282} hits=12 status=0 QTime=7 
+2015-09-04 15:17:29.467 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21406369881920586887_1441379600279&indent=trueselect?q%3D*:*&fq=answer:Television&wt=json&wt=json&_=1441379600283} hits=10 status=0 QTime=6 
+2015-09-04 15:17:38.475 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21406369881920586887_1441379600279&indent=trueselect?q%3D*:*&fq=answer:Cat&wt=json&wt=json&_=1441379600284} hits=14 status=0 QTime=6 
+2015-09-04 15:18:04.185 INFO  (qtp429313384-21) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21406369881920586887_1441379600279&indent=trueselect?q%3D*:*&fq=answer:Mouse&wt=json&wt=json&_=1441379600285} hits=16 status=0 QTime=4 
+2015-09-04 15:18:10.538 INFO  (qtp429313384-15) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21406369881920586887_1441379600279&indent=trueselect?q%3D*:*&fq=answer:Chicaco+bulls&wt=json&wt=json&_=1441379600286} hits=162 status=0 QTime=5 
+2015-09-04 15:18:15.268 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21406369881920586887_1441379600279&indent=trueselect?q%3D*:*&fq=answer:Bulls&wt=json&wt=json&_=1441379600287} hits=12 status=0 QTime=0 
+2015-09-04 15:18:23.090 INFO  (qtp429313384-13) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21406369881920586887_1441379600279&indent=trueselect?q%3D*:*&fq=answer:Bears&wt=json&wt=json&_=1441379600288} hits=12 status=0 QTime=5 
+2015-09-04 15:18:34.977 INFO  (qtp429313384-18) [   x:gettingstarted] o.a.s.c.S.Request [gettingstarted] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21406369881920586887_1441379600279&indent=trueselect?q%3D*:*&fq=answer:Chicago&wt=json&wt=json&_=1441379600289} hits=388 status=0 QTime=5 

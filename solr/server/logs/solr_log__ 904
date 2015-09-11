@@ -1,0 +1,347 @@
+2015-09-09 07:00:33.540 INFO  (main) [   ] o.e.j.u.log Logging initialized @210ms
+2015-09-09 07:00:33.661 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2015-09-09 07:00:33.672 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2015-09-09 07:00:33.673 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/C:/Users/MyUse/Desktop/solr/server/contexts/] at interval 0
+2015-09-09 07:00:34.032 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2015-09-09 07:00:34.039 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@239963d8{/solr,file:/C:/Users/MyUse/Desktop/solr/server/solr-webapp/webapp/,STARTING}{C:\Users\MyUse\Desktop\solr\server/solr-webapp/webapp} has uncovered http methods for path: /
+2015-09-09 07:00:34.043 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1454127753@56ac3a89
+2015-09-09 07:00:34.052 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2015-09-09 07:00:34.052 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: C:\Users\MyUse\Desktop\solr\server\solr
+2015-09-09 07:00:34.053 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MyUse\Desktop\solr\server\solr\'
+2015-09-09 07:00:34.137 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Users\MyUse\Desktop\solr\server\solr\solr.xml
+2015-09-09 07:00:34.174 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: C:\Users\MyUse\Desktop\solr\server\solr
+2015-09-09 07:00:34.190 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 943870983
+2015-09-09 07:00:34.190 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=C:\Users\MyUse\Desktop\solr\server\solr\]
+2015-09-09 07:00:34.190 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: C:\Users\MyUse\Desktop\solr\server\solr\lib
+2015-09-09 07:00:34.191 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: C:\Users\MyUse\Desktop\solr\server\solr\lib).
+2015-09-09 07:00:34.201 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2015-09-09 07:00:34.286 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2015-09-09 07:00:34.287 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2015-09-09 07:00:34.288 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2015-09-09 07:00:34.289 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2015-09-09 07:00:34.289 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2015-09-09 07:00:34.310 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath C:\Users\MyUse\Desktop\solr\server\solr
+2015-09-09 07:00:34.333 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=gettingstarted, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted, absoluteInstDir=C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\, dataDir=data\}
+2015-09-09 07:00:34.334 INFO  (main) [   ] o.a.s.c.CoresLocator Found core gettingstarted in C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\
+2015-09-09 07:00:34.334 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=mio, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=C:\Users\MyUse\Desktop\solr\server\solr\mio, absoluteInstDir=C:\Users\MyUse\Desktop\solr\server\solr\mio\, dataDir=data\}
+2015-09-09 07:00:34.334 INFO  (main) [   ] o.a.s.c.CoresLocator Found core mio in C:\Users\MyUse\Desktop\solr\server\solr\mio\
+2015-09-09 07:00:34.338 INFO  (main) [   ] o.a.s.c.CoresLocator Found 2 core definitions
+2015-09-09 07:00:34.341 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=C:\Users\MyUse\Desktop\solr\server
+2015-09-09 07:00:34.341 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MyUse\Desktop\solr\server\solr\mio\'
+2015-09-09 07:00:34.341 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\'
+2015-09-09 07:00:34.341 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2015-09-09 07:00:34.351 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@239963d8{/solr,file:/C:/Users/MyUse/Desktop/solr/server/solr-webapp/webapp/,AVAILABLE}{C:\Users\MyUse\Desktop\solr\server/solr-webapp/webapp}
+2015-09-09 07:00:34.362 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2015-09-09 07:00:34.387 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2015-09-09 07:00:34.388 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2015-09-09 07:00:34.400 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2015-09-09 07:00:34.415 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.0
+2015-09-09 07:00:34.415 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.0
+2015-09-09 07:00:34.465 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-09-09 07:00:34.465 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-09-09 07:00:34.468 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@19e4653c{HTTP/1.1}{0.0.0.0:8983}
+2015-09-09 07:00:34.468 INFO  (main) [   ] o.e.j.s.Server Started @1139ms
+2015-09-09 07:00:34.470 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\schema.xml
+2015-09-09 07:00:34.470 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\conf\schema.xml
+2015-09-09 07:00:34.474 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema [mio] Schema name=example
+2015-09-09 07:00:34.484 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [gettingstarted] Schema name=example
+2015-09-09 07:00:34.507 WARN  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema no uniqueKey specified in schema.
+2015-09-09 07:00:34.509 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Users\MyUse\Desktop\solr\server\solr\mio\conf'
+2015-09-09 07:00:34.509 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.CoreContainer Creating SolrCore 'mio' using configuration from instancedir C:\Users\MyUse\Desktop\solr\server\solr\mio\
+2015-09-09 07:00:34.509 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2015-09-09 07:00:34.518 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.c.SolrCore [[mio] ] Opening new SolrCore at [C:\Users\MyUse\Desktop\solr\server\solr\mio\], dataDir=[null]
+2015-09-09 07:00:34.519 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-09-09 07:00:34.528 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MyUse\Desktop\solr\server\solr\mio\data
+2015-09-09 07:00:34.529 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index/
+2015-09-09 07:00:34.529 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index
+2015-09-09 07:00:34.548 INFO  (OldIndexDirectoryCleanupThreadForCore-mio) [   x:mio] o.a.s.c.SolrCore Looking for old index directories to cleanup for core mio in C:\Users\MyUse\Desktop\solr\server\solr\mio\data\
+2015-09-09 07:00:34.621 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2015-09-09 07:00:34.650 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 07:00:34.651 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 07:00:34.652 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 07:00:34.652 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 07:00:34.654 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-09-09 07:00:34.664 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-09-09 07:00:34.664 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-09-09 07:00:34.665 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-09-09 07:00:34.666 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/update/csv,/select,/admin/segments,/admin/system,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms
+2015-09-09 07:00:34.667 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-09-09 07:00:34.673 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2015-09-09 07:00:34.673 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2015-09-09 07:00:34.675 ERROR (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.u.UpdateLog Unable to use updateLog: _version_ field must exist in schema, using indexed="true" or docValues="true", stored="true" and multiValued="false" (_version_ does not exist)
+org.apache.solr.common.SolrException: _version_ field must exist in schema, using indexed="true" or docValues="true", stored="true" and multiValued="false" (_version_ does not exist)
+	at org.apache.solr.update.VersionInfo.getAndCheckVersionField(VersionInfo.java:68)
+	at org.apache.solr.update.VersionInfo.<init>(VersionInfo.java:94)
+	at org.apache.solr.update.UpdateLog.init(UpdateLog.java:305)
+	at org.apache.solr.update.UpdateHandler.<init>(UpdateHandler.java:136)
+	at org.apache.solr.update.UpdateHandler.<init>(UpdateHandler.java:94)
+	at org.apache.solr.update.DirectUpdateHandler2.<init>(DirectUpdateHandler2.java:99)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.solr.core.SolrCore.createInstance(SolrCore.java:574)
+	at org.apache.solr.core.SolrCore.createUpdateHandler(SolrCore.java:636)
+	at org.apache.solr.core.SolrCore.initUpdateHandler(SolrCore.java:933)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:791)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:659)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:727)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2015-09-09 07:00:34.676 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.c.SolrCore [mio]  CLOSING SolrCore org.apache.solr.core.SolrCore@4b437c54
+2015-09-09 07:00:34.677 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.u.SolrCoreState Closing SolrCoreState
+2015-09-09 07:00:34.677 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2015-09-09 07:00:34.677 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.c.SolrCore [mio] Closing main searcher on request.
+2015-09-09 07:00:34.677 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2015-09-09 07:00:34.677 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.c.CachingDirectoryFactory looking to close C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index [CachedDir<<refCount=0;path=C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index;done=false>>]
+2015-09-09 07:00:34.678 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.c.CachingDirectoryFactory Closing directory: C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index
+2015-09-09 07:00:34.678 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.c.CachingDirectoryFactory looking to close C:\Users\MyUse\Desktop\solr\server\solr\mio\data [CachedDir<<refCount=0;path=C:\Users\MyUse\Desktop\solr\server\solr\mio\data;done=false>>]
+2015-09-09 07:00:34.678 INFO  (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.c.CachingDirectoryFactory Closing directory: C:\Users\MyUse\Desktop\solr\server\solr\mio\data
+2015-09-09 07:00:34.678 ERROR (coreLoadExecutor-6-thread-2) [   x:mio] o.a.s.c.CoreContainer Error creating core [mio]: Unable to use updateLog: _version_ field must exist in schema, using indexed="true" or docValues="true", stored="true" and multiValued="false" (_version_ does not exist)
+org.apache.solr.common.SolrException: Unable to use updateLog: _version_ field must exist in schema, using indexed="true" or docValues="true", stored="true" and multiValued="false" (_version_ does not exist)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:820)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:659)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:727)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Unable to use updateLog: _version_ field must exist in schema, using indexed="true" or docValues="true", stored="true" and multiValued="false" (_version_ does not exist)
+	at org.apache.solr.update.UpdateLog.init(UpdateLog.java:308)
+	at org.apache.solr.update.UpdateHandler.<init>(UpdateHandler.java:136)
+	at org.apache.solr.update.UpdateHandler.<init>(UpdateHandler.java:94)
+	at org.apache.solr.update.DirectUpdateHandler2.<init>(DirectUpdateHandler2.java:99)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.solr.core.SolrCore.createInstance(SolrCore.java:574)
+	at org.apache.solr.core.SolrCore.createUpdateHandler(SolrCore.java:636)
+	at org.apache.solr.core.SolrCore.initUpdateHandler(SolrCore.java:933)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:791)
+	... 9 more
+Caused by: org.apache.solr.common.SolrException: _version_ field must exist in schema, using indexed="true" or docValues="true", stored="true" and multiValued="false" (_version_ does not exist)
+	at org.apache.solr.update.VersionInfo.getAndCheckVersionField(VersionInfo.java:68)
+	at org.apache.solr.update.VersionInfo.<init>(VersionInfo.java:94)
+	at org.apache.solr.update.UpdateLog.init(UpdateLog.java:305)
+	... 20 more
+2015-09-09 07:00:34.706 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-09 07:00:34.709 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-09 07:00:34.712 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\conf'
+2015-09-09 07:00:34.712 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'gettingstarted' using configuration from instancedir C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\
+2015-09-09 07:00:34.712 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2015-09-09 07:00:34.713 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.SolrCore [[gettingstarted] ] Opening new SolrCore at [C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\], dataDir=[null]
+2015-09-09 07:00:34.713 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-09-09 07:00:34.713 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\data
+2015-09-09 07:00:34.713 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\data\index/
+2015-09-09 07:00:34.714 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\data\index
+2015-09-09 07:00:34.715 INFO  (OldIndexDirectoryCleanupThreadForCore-gettingstarted) [   x:gettingstarted] o.a.s.c.SolrCore Looking for old index directories to cleanup for core gettingstarted in C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\data\
+2015-09-09 07:00:34.716 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2015-09-09 07:00:34.717 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 07:00:34.718 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 07:00:34.718 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 07:00:34.718 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 07:00:34.720 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-09-09 07:00:34.720 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-09-09 07:00:34.720 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-09-09 07:00:34.720 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/update/csv,/select,/admin/segments,/admin/system,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms
+2015-09-09 07:00:34.720 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-09-09 07:00:34.721 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2015-09-09 07:00:34.721 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2015-09-09 07:00:34.726 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2015-09-09 07:00:34.727 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2015-09-09 07:00:34.752 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@7965e93; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+2015-09-09 07:00:34.753 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.SolrCore newest commit generation = 1
+2015-09-09 07:00:34.760 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.s.SolrIndexSearcher Opening Searcher@503d8b93[gettingstarted] main
+2015-09-09 07:00:34.765 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\conf
+2015-09-09 07:00:34.765 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\conf}
+2015-09-09 07:00:34.774 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\conf
+2015-09-09 07:00:34.775 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _rest_managed.json using file:dir=C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\conf
+2015-09-09 07:00:34.775 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.r.ManagedResource Loaded initArgs {} for /rest/managed
+2015-09-09 07:00:34.775 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2015-09-09 07:00:34.777 INFO  (qtp429313384-17) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=8 
+2015-09-09 07:00:34.780 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2015-09-09 07:00:34.781 INFO  (searcherExecutor-10-thread-1-processing-x:gettingstarted) [   x:gettingstarted] o.a.s.c.SolrCore [gettingstarted] Registered new searcher Searcher@503d8b93[gettingstarted] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2015-09-09 07:00:34.781 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2015-09-09 07:00:34.782 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2015-09-09 07:00:34.782 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.u.VersionInfo No terms found for _version_, cannot seed version bucket highest value from index
+2015-09-09 07:00:34.782 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1511818038903570432
+2015-09-09 07:00:34.785 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.u.UpdateLog Took 3 ms to seed version buckets with highest version 1511818038903570432
+2015-09-09 07:00:34.785 INFO  (coreLoadExecutor-6-thread-1) [   x:gettingstarted] o.a.s.c.CoreContainer registering core: gettingstarted
+2015-09-09 07:00:34.786 ERROR (coreContainerWorkExecutor-2-thread-1) [   ] o.a.s.c.CoreContainer Error waiting for SolrCore to be created
+java.util.concurrent.ExecutionException: org.apache.solr.common.SolrException: Unable to create core [mio]
+	at java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at org.apache.solr.core.CoreContainer$2.run(CoreContainer.java:476)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [mio]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:741)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	... 5 more
+Caused by: org.apache.solr.common.SolrException: Unable to use updateLog: _version_ field must exist in schema, using indexed="true" or docValues="true", stored="true" and multiValued="false" (_version_ does not exist)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:820)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:659)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:727)
+	... 7 more
+Caused by: org.apache.solr.common.SolrException: Unable to use updateLog: _version_ field must exist in schema, using indexed="true" or docValues="true", stored="true" and multiValued="false" (_version_ does not exist)
+	at org.apache.solr.update.UpdateLog.init(UpdateLog.java:308)
+	at org.apache.solr.update.UpdateHandler.<init>(UpdateHandler.java:136)
+	at org.apache.solr.update.UpdateHandler.<init>(UpdateHandler.java:94)
+	at org.apache.solr.update.DirectUpdateHandler2.<init>(DirectUpdateHandler2.java:99)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.solr.core.SolrCore.createInstance(SolrCore.java:574)
+	at org.apache.solr.core.SolrCore.createUpdateHandler(SolrCore.java:636)
+	at org.apache.solr.core.SolrCore.initUpdateHandler(SolrCore.java:933)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:791)
+	... 9 more
+Caused by: org.apache.solr.common.SolrException: _version_ field must exist in schema, using indexed="true" or docValues="true", stored="true" and multiValued="false" (_version_ does not exist)
+	at org.apache.solr.update.VersionInfo.getAndCheckVersionField(VersionInfo.java:68)
+	at org.apache.solr.update.VersionInfo.<init>(VersionInfo.java:94)
+	at org.apache.solr.update.UpdateLog.init(UpdateLog.java:305)
+	... 20 more
+2015-09-09 07:00:40.540 ERROR (qtp429313384-21) [   ] o.a.s.s.SolrDispatchFilter null:org.apache.solr.common.SolrException: SolrCore 'mio' is not available due to init failure: Unable to use updateLog: _version_ field must exist in schema, using indexed="true" or docValues="true", stored="true" and multiValued="false" (_version_ does not exist)
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:978)
+	at org.apache.solr.servlet.HttpSolrCall.init(HttpSolrCall.java:250)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Unable to use updateLog: _version_ field must exist in schema, using indexed="true" or docValues="true", stored="true" and multiValued="false" (_version_ does not exist)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:820)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:659)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:727)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: Unable to use updateLog: _version_ field must exist in schema, using indexed="true" or docValues="true", stored="true" and multiValued="false" (_version_ does not exist)
+	at org.apache.solr.update.UpdateLog.init(UpdateLog.java:308)
+	at org.apache.solr.update.UpdateHandler.<init>(UpdateHandler.java:136)
+	at org.apache.solr.update.UpdateHandler.<init>(UpdateHandler.java:94)
+	at org.apache.solr.update.DirectUpdateHandler2.<init>(DirectUpdateHandler2.java:99)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.solr.core.SolrCore.createInstance(SolrCore.java:574)
+	at org.apache.solr.core.SolrCore.createUpdateHandler(SolrCore.java:636)
+	at org.apache.solr.core.SolrCore.initUpdateHandler(SolrCore.java:933)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:791)
+	... 9 more
+Caused by: org.apache.solr.common.SolrException: _version_ field must exist in schema, using indexed="true" or docValues="true", stored="true" and multiValued="false" (_version_ does not exist)
+	at org.apache.solr.update.VersionInfo.getAndCheckVersionField(VersionInfo.java:68)
+	at org.apache.solr.update.VersionInfo.<init>(VersionInfo.java:94)
+	at org.apache.solr.update.UpdateLog.init(UpdateLog.java:305)
+	... 20 more
+
+2015-09-09 07:00:40.933 ERROR (qtp429313384-18) [   ] o.a.s.s.SolrDispatchFilter null:org.apache.solr.common.SolrException: SolrCore 'mio' is not available due to init failure: Unable to use updateLog: _version_ field must exist in schema, using indexed="true" or docValues="true", stored="true" and multiValued="false" (_version_ does not exist)
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:978)
+	at org.apache.solr.servlet.HttpSolrCall.init(HttpSolrCall.java:250)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Unable to use updateLog: _version_ field must exist in schema, using indexed="true" or docValues="true", stored="true" and multiValued="false" (_version_ does not exist)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:820)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:659)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:727)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: Unable to use updateLog: _version_ field must exist in schema, using indexed="true" or docValues="true", stored="true" and multiValued="false" (_version_ does not exist)
+	at org.apache.solr.update.UpdateLog.init(UpdateLog.java:308)
+	at org.apache.solr.update.UpdateHandler.<init>(UpdateHandler.java:136)
+	at org.apache.solr.update.UpdateHandler.<init>(UpdateHandler.java:94)
+	at org.apache.solr.update.DirectUpdateHandler2.<init>(DirectUpdateHandler2.java:99)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.solr.core.SolrCore.createInstance(SolrCore.java:574)
+	at org.apache.solr.core.SolrCore.createUpdateHandler(SolrCore.java:636)
+	at org.apache.solr.core.SolrCore.initUpdateHandler(SolrCore.java:933)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:791)
+	... 9 more
+Caused by: org.apache.solr.common.SolrException: _version_ field must exist in schema, using indexed="true" or docValues="true", stored="true" and multiValued="false" (_version_ does not exist)
+	at org.apache.solr.update.VersionInfo.getAndCheckVersionField(VersionInfo.java:68)
+	at org.apache.solr.update.VersionInfo.<init>(VersionInfo.java:94)
+	at org.apache.solr.update.UpdateLog.init(UpdateLog.java:305)
+	... 20 more
+
+2015-09-09 07:04:38.737 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@19e4653c{HTTP/1.1}{0.0.0.0:8983}
+2015-09-09 07:04:38.737 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=943870983
+2015-09-09 07:04:38.737 INFO  (ShutdownMonitor) [   x:gettingstarted] o.a.s.c.SolrCore [gettingstarted]  CLOSING SolrCore org.apache.solr.core.SolrCore@31269d41
+2015-09-09 07:04:38.737 INFO  (ShutdownMonitor) [   x:gettingstarted] o.a.s.u.UpdateHandler closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+2015-09-09 07:04:38.737 INFO  (ShutdownMonitor) [   x:gettingstarted] o.a.s.u.SolrCoreState Closing SolrCoreState
+2015-09-09 07:04:38.737 INFO  (ShutdownMonitor) [   x:gettingstarted] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2015-09-09 07:04:38.738 INFO  (ShutdownMonitor) [   x:gettingstarted] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2015-09-09 07:04:38.740 INFO  (ShutdownMonitor) [   x:gettingstarted] o.a.s.c.SolrCore [gettingstarted] Closing main searcher on request.
+2015-09-09 07:04:38.740 INFO  (ShutdownMonitor) [   x:gettingstarted] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2015-09-09 07:04:38.740 INFO  (ShutdownMonitor) [   x:gettingstarted] o.a.s.c.CachingDirectoryFactory looking to close C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\data [CachedDir<<refCount=0;path=C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\data;done=false>>]
+2015-09-09 07:04:38.740 INFO  (ShutdownMonitor) [   x:gettingstarted] o.a.s.c.CachingDirectoryFactory Closing directory: C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\data
+2015-09-09 07:04:38.740 INFO  (ShutdownMonitor) [   x:gettingstarted] o.a.s.c.CachingDirectoryFactory looking to close C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\data\index [CachedDir<<refCount=0;path=C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\data\index;done=false>>]
+2015-09-09 07:04:38.740 INFO  (ShutdownMonitor) [   x:gettingstarted] o.a.s.c.CachingDirectoryFactory Closing directory: C:\Users\MyUse\Desktop\solr\server\solr\gettingstarted\data\index
+2015-09-09 07:04:38.741 INFO  (ShutdownMonitor) [   x:gettingstarted] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@239963d8{/solr,file:/C:/Users/MyUse/Desktop/solr/server/solr-webapp/webapp/,UNAVAILABLE}{C:\Users\MyUse\Desktop\solr\server/solr-webapp/webapp}

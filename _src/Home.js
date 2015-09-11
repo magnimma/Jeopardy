@@ -6,7 +6,8 @@ var Home = (function() {
      
     init = function() {
         _events();
-        
+        localStorage.clear();
+        _getLocals();
         
     },
     
@@ -14,52 +15,56 @@ var Home = (function() {
      *  Eventfunktion
      */
     _events = function(e) {
-        //--------------------------Homepage--------------------------------------------
-        document.getElementById("logo").addEventListener("click",_handleClick);
-        //--------------------------Random-Suche----------------------------------------
-        document.getElementById("tfrandom").addEventListener("click",_handleClick);
-        //--------------------------ABC/Neueste-Suche-----------------------------------
-        var elems = document.getElementById("abccontainer").childNodes,
-            elems2 = document.getElementById("numbercontainer").childNodes;
-        for (var i=0; i<elems.length; i++) {
-            elems[i].addEventListener("click",_handleClick);
-        }
-        for (var i=0; i<elems2.length; i++) {
-            elems2[i].addEventListener("click",_handleClick);
-        }
-        //------------------------------------------------------------------------------
-    },   
+        $('#logo').click(_handleClick);
+        $('#delete').click(_handleClick);
+    },
     
     /*
-     *  Restliche Buttons
+     *  Buttons
      */
     _handleClick = function(e) { 
-        if(e.target.id =="tfbutton"){//wird schon abgefangen
-        }
-        else if(e.target.id =="tfrandom"){
-            document.getElementById("Result").innerHTML = ' <div id="resultList">'+"Random"+' </div>';
-        }  
-        else if(e.target.id =="logo"){//Homepage Startseite
+        if(e.target.id =="logo"){//Homepage Startseite
             location.reload();
         }  
-        else if(e.target.id <= "Z" &&e.target.id >= "A" ){
-           /* document.getElementById("Result").innerHTML = "";
-            for(var i = 0; i<answers.length ; i++){
-                
-                if (answers[i].charAt(0).toUpperCase() == e.target.id){
-                    document.getElementById("Result").innerHTML += answers[i] + ", ";
-                }
-            }*/
-            
+        if(e.target.id =="delete"){//LocalStorage löschen
+            localStorage.clear();
+                 console.log(localStorage.getItem(0));
+            _getLocals();
+        } 
+    },
+        
+    _remove = function(){
+        $('#tfoldsearch').empty();
+        $('#tfoldsearch').append(' <p id="delete">Delete this</p><p id="lastsearch">Last Searches</p>');
+        $('body').on('click', '#delete', function() {
+              localStorage.clear();
+                console.log(localStorage.getItem(0));
+                _getLocals();
+          });
+    }
+        
+    _getLocals= function(){
+        if(localStorage.getItem(0)!=null){
+            _remove();
+            for(var i = 0; i < 5 ; i++){
+                if(localStorage.getItem(i)!=null)_addLocal(localStorage.getItem(i),i);
+            }
         }
         else{
-            console.log(e.target.id);
+            $('#tfoldsearch').hide();
         }
-               
+    },
+    
+    _addLocal= function(item,i){
+        $('#tfoldsearch').append('<p id="'+i+'" class="olditem">'+item+'</p>');
+        $('body').on('click', '#'+i, function() {
+              $('#tftext').val(item);
+              $('#tfbutton').click();
+          });
         
     }
     ;
-
+    that._getLocals = _getLocals;
     that.init = init;
     return that;
 })();

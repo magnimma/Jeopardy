@@ -1,0 +1,5 @@
+cd solr
+bin\solr start
+bin\solr -c hopes
+cd example/exampledocs
+java -Dc=hopes -Dtype=application/json -jar post.jar questions.json

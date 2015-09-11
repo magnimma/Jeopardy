@@ -1,0 +1,714 @@
+2015-09-10 04:50:38.082 INFO  (main) [   ] o.e.j.u.log Logging initialized @594ms
+2015-09-10 04:50:38.269 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2015-09-10 04:50:38.269 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2015-09-10 04:50:38.269 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/C:/Users/MyUse/Desktop/solr/server/contexts/] at interval 0
+2015-09-10 04:50:38.675 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2015-09-10 04:50:38.690 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@239963d8{/solr,file:/C:/Users/MyUse/Desktop/solr/server/solr-webapp/webapp/,STARTING}{C:\Users\MyUse\Desktop\solr\server/solr-webapp/webapp} has uncovered http methods for path: /
+2015-09-10 04:50:38.690 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1454127753@56ac3a89
+2015-09-10 04:50:38.706 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2015-09-10 04:50:38.706 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: C:\Users\MyUse\Desktop\solr\server\solr
+2015-09-10 04:50:38.722 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MyUse\Desktop\solr\server\solr\'
+2015-09-10 04:50:38.831 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Users\MyUse\Desktop\solr\server\solr\solr.xml
+2015-09-10 04:50:38.909 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: C:\Users\MyUse\Desktop\solr\server\solr
+2015-09-10 04:50:38.924 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 943870983
+2015-09-10 04:50:38.924 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=C:\Users\MyUse\Desktop\solr\server\solr\]
+2015-09-10 04:50:38.924 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: C:\Users\MyUse\Desktop\solr\server\solr\lib
+2015-09-10 04:50:38.924 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: C:\Users\MyUse\Desktop\solr\server\solr\lib).
+2015-09-10 04:50:38.940 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2015-09-10 04:50:39.034 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2015-09-10 04:50:39.034 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2015-09-10 04:50:39.034 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2015-09-10 04:50:39.034 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2015-09-10 04:50:39.034 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2015-09-10 04:50:39.080 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath C:\Users\MyUse\Desktop\solr\server\solr
+2015-09-10 04:50:39.112 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=mio, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=C:\Users\MyUse\Desktop\solr\server\solr\mio, absoluteInstDir=C:\Users\MyUse\Desktop\solr\server\solr\mio\, dataDir=data\}
+2015-09-10 04:50:39.112 INFO  (main) [   ] o.a.s.c.CoresLocator Found core mio in C:\Users\MyUse\Desktop\solr\server\solr\mio\
+2015-09-10 04:50:39.112 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=mycore, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=C:\Users\MyUse\Desktop\solr\server\solr\mycore, absoluteInstDir=C:\Users\MyUse\Desktop\solr\server\solr\mycore\, dataDir=data\}
+2015-09-10 04:50:39.112 INFO  (main) [   ] o.a.s.c.CoresLocator Found core mycore in C:\Users\MyUse\Desktop\solr\server\solr\mycore\
+2015-09-10 04:50:39.112 INFO  (main) [   ] o.a.s.c.CoresLocator Found 2 core definitions
+2015-09-10 04:50:39.127 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MyUse\Desktop\solr\server\solr\mycore\'
+2015-09-10 04:50:39.127 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MyUse\Desktop\solr\server\solr\mio\'
+2015-09-10 04:50:39.127 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=C:\Users\MyUse\Desktop\solr\server
+2015-09-10 04:50:39.127 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2015-09-10 04:50:39.127 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@239963d8{/solr,file:/C:/Users/MyUse/Desktop/solr/server/solr-webapp/webapp/,AVAILABLE}{C:\Users\MyUse\Desktop\solr\server/solr-webapp/webapp}
+2015-09-10 04:50:39.158 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2015-09-10 04:50:39.174 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2015-09-10 04:50:39.174 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2015-09-10 04:50:39.174 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2015-09-10 04:50:39.174 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2015-09-10 04:50:39.174 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2015-09-10 04:50:39.174 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2015-09-10 04:50:39.174 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2015-09-10 04:50:39.174 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2015-09-10 04:50:39.174 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2015-09-10 04:50:39.174 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2015-09-10 04:50:39.174 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2015-09-10 04:50:39.174 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2015-09-10 04:50:39.174 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2015-09-10 04:50:39.174 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2015-09-10 04:50:39.174 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-3.11.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/rome-1.0.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.0
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xz-1.5.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-cell-5.3.0.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2015-09-10 04:50:39.190 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2015-09-10 04:50:39.205 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2015-09-10 04:50:39.205 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2015-09-10 04:50:39.205 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2015-09-10 04:50:39.205 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2015-09-10 04:50:39.205 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-clustering-5.3.0.jar' to classloader
+2015-09-10 04:50:39.205 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2015-09-10 04:50:39.205 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2015-09-10 04:50:39.205 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-langid-5.3.0.jar' to classloader
+2015-09-10 04:50:39.205 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2015-09-10 04:50:39.205 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2015-09-10 04:50:39.205 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2015-09-10 04:50:39.205 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2015-09-10 04:50:39.205 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-velocity-5.3.0.jar' to classloader
+2015-09-10 04:50:39.283 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@19e4653c{HTTP/1.1}{0.0.0.0:8983}
+2015-09-10 04:50:39.283 INFO  (main) [   ] o.e.j.s.Server Started @1786ms
+2015-09-10 04:50:39.283 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-09-10 04:50:39.299 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+2015-09-10 04:50:39.299 ERROR (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.Config Exception during parsing file: schema:org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.apache.solr.core.Config.<init>(Config.java:145)
+	at org.apache.solr.core.Config.<init>(Config.java:92)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:455)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:175)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:725)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+2015-09-10 04:50:39.299 ERROR (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.CoreContainer Error creating core [mycore]: Could not load conf for core mycore: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.. Schema file is C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+org.apache.solr.common.SolrException: Could not load conf for core mycore: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.. Schema file is C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:725)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.. Schema file is C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:596)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:175)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 8 more
+Caused by: org.apache.solr.common.SolrException: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.
+	at org.apache.solr.core.Config.<init>(Config.java:156)
+	at org.apache.solr.core.Config.<init>(Config.java:92)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:455)
+	... 13 more
+Caused by: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.apache.solr.core.Config.<init>(Config.java:145)
+	... 15 more
+2015-09-10 04:50:39.518 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.0
+2015-09-10 04:50:39.549 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-09-10 04:50:39.549 WARN  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.ManagedIndexSchemaFactory The schema has been upgraded to managed, but the non-managed schema schema.xml is still loadable.  PLEASE REMOVE THIS FILE.
+2015-09-10 04:50:39.549 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\managed-schema
+2015-09-10 04:50:39.596 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [mio] Schema name=example-data-driven-schema
+2015-09-10 04:50:39.674 INFO  (qtp429313384-17) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=42 
+2015-09-10 04:50:39.893 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-09-10 04:50:40.064 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-10 04:50:40.064 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-10 04:50:40.095 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Users\MyUse\Desktop\solr\server\solr\mio\conf'
+2015-09-10 04:50:40.095 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'mio' using configuration from instancedir C:\Users\MyUse\Desktop\solr\server\solr\mio\
+2015-09-10 04:50:40.095 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2015-09-10 04:50:40.111 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.SolrCore [[mio] ] Opening new SolrCore at [C:\Users\MyUse\Desktop\solr\server\solr\mio\], dataDir=[null]
+2015-09-10 04:50:40.111 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-09-10 04:50:40.111 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.SolrCore [[mio] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-09-10 04:50:40.111 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.SolrCore [[mio] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-09-10 04:50:40.127 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MyUse\Desktop\solr\server\solr\mio\data
+2015-09-10 04:50:40.127 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index/
+2015-09-10 04:50:40.127 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index
+2015-09-10 04:50:40.142 INFO  (OldIndexDirectoryCleanupThreadForCore-mio) [   x:mio] o.a.s.c.SolrCore Looking for old index directories to cleanup for core mio in C:\Users\MyUse\Desktop\solr\server\solr\mio\data\
+2015-09-10 04:50:40.142 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2015-09-10 04:50:40.142 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2015-09-10 04:50:40.205 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "add-unknown-fields-to-the-schema"
+2015-09-10 04:50:40.251 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2015-09-10 04:50:40.283 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-10 04:50:40.283 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-10 04:50:40.283 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-10 04:50:40.283 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-10 04:50:40.298 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2015-09-10 04:50:40.298 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-09-10 04:50:40.298 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-09-10 04:50:40.298 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2015-09-10 04:50:40.298 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2015-09-10 04:50:40.298 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-09-10 04:50:40.298 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2015-09-10 04:50:40.298 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/replication,/config,/stream,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/update/extract
+2015-09-10 04:50:40.298 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-09-10 04:50:40.298 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2015-09-10 04:50:40.298 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2015-09-10 04:50:40.314 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2015-09-10 04:50:40.314 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2015-09-10 04:50:40.345 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@666488de; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_6,generation=6}
+2015-09-10 04:50:40.345 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.SolrCore newest commit generation = 6
+2015-09-10 04:50:40.392 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.s.SolrIndexSearcher Opening Searcher@5a8502b2[mio] main
+2015-09-10 04:50:40.407 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\MyUse\Desktop\solr\server\solr\mio\conf
+2015-09-10 04:50:40.407 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=C:\Users\MyUse\Desktop\solr\server\solr\mio\conf}
+2015-09-10 04:50:40.407 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=C:\Users\MyUse\Desktop\solr\server\solr\mio\conf
+2015-09-10 04:50:40.407 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2015-09-10 04:50:40.423 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2015-09-10 04:50:40.423 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2015-09-10 04:50:40.423 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2015-09-10 04:50:40.423 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\elevate.xml
+2015-09-10 04:50:40.439 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2015-09-10 04:50:40.439 INFO  (searcherExecutor-7-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@5a8502b2[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(5.3.0):C433860)))}
+2015-09-10 04:50:40.439 INFO  (searcherExecutor-7-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-10 04:50:40.439 INFO  (searcherExecutor-7-thread-1-processing-x:mio) [   x:mio] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2015-09-10 04:50:40.439 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2015-09-10 04:50:40.439 INFO  (searcherExecutor-7-thread-1-processing-x:mio) [   x:mio] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2015-09-10 04:50:40.439 INFO  (searcherExecutor-7-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore [mio] Registered new searcher Searcher@5a8502b2[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(5.3.0):C433860)))}
+2015-09-10 04:50:40.439 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2015-09-10 04:50:40.454 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.u.VersionInfo Found MAX value 1511841966694858755 from Terms for _version_ in index
+2015-09-10 04:50:40.454 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.u.UpdateLog Took 15 ms to seed version buckets with highest version 1511841966694858755
+2015-09-10 04:50:40.454 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.CoreContainer registering core: mio
+2015-09-10 04:50:40.454 ERROR (coreContainerWorkExecutor-2-thread-1) [   ] o.a.s.c.CoreContainer Error waiting for SolrCore to be created
+java.util.concurrent.ExecutionException: org.apache.solr.common.SolrException: Unable to create core [mycore]
+	at java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at org.apache.solr.core.CoreContainer$2.run(CoreContainer.java:476)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [mycore]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:741)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	... 5 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core mycore: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.. Schema file is C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:725)
+	... 7 more
+Caused by: org.apache.solr.common.SolrException: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.. Schema file is C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:596)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:175)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 8 more
+Caused by: org.apache.solr.common.SolrException: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.
+	at org.apache.solr.core.Config.<init>(Config.java:156)
+	at org.apache.solr.core.Config.<init>(Config.java:92)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:455)
+	... 13 more
+Caused by: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.apache.solr.core.Config.<init>(Config.java:145)
+	... 15 more
+2015-09-10 04:51:26.249 ERROR (qtp429313384-15) [   ] o.a.s.s.SolrDispatchFilter null:org.apache.solr.common.SolrException: SolrCore 'mycore' is not available due to init failure: Could not load conf for core mycore: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.. Schema file is C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:978)
+	at org.apache.solr.servlet.HttpSolrCall.init(HttpSolrCall.java:250)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core mycore: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.. Schema file is C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:725)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.. Schema file is C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:596)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:175)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 8 more
+Caused by: org.apache.solr.common.SolrException: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.
+	at org.apache.solr.core.Config.<init>(Config.java:156)
+	at org.apache.solr.core.Config.<init>(Config.java:92)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:455)
+	... 13 more
+Caused by: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.apache.solr.core.Config.<init>(Config.java:145)
+	... 15 more
+
+2015-09-10 04:51:26.828 ERROR (qtp429313384-22) [   ] o.a.s.s.SolrDispatchFilter null:org.apache.solr.common.SolrException: SolrCore 'mycore' is not available due to init failure: Could not load conf for core mycore: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.. Schema file is C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:978)
+	at org.apache.solr.servlet.HttpSolrCall.init(HttpSolrCall.java:250)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core mycore: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.. Schema file is C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:725)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.. Schema file is C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:596)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:175)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 8 more
+Caused by: org.apache.solr.common.SolrException: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.
+	at org.apache.solr.core.Config.<init>(Config.java:156)
+	at org.apache.solr.core.Config.<init>(Config.java:92)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:455)
+	... 13 more
+Caused by: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.apache.solr.core.Config.<init>(Config.java:145)
+	... 15 more
+
+2015-09-10 04:54:41.174 ERROR (qtp429313384-15) [   ] o.a.s.s.SolrDispatchFilter null:org.apache.solr.common.SolrException: SolrCore 'mycore' is not available due to init failure: Could not load conf for core mycore: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.. Schema file is C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:978)
+	at org.apache.solr.servlet.HttpSolrCall.init(HttpSolrCall.java:250)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core mycore: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.. Schema file is C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:725)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.. Schema file is C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:596)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:175)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 8 more
+Caused by: org.apache.solr.common.SolrException: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.
+	at org.apache.solr.core.Config.<init>(Config.java:156)
+	at org.apache.solr.core.Config.<init>(Config.java:92)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:455)
+	... 13 more
+Caused by: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.apache.solr.core.Config.<init>(Config.java:145)
+	... 15 more
+
+2015-09-10 04:54:41.533 ERROR (qtp429313384-22) [   ] o.a.s.s.SolrDispatchFilter null:org.apache.solr.common.SolrException: SolrCore 'mycore' is not available due to init failure: Could not load conf for core mycore: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.. Schema file is C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:978)
+	at org.apache.solr.servlet.HttpSolrCall.init(HttpSolrCall.java:250)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core mycore: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.. Schema file is C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:725)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.. Schema file is C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:596)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:175)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 8 more
+Caused by: org.apache.solr.common.SolrException: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.
+	at org.apache.solr.core.Config.<init>(Config.java:156)
+	at org.apache.solr.core.Config.<init>(Config.java:92)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:455)
+	... 13 more
+Caused by: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.apache.solr.core.Config.<init>(Config.java:145)
+	... 15 more
+
+2015-09-10 04:56:11.878 ERROR (qtp429313384-19) [   ] o.a.s.s.SolrDispatchFilter null:org.apache.solr.common.SolrException: SolrCore 'mycore' is not available due to init failure: Could not load conf for core mycore: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.. Schema file is C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:978)
+	at org.apache.solr.servlet.HttpSolrCall.init(HttpSolrCall.java:250)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core mycore: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.. Schema file is C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:725)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.. Schema file is C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:596)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:175)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 8 more
+Caused by: org.apache.solr.common.SolrException: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.
+	at org.apache.solr.core.Config.<init>(Config.java:156)
+	at org.apache.solr.core.Config.<init>(Config.java:92)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:455)
+	... 13 more
+Caused by: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.apache.solr.core.Config.<init>(Config.java:145)
+	... 15 more
+
+2015-09-10 04:56:12.222 ERROR (qtp429313384-20) [   ] o.a.s.s.SolrDispatchFilter null:org.apache.solr.common.SolrException: SolrCore 'mycore' is not available due to init failure: Could not load conf for core mycore: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.. Schema file is C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:978)
+	at org.apache.solr.servlet.HttpSolrCall.init(HttpSolrCall.java:250)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:417)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core mycore: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.. Schema file is C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:725)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	... 1 more
+Caused by: org.apache.solr.common.SolrException: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.. Schema file is C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:596)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:175)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 8 more
+Caused by: org.apache.solr.common.SolrException: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.
+	at org.apache.solr.core.Config.<init>(Config.java:156)
+	at org.apache.solr.core.Config.<init>(Config.java:92)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:455)
+	... 13 more
+Caused by: org.xml.sax.SAXParseException; systemId: solrres:/schema.xml; lineNumber: 31; columnNumber: 15; Zeichenfolge "--" ist in Kommentaren nicht zulässig.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanComment(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanComment(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.apache.solr.core.Config.<init>(Config.java:145)
+	... 15 more
+
+2015-09-10 04:56:40.753 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@19e4653c{HTTP/1.1}{0.0.0.0:8983}
+2015-09-10 04:56:40.753 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=943870983
+2015-09-10 04:56:40.753 INFO  (ShutdownMonitor) [   x:mio] o.a.s.c.SolrCore [mio]  CLOSING SolrCore org.apache.solr.core.SolrCore@6214cb37
+2015-09-10 04:56:40.753 INFO  (ShutdownMonitor) [   x:mio] o.a.s.u.UpdateHandler closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=24460815,transaction_logs_total_number=1}
+2015-09-10 04:56:40.753 INFO  (ShutdownMonitor) [   x:mio] o.a.s.u.SolrCoreState Closing SolrCoreState
+2015-09-10 04:56:40.753 INFO  (ShutdownMonitor) [   x:mio] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2015-09-10 04:56:40.753 INFO  (ShutdownMonitor) [   x:mio] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2015-09-10 04:56:40.753 INFO  (ShutdownMonitor) [   x:mio] o.a.s.c.SolrCore [mio] Closing main searcher on request.
+2015-09-10 04:56:40.753 INFO  (ShutdownMonitor) [   x:mio] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2015-09-10 04:56:40.753 INFO  (ShutdownMonitor) [   x:mio] o.a.s.c.CachingDirectoryFactory looking to close C:\Users\MyUse\Desktop\solr\server\solr\mio\data [CachedDir<<refCount=0;path=C:\Users\MyUse\Desktop\solr\server\solr\mio\data;done=false>>]
+2015-09-10 04:56:40.753 INFO  (ShutdownMonitor) [   x:mio] o.a.s.c.CachingDirectoryFactory Closing directory: C:\Users\MyUse\Desktop\solr\server\solr\mio\data
+2015-09-10 04:56:40.753 INFO  (ShutdownMonitor) [   x:mio] o.a.s.c.CachingDirectoryFactory looking to close C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index [CachedDir<<refCount=0;path=C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index;done=false>>]
+2015-09-10 04:56:40.753 INFO  (ShutdownMonitor) [   x:mio] o.a.s.c.CachingDirectoryFactory Closing directory: C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index
+2015-09-10 04:56:40.753 INFO  (ShutdownMonitor) [   x:mio] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@239963d8{/solr,file:/C:/Users/MyUse/Desktop/solr/server/solr-webapp/webapp/,UNAVAILABLE}{C:\Users\MyUse\Desktop\solr\server/solr-webapp/webapp}

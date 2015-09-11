@@ -1,149 +1,116 @@
 (function ($) {
 AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
-    
-    /*
-    facetLinks: function (facet_field, facet_values) {
-      var links = [];
-      if (facet_values) {
-        for (var i = 0, l = facet_values.length; i < l; i++) {
-          links.push(
-            $('<a href="#"></a>')
-            .text(facet_values[i])
-            //.click(this.facetHandler(facet_field, facet_values[i]))
-          );
-        }
-      }
-      return links;
+    beforeRequest: function(){
+         $(this.target).empty();
+         $(this.target).append('<div class="resultList"><h2 class="answer">Einen Moment bitte...</h2></div>');
+        $("#navigation").css("display", "block");
+        $("#feedback").css("display", "none");
     },
-    */
 
     afterRequest: function () {
-        
-        
-        
-    var question        = "",
-        answer        = "",
-        resultWidget  = document.getElementById("Result"),
-        currentSearch = document.getElementById("tftext").value.charAt(0).toUpperCase()
-                        +document.getElementById("tftext").value.substring(1);
-    if(currentSearch.charAt(0)==0){//if not defined
-         var template = ' <div id="resultList">'+"Undefined"+' </div>';
-         resultWidget.innerHTML = template; 
-    }
-    else if(currentSearch.charAt(0)>0 && currentSearch.charAt(0)<=9){//if it's an calculation
-         var template = ' <div id="resultList">'+"Ergebnis: "+currentSearch+" = "+eval(currentSearch)+' </div>';
-         resultWidget.innerHTML = template; 
-    }
-    else {//normal search
-        if(this.manager.response.response.docs.length > 0){//if there is any hit
-            question = this.manager.response.response.docs[0].question[0];
-            answer = this.manager.response.response.docs[0].answer[0];
-            var found = false;
-            for(var i = 0; i<answer.length; i++){
-                if(answer.substring (i,i+currentSearch.length) == currentSearch){
-                    found = true;
-                    break;
-                }
-            }
-        
-            if(found == true){//if there is a direct match in the answers
-                console.log(answer);
-                var template = ' <div id="resultList"><p style="text-decoration: underline; font-weight: bold;">Ergebnis(se) für: '+answer+'</p>';
-                var questions = this.manager.response.response.docs;
-                for ( var j = 0; j < questions.length ; j++){
-                    template += '<p>'+questions[j].question[0]+'</p>';
-                }
-                template += '<p>'+question+'</p>';
-                resultWidget.innerHTML =template; 
-            }
-            else{//if there are one or more matches in the questions and none in the answers
-                var template = ' <div id="resultList">Hier eventuell Treffer in den Fragen anzeigen?</div>';
-                resultWidget.innerHTML =template; 
-            }
-        }
-        else{//if there is no single hit
-            
-            var txt;
-            var r = confirm("Leider keine Ergebnisse. Möchten Sie in Google nach "+currentSearch+" suchen?");
-            if (r == true) {
-                var str="http://www.google.de/search?hl=en&source=hp&q=" + currentSearch + "&aq=f&oq=&aqi=";
-                var replaced=str.replace(" ","+");
-                window.location.replace(replaced)
-            } else {
-                var template = ' <div id="resultList">'+"Ergebnis: "+"Leider keine Ergebnisse. Versuchen Sie es doch mit einer anderen Eingabe."+' </div>';
-                resultWidget.innerHTML =template; 
-            }
-            
-            
-        }
-    }
-        
-    
-        
-        
-        
-        
-        
-        
     $(this.target).empty();
-    for (var i = 0, l = this.manager.response.response.docs.length; i < l; i++) {
-      var doc = this.manager.response.response.docs[i];
-      $(this.target).append(this.template(doc));
-      /*
-      var items = [];
-      items = items.concat(this.facetLinks('topics', doc.topics));
-      console.log(items);
-      items = items.concat(this.facetLinks('organisations', doc.organisations));
-      console.log(items);
-      items = items.concat(this.facetLinks('exchanges', doc.exchanges));
-      console.log(items);
-      var $links = $('#links_' + doc.id);
-      $links.empty();
-      for (var j = 0, m = items.length; j < m; j++) {
-        $links.append($('<li></li>').append(items[j]));
-      }
-      */
+        
+    /*
+    *   If it is a search result
+    */
+    if($(this.id).selector == "result"){
+        var resultWidget  = document.getElementById("docs"),
+            currentSearch = document.getElementById("tftext").value.charAt(0).toUpperCase()
+                            +document.getElementById("tftext").value.substring(1);
+        if(currentSearch.charAt(0)==0){//if not defined
+            $(this.target).append(this.template("NF",0)); 
+        }
+        else {//normal search
+            if(this.manager.response.response.docs.length > 0){//if there is any hit
+                    for (var i = 0, l = this.manager.response.response.docs.length; i < l; i++) {
+                        var doc = this.manager.response.response.docs[i];
+                        $(this.target).append(this.template(doc,i));
+                    } 
+            }
+            else{//if there is no single hit
+                var txt;
+                var r = confirm("Leider keine Ergebnisse. Möchten Sie in Google nach "+currentSearch+" suchen?");
+                if (r == true) {
+                    var str="http://www.google.de/search?hl=en&source=hp&q=" + currentSearch + "&aq=f&oq=&aqi=";
+                    var replaced=str.replace(" ","+");
+                    window.location.replace(replaced)
+                } else {
+                    $(this.target).append(this.template("NF",0)); 
+                }
+            }
+        }  
+    }
+        
+        
+        
+    /*
+    *   If it is a random
+    */    
+    if(this.manager.response.response.numFound > 0){
+        if($(this.id).selector == "random"){
+             $("#navigation").css("display", "none");
+             var doc = this.manager.response.response.docs[0];
+             $(this.target).append(this.template(doc,0)); 
+        }
+        else if($(this.id).selector == "letter"){
+             for (var i = 0, l = this.manager.response.response.docs.length; i < l; i++) {
+                        var doc = this.manager.response.response.docs[i];
+                        $(this.target).append(this.letterizer(doc,i));
+             } 
+        }
+        else if($(this.id).selector == "number"){
+              $("#navigation").css("display", "none");
+              $("#feedback").css("display", "block");
+              $("#feedback").text("Hier sehen sie die neuesten Einträge");
+             for (var i = 0, l = this.manager.response.response.docs.length; i < l; i++) {
+                        var doc = this.manager.response.response.docs[i];
+                        $(this.target).append(this.letterizer(doc,i));
+             } 
+         }
+    }
+    else{
+             $("#navigation").css("display", "none");
+             $(this.target).append(this.template("NF",0)); 
     }
   },
 
-  template: function (doc) {
-      /*
-  var snippet = '';
-  if (doc.text.length > 300) {
-    snippet += doc.dateline + ' ' + doc.text.substring(0, 100);
-    snippet += '<span style="display:none;">' + doc.text.substring(100);
-    snippet += '</span> <a href="#" class="more">more</a>';
-  }
-  else {
-    snippet += doc.dateline + ' ' + doc.text;
-  }
-
-  var output = '<div><h2>' + doc.title + '</h2>';
-  output += '<p id="links_' + doc.id + '" class="links"></p>';
-  output += '<p>' + snippet + '</p></div>';
-  return output;*/
+  template: function (doc, i) {
+      var output = '<div class="resultList">';
+      if(doc == "NF"){
+            output += ' <div>'+"Ergebnis: "+"Leider keine Ergebnisse. Versuchen Sie es doch mit einer anderen Eingabe."+' </div>';
+      }
+      else{//Normal Search
+            if(doc.round != undefined)output += '<div class="left">'  + "Runde: " +doc.round + '</div>';
+            if(doc.value != undefined)output += '<div class="rightened">'  + "Wert: " +doc.value + '</div>';
+            if(doc.answer != undefined)output += '<h2 class="answer">' + doc.answer + '</h2>';
+            if(doc.question != undefined)output += '<p>' + doc.question + '</p>';
+            output += '<p>' + "           " + '</p>';    
+            if(doc.category != undefined){
+                output += '<div id="catOf'+i+'" class="left clickObject">'  + "Kategorie: " +doc.category + '</div>';
+                $('body').on('click', '#catOf' + i, function() {
+                    $('#tftext').val('* AND category:\''+doc.category+'\'');
+                    $('#tfbutton').click();
+                });
+            }
+            if(doc.air_date != undefined)output += '<div class="rightened">' + "Datum: " +doc.air_date + '</div>';
+      }
+      output += '</div>';
+      return output;
+  },
+    
+  letterizer: function (doc,i) {
+      if(doc.answer != undefined){
+          var output = '<div id=letter'+i+' class="resultList answer clickObject">'+doc.answer+'</div>';
+          $('body').on('click', '#letter' + i, function() {
+              $('#tftext').val(doc.answer);
+              $('#tfbutton').click();
+          });
+          return output;
+      }
       return null;
-},
-  
-  /*
-  init: function () {
-  $(document).on('click', 'a.more', function () {
-    var $this = $(this),
-        span = $this.parent().find('span');
-
-    if (span.is(':visible')) {
-      span.hide();
-      $this.text('more');
-    }
-    else {
-      span.show();
-      $this.text('less');
-    }
-
-    return false;
-  });
-} 
-*/
+  },
+    
+ 
   
 });
 })(jQuery);

@@ -1,0 +1,1421 @@
+2015-09-09 13:20:04.959 INFO  (main) [   ] o.e.j.u.log Logging initialized @211ms
+2015-09-09 13:20:05.070 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2015-09-09 13:20:05.078 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2015-09-09 13:20:05.080 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/C:/Users/MyUse/Desktop/solr/server/contexts/] at interval 0
+2015-09-09 13:20:05.426 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2015-09-09 13:20:05.432 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@239963d8{/solr,file:/C:/Users/MyUse/Desktop/solr/server/solr-webapp/webapp/,STARTING}{C:\Users\MyUse\Desktop\solr\server/solr-webapp/webapp} has uncovered http methods for path: /
+2015-09-09 13:20:05.437 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1454127753@56ac3a89
+2015-09-09 13:20:05.446 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2015-09-09 13:20:05.446 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: C:\Users\MyUse\Desktop\solr\server\solr
+2015-09-09 13:20:05.447 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MyUse\Desktop\solr\server\solr\'
+2015-09-09 13:20:05.534 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Users\MyUse\Desktop\solr\server\solr\solr.xml
+2015-09-09 13:20:05.574 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: C:\Users\MyUse\Desktop\solr\server\solr
+2015-09-09 13:20:05.589 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 943870983
+2015-09-09 13:20:05.589 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=C:\Users\MyUse\Desktop\solr\server\solr\]
+2015-09-09 13:20:05.590 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: C:\Users\MyUse\Desktop\solr\server\solr\lib
+2015-09-09 13:20:05.590 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: C:\Users\MyUse\Desktop\solr\server\solr\lib).
+2015-09-09 13:20:05.599 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2015-09-09 13:20:05.685 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2015-09-09 13:20:05.686 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2015-09-09 13:20:05.687 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2015-09-09 13:20:05.688 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2015-09-09 13:20:05.688 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2015-09-09 13:20:05.724 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath C:\Users\MyUse\Desktop\solr\server\solr
+2015-09-09 13:20:05.743 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=mio, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=C:\Users\MyUse\Desktop\solr\server\solr\mio, absoluteInstDir=C:\Users\MyUse\Desktop\solr\server\solr\mio\, dataDir=data\}
+2015-09-09 13:20:05.743 INFO  (main) [   ] o.a.s.c.CoresLocator Found core mio in C:\Users\MyUse\Desktop\solr\server\solr\mio\
+2015-09-09 13:20:05.744 INFO  (main) [   ] o.a.s.c.CoresLocator Found 1 core definitions
+2015-09-09 13:20:05.746 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=C:\Users\MyUse\Desktop\solr\server
+2015-09-09 13:20:05.746 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MyUse\Desktop\solr\server\solr\mio\'
+2015-09-09 13:20:05.746 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2015-09-09 13:20:05.754 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@239963d8{/solr,file:/C:/Users/MyUse/Desktop/solr/server/solr-webapp/webapp/,AVAILABLE}{C:\Users\MyUse\Desktop\solr\server/solr-webapp/webapp}
+2015-09-09 13:20:05.782 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2015-09-09 13:20:05.784 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2015-09-09 13:20:05.785 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2015-09-09 13:20:05.785 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2015-09-09 13:20:05.785 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2015-09-09 13:20:05.786 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2015-09-09 13:20:05.786 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2015-09-09 13:20:05.786 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2015-09-09 13:20:05.786 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2015-09-09 13:20:05.786 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2015-09-09 13:20:05.786 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2015-09-09 13:20:05.786 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2015-09-09 13:20:05.786 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2015-09-09 13:20:05.786 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2015-09-09 13:20:05.786 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2015-09-09 13:20:05.787 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2015-09-09 13:20:05.787 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2015-09-09 13:20:05.787 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2015-09-09 13:20:05.787 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2015-09-09 13:20:05.787 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-3.11.jar' to classloader
+2015-09-09 13:20:05.787 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2015-09-09 13:20:05.787 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2015-09-09 13:20:05.787 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2015-09-09 13:20:05.787 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/rome-1.0.jar' to classloader
+2015-09-09 13:20:05.787 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2015-09-09 13:20:05.788 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2015-09-09 13:20:05.788 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2015-09-09 13:20:05.788 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2015-09-09 13:20:05.788 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2015-09-09 13:20:05.788 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2015-09-09 13:20:05.788 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2015-09-09 13:20:05.788 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2015-09-09 13:20:05.788 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2015-09-09 13:20:05.788 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2015-09-09 13:20:05.789 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xz-1.5.jar' to classloader
+2015-09-09 13:20:05.789 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-cell-5.3.0.jar' to classloader
+2015-09-09 13:20:05.790 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2015-09-09 13:20:05.790 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2015-09-09 13:20:05.790 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2015-09-09 13:20:05.790 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2015-09-09 13:20:05.790 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2015-09-09 13:20:05.790 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2015-09-09 13:20:05.790 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2015-09-09 13:20:05.790 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2015-09-09 13:20:05.791 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-clustering-5.3.0.jar' to classloader
+2015-09-09 13:20:05.791 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2015-09-09 13:20:05.791 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2015-09-09 13:20:05.791 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-langid-5.3.0.jar' to classloader
+2015-09-09 13:20:05.792 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2015-09-09 13:20:05.792 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2015-09-09 13:20:05.792 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2015-09-09 13:20:05.792 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2015-09-09 13:20:05.793 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-velocity-5.3.0.jar' to classloader
+2015-09-09 13:20:05.806 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@663c9e7a{HTTP/1.1}{0.0.0.0:8983}
+2015-09-09 13:20:05.806 INFO  (main) [   ] o.e.j.s.Server Started @1064ms
+2015-09-09 13:20:05.839 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.0
+2015-09-09 13:20:05.899 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-09-09 13:20:05.903 WARN  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.ManagedIndexSchemaFactory The schema has been upgraded to managed, but the non-managed schema schema.xml is still loadable.  PLEASE REMOVE THIS FILE.
+2015-09-09 13:20:05.907 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\managed-schema
+2015-09-09 13:20:05.931 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [mio] Schema name=example-data-driven-schema
+2015-09-09 13:20:06.153 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-09-09 13:20:06.206 INFO  (qtp429313384-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=8 
+2015-09-09 13:20:06.260 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-09 13:20:06.263 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-09 13:20:06.290 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Users\MyUse\Desktop\solr\server\solr\mio\conf'
+2015-09-09 13:20:06.290 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'mio' using configuration from instancedir C:\Users\MyUse\Desktop\solr\server\solr\mio\
+2015-09-09 13:20:06.290 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2015-09-09 13:20:06.298 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.SolrCore [[mio] ] Opening new SolrCore at [C:\Users\MyUse\Desktop\solr\server\solr\mio\], dataDir=[null]
+2015-09-09 13:20:06.299 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-09-09 13:20:06.301 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.SolrCore [[mio] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-09-09 13:20:06.301 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.SolrCore [[mio] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-09-09 13:20:06.309 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MyUse\Desktop\solr\server\solr\mio\data
+2015-09-09 13:20:06.309 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index/
+2015-09-09 13:20:06.310 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index
+2015-09-09 13:20:06.321 INFO  (OldIndexDirectoryCleanupThreadForCore-mio) [   x:mio] o.a.s.c.SolrCore Looking for old index directories to cleanup for core mio in C:\Users\MyUse\Desktop\solr\server\solr\mio\data\
+2015-09-09 13:20:06.322 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2015-09-09 13:20:06.324 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2015-09-09 13:20:06.382 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "add-unknown-fields-to-the-schema"
+2015-09-09 13:20:06.422 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2015-09-09 13:20:06.441 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:20:06.442 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:20:06.443 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:20:06.443 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:20:06.451 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2015-09-09 13:20:06.453 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-09-09 13:20:06.453 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-09-09 13:20:06.454 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2015-09-09 13:20:06.454 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2015-09-09 13:20:06.454 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-09-09 13:20:06.454 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2015-09-09 13:20:06.455 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/replication,/config,/stream,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/update/extract
+2015-09-09 13:20:06.456 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-09-09 13:20:06.462 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2015-09-09 13:20:06.462 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2015-09-09 13:20:06.473 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2015-09-09 13:20:06.473 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2015-09-09 13:20:06.504 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@5d17ad54; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3}
+2015-09-09 13:20:06.504 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.SolrCore newest commit generation = 3
+2015-09-09 13:20:06.536 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.s.SolrIndexSearcher Opening Searcher@274a43e2[mio] main
+2015-09-09 13:20:06.540 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\MyUse\Desktop\solr\server\solr\mio\conf
+2015-09-09 13:20:06.540 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=C:\Users\MyUse\Desktop\solr\server\solr\mio\conf}
+2015-09-09 13:20:06.546 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=C:\Users\MyUse\Desktop\solr\server\solr\mio\conf
+2015-09-09 13:20:06.546 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2015-09-09 13:20:06.550 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2015-09-09 13:20:06.554 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2015-09-09 13:20:06.558 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2015-09-09 13:20:06.559 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\elevate.xml
+2015-09-09 13:20:06.569 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2015-09-09 13:20:06.571 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2015-09-09 13:20:06.572 INFO  (searcherExecutor-7-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@274a43e2[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C90176) Uninverting(_1(5.3.0):C18087) Uninverting(_2(5.3.0):C9252) Uninverting(_3(5.3.0):C90321) Uninverting(_4(5.3.0):C9094)))}
+2015-09-09 13:20:06.572 INFO  (searcherExecutor-7-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-09 13:20:06.572 INFO  (searcherExecutor-7-thread-1-processing-x:mio) [   x:mio] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2015-09-09 13:20:06.572 INFO  (searcherExecutor-7-thread-1-processing-x:mio) [   x:mio] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2015-09-09 13:20:06.572 INFO  (searcherExecutor-7-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore [mio] Registered new searcher Searcher@274a43e2[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C90176) Uninverting(_1(5.3.0):C18087) Uninverting(_2(5.3.0):C9252) Uninverting(_3(5.3.0):C90321) Uninverting(_4(5.3.0):C9094)))}
+2015-09-09 13:20:06.572 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2015-09-09 13:20:06.585 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.u.VersionInfo Found MAX value 1511840539402567684 from Terms for _version_ in index
+2015-09-09 13:20:06.588 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.u.UpdateLog Took 17 ms to seed version buckets with highest version 1511840539402567684
+2015-09-09 13:20:06.588 INFO  (coreLoadExecutor-6-thread-1) [   x:mio] o.a.s.c.CoreContainer registering core: mio
+2015-09-09 13:20:40.457 INFO  (commitScheduler-10-thread-1) [   x:mio] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-09 13:20:41.972 INFO  (commitScheduler-10-thread-1) [   x:mio] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@5d17ad54; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@5d17ad54; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_4,generation=4}
+2015-09-09 13:20:41.972 INFO  (commitScheduler-10-thread-1) [   x:mio] o.a.s.c.SolrCore newest commit generation = 4
+2015-09-09 13:20:42.311 INFO  (commitScheduler-10-thread-1) [   x:mio] o.a.s.s.SolrIndexSearcher Opening Searcher@58a4c40a[mio] realtime
+2015-09-09 13:20:42.316 INFO  (commitScheduler-10-thread-1) [   x:mio] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-09 13:20:54.103 INFO  (qtp429313384-16) [   x:mio] o.a.s.u.p.LogUpdateProcessor [mio] webapp=/solr path=/update params={} {add=[4c0aca49-7a53-480e-b7ff-31572118f018 (1511841936598630400), 79a9fe76-1b3e-4fae-bcec-ca240b964b9d (1511841936656302080), 210bffb6-3585-4e57-a3ad-58b7b799f97b (1511841936657350656), cbf8b28c-f62c-4a81-95da-82ed25b4d6fe (1511841936659447808), 68d6c755-cba1-42d4-a1ef-5fb02031a68f (1511841936660496384), 4ba7f349-a231-454c-ae34-97dc28f3cbd2 (1511841936661544960), fa296f9a-50ff-4cee-a4df-6ed61ad49b39 (1511841936662593536), 1db48156-2402-40d4-b786-48fd858a40aa (1511841936663642112), 127bb5e0-f2c7-4c93-91a8-2a3a9e0b005e (1511841936665739264), 93194f6d-999e-4cc4-9f5e-2b6d14eb5502 (1511841936665739265), ... (216930 adds)]} 0 28712
+2015-09-09 13:20:54.106 INFO  (qtp429313384-22) [   x:mio] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-09 13:20:55.055 INFO  (qtp429313384-22) [   x:mio] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@5d17ad54; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_4,generation=4}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@5d17ad54; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_5,generation=5}
+2015-09-09 13:20:55.056 INFO  (qtp429313384-22) [   x:mio] o.a.s.c.SolrCore newest commit generation = 5
+2015-09-09 13:20:55.058 INFO  (qtp429313384-22) [   x:mio] o.a.s.s.SolrIndexSearcher Opening Searcher@44fdd471[mio] main
+2015-09-09 13:20:55.060 INFO  (searcherExecutor-7-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@44fdd471[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C90176) Uninverting(_1(5.3.0):C18087) Uninverting(_2(5.3.0):C9252) Uninverting(_3(5.3.0):C90321) Uninverting(_4(5.3.0):C9094) Uninverting(_5(5.3.0):C90176) Uninverting(_6(5.3.0):C19171) Uninverting(_7(5.3.0):C12282) Uninverting(_8(5.3.0):C90319) Uninverting(_9(5.3.0):C4982)))}
+2015-09-09 13:20:55.060 INFO  (searcherExecutor-7-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-09 13:20:55.060 INFO  (searcherExecutor-7-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore [mio] Registered new searcher Searcher@44fdd471[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C90176) Uninverting(_1(5.3.0):C18087) Uninverting(_2(5.3.0):C9252) Uninverting(_3(5.3.0):C90321) Uninverting(_4(5.3.0):C9094) Uninverting(_5(5.3.0):C90176) Uninverting(_6(5.3.0):C19171) Uninverting(_7(5.3.0):C12282) Uninverting(_8(5.3.0):C90319) Uninverting(_9(5.3.0):C4982)))}
+2015-09-09 13:20:55.064 INFO  (qtp429313384-22) [   x:mio] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-09 13:20:55.064 INFO  (qtp429313384-22) [   x:mio] o.a.s.u.p.LogUpdateProcessor [mio] webapp=/solr path=/update params={commit=true} {commit=} 0 958
+2015-09-09 13:22:12.879 INFO  (qtp429313384-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1441804932849} status=0 QTime=1 
+2015-09-09 13:22:12.906 INFO  (qtp429313384-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1441804932871} status=0 QTime=0 
+2015-09-09 13:22:14.508 ERROR (qtp429313384-14) [   x:mio] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-top.html [C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\admin-extra.menu-top.html]
+2015-09-09 13:22:14.509 INFO  (qtp429313384-14) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1441804934471} status=404 QTime=1 
+2015-09-09 13:22:14.509 ERROR (qtp429313384-15) [   x:mio] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.menu-bottom.html [C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\admin-extra.menu-bottom.html]
+2015-09-09 13:22:14.509 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1441804934472} status=404 QTime=0 
+2015-09-09 13:22:14.530 ERROR (qtp429313384-22) [   x:mio] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\admin-extra.html]
+2015-09-09 13:22:14.530 INFO  (qtp429313384-22) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1441804934496} status=404 QTime=0 
+2015-09-09 13:22:14.531 INFO  (qtp429313384-19) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/system params={wt=json&_=1441804934495} status=0 QTime=0 
+2015-09-09 13:22:14.531 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1441804934497} status=503 QTime=0 
+2015-09-09 13:22:14.532 INFO  (qtp429313384-13) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1441804934492} status=0 QTime=2 
+2015-09-09 13:22:14.535 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/replication params={wt=json&command=details&_=1441804934494} status=0 QTime=5 
+2015-09-09 13:22:24.871 ERROR (qtp429313384-14) [   x:mio] o.a.s.c.SolrCore org.apache.solr.common.SolrException: can not sort on multivalued field: answer
+	at org.apache.solr.schema.SchemaField.checkSortability(SchemaField.java:166)
+	at org.apache.solr.schema.FieldType.getStringSort(FieldType.java:663)
+	at org.apache.solr.schema.StrField.getSortField(StrField.java:63)
+	at org.apache.solr.schema.SchemaField.getSortField(SchemaField.java:149)
+	at org.apache.solr.search.QueryParsing.parseSortSpec(QueryParsing.java:358)
+	at org.apache.solr.search.QParser.getSort(QParser.java:247)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:185)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:251)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+
+2015-09-09 13:22:24.871 INFO  (qtp429313384-14) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/select params={q=*:*&indent=true&sort=answer+asc&wt=json&_=1441804944830} status=400 QTime=11 
+2015-09-09 13:27:04.604 INFO  (qtp429313384-19) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21407322870586860912_1441805221891&indent=trueselect?q%3D*:*&fq=answer:cicero*&wt=json&wt=json&_=1441805221892} hits=0 status=0 QTime=26 
+2015-09-09 13:30:07.493 INFO  (qtp429313384-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1441805407488} status=0 QTime=2 
+2015-09-09 13:30:07.504 INFO  (qtp429313384-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1441805407499} status=0 QTime=2 
+2015-09-09 13:30:08.965 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MyUse\Desktop\solr\server\solr\mio\'
+2015-09-09 13:30:08.979 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2015-09-09 13:30:08.980 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2015-09-09 13:30:08.980 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2015-09-09 13:30:08.980 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2015-09-09 13:30:08.980 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2015-09-09 13:30:08.980 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2015-09-09 13:30:08.980 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2015-09-09 13:30:08.980 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2015-09-09 13:30:08.981 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2015-09-09 13:30:08.981 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2015-09-09 13:30:08.981 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2015-09-09 13:30:08.981 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2015-09-09 13:30:08.981 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2015-09-09 13:30:08.981 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2015-09-09 13:30:08.981 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2015-09-09 13:30:08.981 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2015-09-09 13:30:08.981 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2015-09-09 13:30:08.981 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2015-09-09 13:30:08.981 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2015-09-09 13:30:08.981 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-3.11.jar' to classloader
+2015-09-09 13:30:08.981 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2015-09-09 13:30:08.981 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2015-09-09 13:30:08.981 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2015-09-09 13:30:08.981 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/rome-1.0.jar' to classloader
+2015-09-09 13:30:08.981 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2015-09-09 13:30:08.982 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2015-09-09 13:30:08.982 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2015-09-09 13:30:08.982 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2015-09-09 13:30:08.982 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2015-09-09 13:30:08.982 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2015-09-09 13:30:08.982 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2015-09-09 13:30:08.982 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2015-09-09 13:30:08.982 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2015-09-09 13:30:08.982 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2015-09-09 13:30:08.982 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xz-1.5.jar' to classloader
+2015-09-09 13:30:08.982 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-cell-5.3.0.jar' to classloader
+2015-09-09 13:30:08.983 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2015-09-09 13:30:08.983 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2015-09-09 13:30:08.983 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2015-09-09 13:30:08.983 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2015-09-09 13:30:08.983 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2015-09-09 13:30:08.983 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2015-09-09 13:30:08.983 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2015-09-09 13:30:08.983 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2015-09-09 13:30:08.984 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-clustering-5.3.0.jar' to classloader
+2015-09-09 13:30:08.984 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2015-09-09 13:30:08.984 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2015-09-09 13:30:08.984 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-langid-5.3.0.jar' to classloader
+2015-09-09 13:30:08.985 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2015-09-09 13:30:08.985 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2015-09-09 13:30:08.985 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2015-09-09 13:30:08.985 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2015-09-09 13:30:08.985 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-velocity-5.3.0.jar' to classloader
+2015-09-09 13:30:09.000 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.0
+2015-09-09 13:30:09.015 INFO  (qtp429313384-20) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-09-09 13:30:09.016 WARN  (qtp429313384-20) [   ] o.a.s.s.ManagedIndexSchemaFactory The schema has been upgraded to managed, but the non-managed schema schema.xml is still loadable.  PLEASE REMOVE THIS FILE.
+2015-09-09 13:30:09.016 INFO  (qtp429313384-20) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\managed-schema
+2015-09-09 13:30:09.025 INFO  (qtp429313384-20) [   ] o.a.s.s.IndexSchema [mio] Schema name=example-data-driven-schema
+2015-09-09 13:30:09.103 INFO  (qtp429313384-20) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-09-09 13:30:09.125 INFO  (qtp429313384-20) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-09 13:30:09.127 INFO  (qtp429313384-20) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-09 13:30:09.144 INFO  (qtp429313384-20) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Users\MyUse\Desktop\solr\server\solr\mio\conf'
+2015-09-09 13:30:09.144 INFO  (qtp429313384-20) [   ] o.a.s.c.CoreContainer Reloading SolrCore 'mio' using configuration from instancedir C:\Users\MyUse\Desktop\solr\server\solr\mio\
+2015-09-09 13:30:09.144 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.SolrCore [[mio] ] Opening new SolrCore at [C:\Users\MyUse\Desktop\solr\server\solr\mio\], dataDir=[C:\Users\MyUse\Desktop\solr\server\solr\mio\data\]
+2015-09-09 13:30:09.144 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-09-09 13:30:09.145 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.SolrCore [[mio] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-09-09 13:30:09.145 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.SolrCore [[mio] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-09-09 13:30:09.145 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index/
+2015-09-09 13:30:09.145 INFO  (OldIndexDirectoryCleanupThreadForCore-mio) [   x:mio] o.a.s.c.SolrCore Looking for old index directories to cleanup for core mio in C:\Users\MyUse\Desktop\solr\server\solr\mio\data\
+2015-09-09 13:30:09.146 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2015-09-09 13:30:09.146 INFO  (qtp429313384-20) [   x:mio] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2015-09-09 13:30:09.147 INFO  (qtp429313384-20) [   x:mio] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "add-unknown-fields-to-the-schema"
+2015-09-09 13:30:09.147 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2015-09-09 13:30:09.149 INFO  (qtp429313384-20) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:30:09.149 INFO  (qtp429313384-20) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:30:09.150 INFO  (qtp429313384-20) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:30:09.150 INFO  (qtp429313384-20) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:30:09.203 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2015-09-09 13:30:09.203 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-09-09 13:30:09.203 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-09-09 13:30:09.203 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2015-09-09 13:30:09.203 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2015-09-09 13:30:09.203 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-09-09 13:30:09.203 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2015-09-09 13:30:09.203 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/replication,/config,/stream,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/update/extract
+2015-09-09 13:30:09.204 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-09-09 13:30:09.205 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2015-09-09 13:30:09.205 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2015-09-09 13:30:09.206 INFO  (qtp429313384-20) [   x:mio] o.a.s.s.SolrIndexSearcher Opening Searcher@7ec71228[mio] main
+2015-09-09 13:30:09.207 INFO  (qtp429313384-20) [   x:mio] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\MyUse\Desktop\solr\server\solr\mio\conf
+2015-09-09 13:30:09.207 INFO  (qtp429313384-20) [   x:mio] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=C:\Users\MyUse\Desktop\solr\server\solr\mio\conf}
+2015-09-09 13:30:09.207 INFO  (qtp429313384-20) [   x:mio] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=C:\Users\MyUse\Desktop\solr\server\solr\mio\conf
+2015-09-09 13:30:09.207 INFO  (qtp429313384-20) [   x:mio] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2015-09-09 13:30:09.207 INFO  (qtp429313384-20) [   x:mio] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2015-09-09 13:30:09.207 INFO  (qtp429313384-20) [   x:mio] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2015-09-09 13:30:09.207 INFO  (qtp429313384-20) [   x:mio] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2015-09-09 13:30:09.208 INFO  (qtp429313384-20) [   x:mio] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\elevate.xml
+2015-09-09 13:30:09.211 INFO  (qtp429313384-20) [   x:mio] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2015-09-09 13:30:09.211 INFO  (searcherExecutor-12-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@7ec71228[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C90176) Uninverting(_1(5.3.0):C18087) Uninverting(_2(5.3.0):C9252) Uninverting(_3(5.3.0):C90321) Uninverting(_4(5.3.0):C9094) Uninverting(_5(5.3.0):C90176) Uninverting(_6(5.3.0):C19171) Uninverting(_7(5.3.0):C12282) Uninverting(_8(5.3.0):C90319) Uninverting(_9(5.3.0):C4982)))}
+2015-09-09 13:30:09.211 INFO  (searcherExecutor-12-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-09 13:30:09.211 INFO  (searcherExecutor-12-thread-1-processing-x:mio) [   x:mio] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2015-09-09 13:30:09.211 INFO  (searcherExecutor-12-thread-1-processing-x:mio) [   x:mio] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2015-09-09 13:30:09.212 INFO  (searcherExecutor-12-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore [mio] Registered new searcher Searcher@7ec71228[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C90176) Uninverting(_1(5.3.0):C18087) Uninverting(_2(5.3.0):C9252) Uninverting(_3(5.3.0):C90321) Uninverting(_4(5.3.0):C9094) Uninverting(_5(5.3.0):C90176) Uninverting(_6(5.3.0):C19171) Uninverting(_7(5.3.0):C12282) Uninverting(_8(5.3.0):C90319) Uninverting(_9(5.3.0):C4982)))}
+2015-09-09 13:30:09.212 INFO  (qtp429313384-20) [   x:mio] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2015-09-09 13:30:09.212 INFO  (qtp429313384-20) [   x:mio] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2015-09-09 13:30:09.216 INFO  (qtp429313384-20) [   x:mio] o.a.s.u.VersionInfo Found MAX value 1511841966694858755 from Terms for _version_ in index
+2015-09-09 13:30:09.217 INFO  (qtp429313384-20) [   x:mio] o.a.s.u.UpdateLog Took 5 ms to seed version buckets with highest version 1511841966694858755
+2015-09-09 13:30:09.217 INFO  (qtp429313384-20) [   x:mio] o.a.s.u.DefaultSolrCoreState Creating new IndexWriter...
+2015-09-09 13:30:09.218 INFO  (qtp429313384-20) [   x:mio] o.a.s.u.DefaultSolrCoreState Waiting until IndexWriter is unused... core=mio
+2015-09-09 13:30:09.218 INFO  (qtp429313384-20) [   x:mio] o.a.s.u.DefaultSolrCoreState Closing old IndexWriter... core=mio
+2015-09-09 13:30:09.227 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@5d17ad54; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_5,generation=5}
+2015-09-09 13:30:09.227 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.SolrCore newest commit generation = 5
+2015-09-09 13:30:09.227 INFO  (qtp429313384-20) [   x:mio] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2015-09-09 13:30:09.240 INFO  (qtp429313384-20) [   x:mio] o.a.s.s.SolrIndexSearcher Opening Searcher@789b3af[mio] main
+2015-09-09 13:30:09.241 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.CoreContainer replacing core: mio
+2015-09-09 13:30:09.241 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.SolrCore [mio]  CLOSING SolrCore org.apache.solr.core.SolrCore@53315c6f
+2015-09-09 13:30:09.241 INFO  (searcherExecutor-12-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@789b3af[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C90176) Uninverting(_1(5.3.0):C18087) Uninverting(_2(5.3.0):C9252) Uninverting(_3(5.3.0):C90321) Uninverting(_4(5.3.0):C9094) Uninverting(_5(5.3.0):C90176) Uninverting(_6(5.3.0):C19171) Uninverting(_7(5.3.0):C12282) Uninverting(_8(5.3.0):C90319) Uninverting(_9(5.3.0):C4982)))}
+2015-09-09 13:30:09.241 INFO  (searcherExecutor-12-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-09 13:30:09.241 INFO  (searcherExecutor-12-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore [mio] Registered new searcher Searcher@789b3af[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C90176) Uninverting(_1(5.3.0):C18087) Uninverting(_2(5.3.0):C9252) Uninverting(_3(5.3.0):C90321) Uninverting(_4(5.3.0):C9094) Uninverting(_5(5.3.0):C90176) Uninverting(_6(5.3.0):C19171) Uninverting(_7(5.3.0):C12282) Uninverting(_8(5.3.0):C90319) Uninverting(_9(5.3.0):C4982)))}
+2015-09-09 13:30:09.244 INFO  (qtp429313384-20) [   x:mio] o.a.s.u.UpdateHandler closing DirectUpdateHandler2{commits=2,autocommit maxTime=15000ms,autocommits=1,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=216930,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=24460815,transaction_logs_total_number=1}
+2015-09-09 13:30:09.244 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.SolrCore [mio] Closing main searcher on request.
+2015-09-09 13:30:09.248 INFO  (qtp429313384-20) [   x:mio] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={core=mio&action=RELOAD&wt=json&_=1441805408964} status=0 QTime=282 
+2015-09-09 13:30:09.254 INFO  (qtp429313384-22) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1441805409251} status=0 QTime=2 
+2015-09-09 13:30:09.885 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MyUse\Desktop\solr\server\solr\mio\'
+2015-09-09 13:30:09.894 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2015-09-09 13:30:09.894 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2015-09-09 13:30:09.895 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2015-09-09 13:30:09.895 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2015-09-09 13:30:09.895 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2015-09-09 13:30:09.895 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2015-09-09 13:30:09.895 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2015-09-09 13:30:09.895 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2015-09-09 13:30:09.895 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2015-09-09 13:30:09.895 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2015-09-09 13:30:09.895 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2015-09-09 13:30:09.895 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2015-09-09 13:30:09.895 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2015-09-09 13:30:09.895 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2015-09-09 13:30:09.896 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2015-09-09 13:30:09.896 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2015-09-09 13:30:09.896 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2015-09-09 13:30:09.896 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2015-09-09 13:30:09.896 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2015-09-09 13:30:09.896 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-3.11.jar' to classloader
+2015-09-09 13:30:09.896 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2015-09-09 13:30:09.896 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2015-09-09 13:30:09.896 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2015-09-09 13:30:09.896 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/rome-1.0.jar' to classloader
+2015-09-09 13:30:09.896 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2015-09-09 13:30:09.896 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2015-09-09 13:30:09.896 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2015-09-09 13:30:09.896 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2015-09-09 13:30:09.896 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2015-09-09 13:30:09.896 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2015-09-09 13:30:09.896 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2015-09-09 13:30:09.897 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2015-09-09 13:30:09.897 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2015-09-09 13:30:09.897 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2015-09-09 13:30:09.897 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xz-1.5.jar' to classloader
+2015-09-09 13:30:09.897 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-cell-5.3.0.jar' to classloader
+2015-09-09 13:30:09.897 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2015-09-09 13:30:09.897 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2015-09-09 13:30:09.897 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2015-09-09 13:30:09.897 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2015-09-09 13:30:09.898 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2015-09-09 13:30:09.898 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2015-09-09 13:30:09.898 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2015-09-09 13:30:09.898 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2015-09-09 13:30:09.898 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-clustering-5.3.0.jar' to classloader
+2015-09-09 13:30:09.898 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2015-09-09 13:30:09.898 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2015-09-09 13:30:09.899 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-langid-5.3.0.jar' to classloader
+2015-09-09 13:30:09.899 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2015-09-09 13:30:09.899 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2015-09-09 13:30:09.899 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2015-09-09 13:30:09.899 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2015-09-09 13:30:09.899 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-velocity-5.3.0.jar' to classloader
+2015-09-09 13:30:09.914 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.0
+2015-09-09 13:30:09.933 INFO  (qtp429313384-16) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-09-09 13:30:09.934 WARN  (qtp429313384-16) [   ] o.a.s.s.ManagedIndexSchemaFactory The schema has been upgraded to managed, but the non-managed schema schema.xml is still loadable.  PLEASE REMOVE THIS FILE.
+2015-09-09 13:30:09.934 INFO  (qtp429313384-16) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\managed-schema
+2015-09-09 13:30:09.940 INFO  (qtp429313384-16) [   ] o.a.s.s.IndexSchema [mio] Schema name=example-data-driven-schema
+2015-09-09 13:30:10.001 INFO  (qtp429313384-16) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-09-09 13:30:10.016 INFO  (qtp429313384-16) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-09 13:30:10.019 INFO  (qtp429313384-16) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-09 13:30:10.033 INFO  (qtp429313384-16) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Users\MyUse\Desktop\solr\server\solr\mio\conf'
+2015-09-09 13:30:10.033 INFO  (qtp429313384-16) [   ] o.a.s.c.CoreContainer Reloading SolrCore 'mio' using configuration from instancedir C:\Users\MyUse\Desktop\solr\server\solr\mio\
+2015-09-09 13:30:10.033 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.SolrCore [[mio] ] Opening new SolrCore at [C:\Users\MyUse\Desktop\solr\server\solr\mio\], dataDir=[C:\Users\MyUse\Desktop\solr\server\solr\mio\data\]
+2015-09-09 13:30:10.033 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-09-09 13:30:10.033 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.SolrCore [[mio] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-09-09 13:30:10.033 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.SolrCore [[mio] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-09-09 13:30:10.034 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index/
+2015-09-09 13:30:10.034 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2015-09-09 13:30:10.034 INFO  (OldIndexDirectoryCleanupThreadForCore-mio) [   x:mio] o.a.s.c.SolrCore Looking for old index directories to cleanup for core mio in C:\Users\MyUse\Desktop\solr\server\solr\mio\data\
+2015-09-09 13:30:10.034 INFO  (qtp429313384-16) [   x:mio] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2015-09-09 13:30:10.035 INFO  (qtp429313384-16) [   x:mio] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "add-unknown-fields-to-the-schema"
+2015-09-09 13:30:10.036 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2015-09-09 13:30:10.036 INFO  (qtp429313384-16) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:30:10.037 INFO  (qtp429313384-16) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:30:10.037 INFO  (qtp429313384-16) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:30:10.038 INFO  (qtp429313384-16) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:30:10.039 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2015-09-09 13:30:10.039 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-09-09 13:30:10.039 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-09-09 13:30:10.039 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2015-09-09 13:30:10.039 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2015-09-09 13:30:10.039 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-09-09 13:30:10.039 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2015-09-09 13:30:10.039 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/replication,/config,/stream,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/update/extract
+2015-09-09 13:30:10.040 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-09-09 13:30:10.040 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2015-09-09 13:30:10.040 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2015-09-09 13:30:10.042 INFO  (qtp429313384-16) [   x:mio] o.a.s.s.SolrIndexSearcher Opening Searcher@542de3a8[mio] main
+2015-09-09 13:30:10.042 INFO  (qtp429313384-16) [   x:mio] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\MyUse\Desktop\solr\server\solr\mio\conf
+2015-09-09 13:30:10.042 INFO  (qtp429313384-16) [   x:mio] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=C:\Users\MyUse\Desktop\solr\server\solr\mio\conf}
+2015-09-09 13:30:10.042 INFO  (qtp429313384-16) [   x:mio] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=C:\Users\MyUse\Desktop\solr\server\solr\mio\conf
+2015-09-09 13:30:10.042 INFO  (qtp429313384-16) [   x:mio] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2015-09-09 13:30:10.043 INFO  (qtp429313384-16) [   x:mio] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2015-09-09 13:30:10.043 INFO  (qtp429313384-16) [   x:mio] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2015-09-09 13:30:10.043 INFO  (qtp429313384-16) [   x:mio] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2015-09-09 13:30:10.043 INFO  (qtp429313384-16) [   x:mio] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\elevate.xml
+2015-09-09 13:30:10.046 INFO  (qtp429313384-16) [   x:mio] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2015-09-09 13:30:10.046 INFO  (searcherExecutor-16-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@542de3a8[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C90176) Uninverting(_1(5.3.0):C18087) Uninverting(_2(5.3.0):C9252) Uninverting(_3(5.3.0):C90321) Uninverting(_4(5.3.0):C9094) Uninverting(_5(5.3.0):C90176) Uninverting(_6(5.3.0):C19171) Uninverting(_7(5.3.0):C12282) Uninverting(_8(5.3.0):C90319) Uninverting(_9(5.3.0):C4982)))}
+2015-09-09 13:30:10.046 INFO  (searcherExecutor-16-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-09 13:30:10.046 INFO  (searcherExecutor-16-thread-1-processing-x:mio) [   x:mio] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2015-09-09 13:30:10.046 INFO  (searcherExecutor-16-thread-1-processing-x:mio) [   x:mio] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2015-09-09 13:30:10.047 INFO  (searcherExecutor-16-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore [mio] Registered new searcher Searcher@542de3a8[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C90176) Uninverting(_1(5.3.0):C18087) Uninverting(_2(5.3.0):C9252) Uninverting(_3(5.3.0):C90321) Uninverting(_4(5.3.0):C9094) Uninverting(_5(5.3.0):C90176) Uninverting(_6(5.3.0):C19171) Uninverting(_7(5.3.0):C12282) Uninverting(_8(5.3.0):C90319) Uninverting(_9(5.3.0):C4982)))}
+2015-09-09 13:30:10.047 INFO  (qtp429313384-16) [   x:mio] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2015-09-09 13:30:10.047 INFO  (qtp429313384-16) [   x:mio] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2015-09-09 13:30:10.048 INFO  (qtp429313384-16) [   x:mio] o.a.s.u.VersionInfo Found MAX value 1511841966694858755 from Terms for _version_ in index
+2015-09-09 13:30:10.050 INFO  (qtp429313384-16) [   x:mio] o.a.s.u.UpdateLog Took 3 ms to seed version buckets with highest version 1511841966694858755
+2015-09-09 13:30:10.050 INFO  (qtp429313384-16) [   x:mio] o.a.s.u.DefaultSolrCoreState Creating new IndexWriter...
+2015-09-09 13:30:10.050 INFO  (qtp429313384-16) [   x:mio] o.a.s.u.DefaultSolrCoreState Waiting until IndexWriter is unused... core=mio
+2015-09-09 13:30:10.050 INFO  (qtp429313384-16) [   x:mio] o.a.s.u.DefaultSolrCoreState Closing old IndexWriter... core=mio
+2015-09-09 13:30:10.057 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@5d17ad54; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_5,generation=5}
+2015-09-09 13:30:10.057 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.SolrCore newest commit generation = 5
+2015-09-09 13:30:10.057 INFO  (qtp429313384-16) [   x:mio] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2015-09-09 13:30:10.068 INFO  (qtp429313384-16) [   x:mio] o.a.s.s.SolrIndexSearcher Opening Searcher@630933e5[mio] main
+2015-09-09 13:30:10.068 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.CoreContainer replacing core: mio
+2015-09-09 13:30:10.068 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.SolrCore [mio]  CLOSING SolrCore org.apache.solr.core.SolrCore@1981eb47
+2015-09-09 13:30:10.069 INFO  (qtp429313384-16) [   x:mio] o.a.s.u.UpdateHandler closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=24460815,transaction_logs_total_number=1}
+2015-09-09 13:30:10.069 INFO  (searcherExecutor-16-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@630933e5[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C90176) Uninverting(_1(5.3.0):C18087) Uninverting(_2(5.3.0):C9252) Uninverting(_3(5.3.0):C90321) Uninverting(_4(5.3.0):C9094) Uninverting(_5(5.3.0):C90176) Uninverting(_6(5.3.0):C19171) Uninverting(_7(5.3.0):C12282) Uninverting(_8(5.3.0):C90319) Uninverting(_9(5.3.0):C4982)))}
+2015-09-09 13:30:10.069 INFO  (searcherExecutor-16-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-09 13:30:10.069 INFO  (searcherExecutor-16-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore [mio] Registered new searcher Searcher@630933e5[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C90176) Uninverting(_1(5.3.0):C18087) Uninverting(_2(5.3.0):C9252) Uninverting(_3(5.3.0):C90321) Uninverting(_4(5.3.0):C9094) Uninverting(_5(5.3.0):C90176) Uninverting(_6(5.3.0):C19171) Uninverting(_7(5.3.0):C12282) Uninverting(_8(5.3.0):C90319) Uninverting(_9(5.3.0):C4982)))}
+2015-09-09 13:30:10.069 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.SolrCore [mio] Closing main searcher on request.
+2015-09-09 13:30:10.072 INFO  (qtp429313384-16) [   x:mio] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={core=mio&action=RELOAD&wt=json&_=1441805409883} status=0 QTime=187 
+2015-09-09 13:30:10.079 INFO  (qtp429313384-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1441805410075} status=0 QTime=2 
+2015-09-09 13:30:11.125 INFO  (qtp429313384-15) [   x:mio] o.a.s.u.UpdateHandler start commit{,optimize=true,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-09 13:30:16.145 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@5d17ad54; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_5,generation=5}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@5d17ad54; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_6,generation=6}
+2015-09-09 13:30:16.145 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.SolrCore newest commit generation = 6
+2015-09-09 13:30:16.148 INFO  (qtp429313384-15) [   x:mio] o.a.s.s.SolrIndexSearcher Opening Searcher@3bbbe63[mio] main
+2015-09-09 13:30:16.148 INFO  (qtp429313384-15) [   x:mio] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-09 13:30:16.149 INFO  (searcherExecutor-16-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@3bbbe63[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(5.3.0):C433860)))}
+2015-09-09 13:30:16.149 INFO  (searcherExecutor-16-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-09 13:30:16.149 INFO  (searcherExecutor-16-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore [mio] Registered new searcher Searcher@3bbbe63[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(5.3.0):C433860)))}
+2015-09-09 13:30:16.227 INFO  (qtp429313384-15) [   x:mio] o.a.s.u.p.LogUpdateProcessor [mio] webapp=/solr path=/update params={waitFlush=true&optimize=true&wt=json&_=1441805411123} {optimize=} 0 5101
+2015-09-09 13:30:17.821 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MyUse\Desktop\solr\server\solr\mio\'
+2015-09-09 13:30:17.832 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2015-09-09 13:30:17.832 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2015-09-09 13:30:17.833 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2015-09-09 13:30:17.833 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2015-09-09 13:30:17.833 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2015-09-09 13:30:17.833 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2015-09-09 13:30:17.833 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2015-09-09 13:30:17.833 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2015-09-09 13:30:17.833 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2015-09-09 13:30:17.833 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2015-09-09 13:30:17.833 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2015-09-09 13:30:17.833 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2015-09-09 13:30:17.833 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2015-09-09 13:30:17.833 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2015-09-09 13:30:17.833 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2015-09-09 13:30:17.833 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2015-09-09 13:30:17.833 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2015-09-09 13:30:17.833 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2015-09-09 13:30:17.833 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2015-09-09 13:30:17.833 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-3.11.jar' to classloader
+2015-09-09 13:30:17.833 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2015-09-09 13:30:17.834 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2015-09-09 13:30:17.834 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2015-09-09 13:30:17.834 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/rome-1.0.jar' to classloader
+2015-09-09 13:30:17.834 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2015-09-09 13:30:17.834 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2015-09-09 13:30:17.834 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2015-09-09 13:30:17.834 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2015-09-09 13:30:17.834 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2015-09-09 13:30:17.834 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2015-09-09 13:30:17.834 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2015-09-09 13:30:17.834 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2015-09-09 13:30:17.834 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2015-09-09 13:30:17.834 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2015-09-09 13:30:17.834 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xz-1.5.jar' to classloader
+2015-09-09 13:30:17.834 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-cell-5.3.0.jar' to classloader
+2015-09-09 13:30:17.835 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2015-09-09 13:30:17.835 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2015-09-09 13:30:17.835 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2015-09-09 13:30:17.835 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2015-09-09 13:30:17.835 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2015-09-09 13:30:17.835 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2015-09-09 13:30:17.835 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2015-09-09 13:30:17.835 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2015-09-09 13:30:17.835 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-clustering-5.3.0.jar' to classloader
+2015-09-09 13:30:17.835 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2015-09-09 13:30:17.836 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2015-09-09 13:30:17.836 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-langid-5.3.0.jar' to classloader
+2015-09-09 13:30:17.836 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2015-09-09 13:30:17.836 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2015-09-09 13:30:17.836 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2015-09-09 13:30:17.836 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2015-09-09 13:30:17.836 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-velocity-5.3.0.jar' to classloader
+2015-09-09 13:30:17.853 INFO  (qtp429313384-20) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.0
+2015-09-09 13:30:17.866 INFO  (qtp429313384-20) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-09-09 13:30:17.866 WARN  (qtp429313384-20) [   ] o.a.s.s.ManagedIndexSchemaFactory The schema has been upgraded to managed, but the non-managed schema schema.xml is still loadable.  PLEASE REMOVE THIS FILE.
+2015-09-09 13:30:17.867 INFO  (qtp429313384-20) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\managed-schema
+2015-09-09 13:30:17.872 INFO  (qtp429313384-20) [   ] o.a.s.s.IndexSchema [mio] Schema name=example-data-driven-schema
+2015-09-09 13:30:17.937 INFO  (qtp429313384-20) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-09-09 13:30:17.951 INFO  (qtp429313384-20) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-09 13:30:17.953 INFO  (qtp429313384-20) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-09 13:30:17.966 INFO  (qtp429313384-20) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Users\MyUse\Desktop\solr\server\solr\mio\conf'
+2015-09-09 13:30:17.966 INFO  (qtp429313384-20) [   ] o.a.s.c.CoreContainer Reloading SolrCore 'mio' using configuration from instancedir C:\Users\MyUse\Desktop\solr\server\solr\mio\
+2015-09-09 13:30:17.966 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.SolrCore [[mio] ] Opening new SolrCore at [C:\Users\MyUse\Desktop\solr\server\solr\mio\], dataDir=[C:\Users\MyUse\Desktop\solr\server\solr\mio\data\]
+2015-09-09 13:30:17.966 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-09-09 13:30:17.967 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.SolrCore [[mio] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-09-09 13:30:17.967 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.SolrCore [[mio] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-09-09 13:30:17.967 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index/
+2015-09-09 13:30:17.967 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2015-09-09 13:30:17.967 INFO  (OldIndexDirectoryCleanupThreadForCore-mio) [   x:mio] o.a.s.c.SolrCore Looking for old index directories to cleanup for core mio in C:\Users\MyUse\Desktop\solr\server\solr\mio\data\
+2015-09-09 13:30:17.967 INFO  (qtp429313384-20) [   x:mio] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2015-09-09 13:30:17.968 INFO  (qtp429313384-20) [   x:mio] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "add-unknown-fields-to-the-schema"
+2015-09-09 13:30:17.969 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2015-09-09 13:30:17.970 INFO  (qtp429313384-20) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:30:17.970 INFO  (qtp429313384-20) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:30:17.971 INFO  (qtp429313384-20) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:30:17.972 INFO  (qtp429313384-20) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:30:17.973 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2015-09-09 13:30:17.974 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-09-09 13:30:17.974 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-09-09 13:30:17.974 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2015-09-09 13:30:17.974 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2015-09-09 13:30:17.974 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-09-09 13:30:17.974 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2015-09-09 13:30:17.974 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/replication,/config,/stream,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/update/extract
+2015-09-09 13:30:17.975 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-09-09 13:30:17.975 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2015-09-09 13:30:17.975 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2015-09-09 13:30:17.976 INFO  (qtp429313384-20) [   x:mio] o.a.s.s.SolrIndexSearcher Opening Searcher@7c1fff5e[mio] main
+2015-09-09 13:30:17.976 INFO  (qtp429313384-20) [   x:mio] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\MyUse\Desktop\solr\server\solr\mio\conf
+2015-09-09 13:30:17.976 INFO  (qtp429313384-20) [   x:mio] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=C:\Users\MyUse\Desktop\solr\server\solr\mio\conf}
+2015-09-09 13:30:17.976 INFO  (qtp429313384-20) [   x:mio] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=C:\Users\MyUse\Desktop\solr\server\solr\mio\conf
+2015-09-09 13:30:17.976 INFO  (qtp429313384-20) [   x:mio] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2015-09-09 13:30:17.976 INFO  (qtp429313384-20) [   x:mio] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2015-09-09 13:30:17.977 INFO  (qtp429313384-20) [   x:mio] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2015-09-09 13:30:17.977 INFO  (qtp429313384-20) [   x:mio] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2015-09-09 13:30:17.977 INFO  (qtp429313384-20) [   x:mio] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\elevate.xml
+2015-09-09 13:30:17.980 INFO  (qtp429313384-20) [   x:mio] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2015-09-09 13:30:17.980 INFO  (qtp429313384-20) [   x:mio] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2015-09-09 13:30:17.980 INFO  (qtp429313384-20) [   x:mio] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2015-09-09 13:30:17.980 INFO  (qtp429313384-20) [   x:mio] o.a.s.u.VersionInfo Found MAX value 1511841966694858755 from Terms for _version_ in index
+2015-09-09 13:30:17.981 INFO  (searcherExecutor-20-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@7c1fff5e[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(5.3.0):C433860)))}
+2015-09-09 13:30:17.981 INFO  (searcherExecutor-20-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-09 13:30:17.981 INFO  (searcherExecutor-20-thread-1-processing-x:mio) [   x:mio] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2015-09-09 13:30:17.981 INFO  (searcherExecutor-20-thread-1-processing-x:mio) [   x:mio] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2015-09-09 13:30:17.981 INFO  (searcherExecutor-20-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore [mio] Registered new searcher Searcher@7c1fff5e[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(5.3.0):C433860)))}
+2015-09-09 13:30:17.982 INFO  (qtp429313384-20) [   x:mio] o.a.s.u.UpdateLog Took 2 ms to seed version buckets with highest version 1511841966694858755
+2015-09-09 13:30:17.982 INFO  (qtp429313384-20) [   x:mio] o.a.s.u.DefaultSolrCoreState Creating new IndexWriter...
+2015-09-09 13:30:17.982 INFO  (qtp429313384-20) [   x:mio] o.a.s.u.DefaultSolrCoreState Waiting until IndexWriter is unused... core=mio
+2015-09-09 13:30:17.982 INFO  (qtp429313384-20) [   x:mio] o.a.s.u.DefaultSolrCoreState Closing old IndexWriter... core=mio
+2015-09-09 13:30:17.985 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@5d17ad54; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_6,generation=6}
+2015-09-09 13:30:17.985 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.SolrCore newest commit generation = 6
+2015-09-09 13:30:17.985 INFO  (qtp429313384-20) [   x:mio] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2015-09-09 13:30:17.986 INFO  (qtp429313384-20) [   x:mio] o.a.s.s.SolrIndexSearcher Opening Searcher@69befae6[mio] main
+2015-09-09 13:30:17.987 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.CoreContainer replacing core: mio
+2015-09-09 13:30:17.987 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.SolrCore [mio]  CLOSING SolrCore org.apache.solr.core.SolrCore@4c0bf60
+2015-09-09 13:30:17.987 INFO  (qtp429313384-20) [   x:mio] o.a.s.u.UpdateHandler closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=1,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=24460815,transaction_logs_total_number=1}
+2015-09-09 13:30:17.987 INFO  (searcherExecutor-20-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@69befae6[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(5.3.0):C433860)))}
+2015-09-09 13:30:17.988 INFO  (searcherExecutor-20-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-09 13:30:17.988 INFO  (searcherExecutor-20-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore [mio] Registered new searcher Searcher@69befae6[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(5.3.0):C433860)))}
+2015-09-09 13:30:17.988 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.SolrCore [mio] Closing main searcher on request.
+2015-09-09 13:30:17.988 INFO  (qtp429313384-20) [   x:mio] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={core=mio&action=RELOAD&wt=json&_=1441805417820} status=0 QTime=167 
+2015-09-09 13:30:17.993 INFO  (qtp429313384-22) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1441805417991} status=0 QTime=0 
+2015-09-09 13:30:28.040 INFO  (qtp429313384-13) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1441805428037} status=0 QTime=0 
+2015-09-09 13:30:28.043 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/replication params={wt=json&command=details&_=1441805428039} status=0 QTime=0 
+2015-09-09 13:30:28.044 ERROR (qtp429313384-14) [   x:mio] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\admin-extra.html]
+2015-09-09 13:30:28.044 INFO  (qtp429313384-14) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1441805428040} status=404 QTime=0 
+2015-09-09 13:30:28.045 INFO  (qtp429313384-14) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1441805428041} status=503 QTime=0 
+2015-09-09 13:30:28.046 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/system params={wt=json&_=1441805428040} status=0 QTime=1 
+2015-09-09 13:30:37.955 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&wt=json&_=1441805437951} status=0 QTime=1 
+2015-09-09 13:31:20.686 INFO  (qtp429313384-13) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/select params={q=*:*&indent=true&fq=cicero&wt=json&_=1441805480679} hits=42 status=0 QTime=4 
+2015-09-09 13:31:22.221 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/select params={q=*:*&indent=true&fq=cicero&wt=json} hits=42 status=0 QTime=0 
+2015-09-09 13:31:32.172 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/select params={q=*:*&<delete><query>*:*</query></delete>=&indent=true&wt=json} hits=433860 status=0 QTime=13 
+2015-09-09 13:31:40.659 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1441805500655} status=0 QTime=0 
+2015-09-09 13:31:40.666 INFO  (qtp429313384-19) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1441805500659} status=503 QTime=0 
+2015-09-09 13:31:40.668 ERROR (qtp429313384-22) [   x:mio] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\admin-extra.html]
+2015-09-09 13:31:40.669 INFO  (qtp429313384-22) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1441805500659} status=404 QTime=0 
+2015-09-09 13:31:40.669 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/replication params={wt=json&command=details&_=1441805500657} status=0 QTime=0 
+2015-09-09 13:31:40.669 INFO  (qtp429313384-14) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/system params={wt=json&_=1441805500658} status=0 QTime=1 
+2015-09-09 13:32:10.359 INFO  (qtp429313384-13) [   x:mio] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-09 13:32:10.359 INFO  (qtp429313384-13) [   x:mio] o.a.s.u.UpdateHandler No uncommitted changes. Skipping IW.commit.
+2015-09-09 13:32:10.359 INFO  (qtp429313384-13) [   x:mio] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2015-09-09 13:32:10.359 INFO  (qtp429313384-13) [   x:mio] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-09 13:32:10.359 INFO  (qtp429313384-13) [   x:mio] o.a.s.u.p.LogUpdateProcessor [mio] webapp=/solr path=/update params={commit=true+-d+'<delete><query>*:*</query></delete>} {commit=} 0 0
+2015-09-09 13:32:54.790 ERROR (qtp429313384-15) [   x:mio] o.a.s.c.SolrCore org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse '<delete><query>*:*</query></delete>': Encountered " ":" ": "" at line 1, column 16.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:215)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:251)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse '<delete><query>*:*</query></delete>': Encountered " ":" ": "" at line 1, column 16.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:155)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:158)
+	... 27 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " ":" ": "" at line 1, column 16.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:649)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:531)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:97)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	... 30 more
+
+2015-09-09 13:32:54.791 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/select params={q=<delete><query>*:*</query></delete>&indent=true&wt=json&_=1441805574783} status=400 QTime=1 
+2015-09-09 13:33:15.408 ERROR (qtp429313384-22) [   x:mio] o.a.s.c.SolrCore org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse ':': Encountered " ":" ": "" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    <TERM> ...
+    "*" ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:215)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:251)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse ':': Encountered " ":" ": "" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    <TERM> ...
+    "*" ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:155)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:158)
+	... 27 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " ":" ": "" at line 1, column 0.
+Was expecting one of:
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    <TERM> ...
+    "*" ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:649)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:531)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:216)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	... 30 more
+
+2015-09-09 13:33:15.409 INFO  (qtp429313384-22) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/select params={q=:&indent=true&wt=json&_=1441805595406} status=400 QTime=0 
+2015-09-09 13:33:20.504 INFO  (qtp429313384-14) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1441805600502} hits=433860 status=0 QTime=0 
+2015-09-09 13:33:22.819 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/select params={q=*:*&indent=true&wt=json} hits=433860 status=0 QTime=0 
+2015-09-09 13:33:40.006 WARN  (qtp429313384-22) [   x:mio] o.e.j.s.ServletHandler /solr/mio/select
+org.apache.solr.common.SolrException: URLDecoder: Invalid digit (&) in escape (%) pattern
+	at org.apache.solr.servlet.SolrRequestParsers.digit16(SolrRequestParsers.java:423)
+	at org.apache.solr.servlet.SolrRequestParsers.parseFormDataContent(SolrRequestParsers.java:348)
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:273)
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:243)
+	at org.apache.solr.servlet.HttpSolrCall.<init>(HttpSolrCall.java:172)
+	at org.apache.solr.servlet.SolrDispatchFilter.getHttpSolrCall(SolrDispatchFilter.java:232)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+2015-09-09 13:33:58.976 WARN  (qtp429313384-19) [   x:mio] o.e.j.s.ServletHandler /solr/mio/select
+org.apache.solr.common.SolrException: URLDecoder: Invalid digit (&) in escape (%) pattern
+	at org.apache.solr.servlet.SolrRequestParsers.digit16(SolrRequestParsers.java:423)
+	at org.apache.solr.servlet.SolrRequestParsers.parseFormDataContent(SolrRequestParsers.java:348)
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:273)
+	at org.apache.solr.servlet.SolrRequestParsers.parseQueryString(SolrRequestParsers.java:243)
+	at org.apache.solr.servlet.HttpSolrCall.<init>(HttpSolrCall.java:172)
+	at org.apache.solr.servlet.SolrDispatchFilter.getHttpSolrCall(SolrDispatchFilter.java:232)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+2015-09-09 13:34:02.415 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/select params={<delete><query>q=*:*</query></delete>} hits=0 status=0 QTime=0 
+2015-09-09 13:34:07.578 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1441805647576} status=0 QTime=0 
+2015-09-09 13:34:07.580 INFO  (qtp429313384-19) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/replication params={wt=json&command=details&_=1441805647577} status=0 QTime=0 
+2015-09-09 13:34:07.581 ERROR (qtp429313384-14) [   x:mio] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\admin-extra.html]
+2015-09-09 13:34:07.581 INFO  (qtp429313384-14) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1441805647579} status=404 QTime=0 
+2015-09-09 13:34:07.582 INFO  (qtp429313384-22) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1441805647579} status=503 QTime=0 
+2015-09-09 13:34:07.583 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/system params={wt=json&_=1441805647578} status=0 QTime=1 
+2015-09-09 13:35:35.972 INFO  (qtp429313384-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1441805735933} status=0 QTime=0 
+2015-09-09 13:35:35.997 INFO  (qtp429313384-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1441805735955} status=0 QTime=0 
+2015-09-09 13:35:38.350 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MyUse\Desktop\solr\server\solr\mio\'
+2015-09-09 13:35:38.359 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2015-09-09 13:35:38.360 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2015-09-09 13:35:38.360 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2015-09-09 13:35:38.360 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2015-09-09 13:35:38.360 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2015-09-09 13:35:38.360 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2015-09-09 13:35:38.360 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2015-09-09 13:35:38.360 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2015-09-09 13:35:38.360 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2015-09-09 13:35:38.360 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2015-09-09 13:35:38.360 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2015-09-09 13:35:38.360 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2015-09-09 13:35:38.360 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2015-09-09 13:35:38.361 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2015-09-09 13:35:38.361 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2015-09-09 13:35:38.361 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2015-09-09 13:35:38.361 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2015-09-09 13:35:38.361 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2015-09-09 13:35:38.361 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2015-09-09 13:35:38.361 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-3.11.jar' to classloader
+2015-09-09 13:35:38.361 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2015-09-09 13:35:38.361 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2015-09-09 13:35:38.361 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2015-09-09 13:35:38.361 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/rome-1.0.jar' to classloader
+2015-09-09 13:35:38.361 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2015-09-09 13:35:38.361 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2015-09-09 13:35:38.361 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2015-09-09 13:35:38.361 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2015-09-09 13:35:38.361 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2015-09-09 13:35:38.361 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2015-09-09 13:35:38.361 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2015-09-09 13:35:38.361 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2015-09-09 13:35:38.361 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2015-09-09 13:35:38.361 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2015-09-09 13:35:38.361 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xz-1.5.jar' to classloader
+2015-09-09 13:35:38.362 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-cell-5.3.0.jar' to classloader
+2015-09-09 13:35:38.362 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2015-09-09 13:35:38.362 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2015-09-09 13:35:38.362 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2015-09-09 13:35:38.362 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2015-09-09 13:35:38.362 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2015-09-09 13:35:38.362 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2015-09-09 13:35:38.362 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2015-09-09 13:35:38.362 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2015-09-09 13:35:38.362 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-clustering-5.3.0.jar' to classloader
+2015-09-09 13:35:38.363 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2015-09-09 13:35:38.363 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2015-09-09 13:35:38.363 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-langid-5.3.0.jar' to classloader
+2015-09-09 13:35:38.363 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2015-09-09 13:35:38.363 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2015-09-09 13:35:38.363 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2015-09-09 13:35:38.363 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2015-09-09 13:35:38.364 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-velocity-5.3.0.jar' to classloader
+2015-09-09 13:35:38.379 INFO  (qtp429313384-16) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.0
+2015-09-09 13:35:38.396 INFO  (qtp429313384-16) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-09-09 13:35:38.397 WARN  (qtp429313384-16) [   ] o.a.s.s.ManagedIndexSchemaFactory The schema has been upgraded to managed, but the non-managed schema schema.xml is still loadable.  PLEASE REMOVE THIS FILE.
+2015-09-09 13:35:38.397 INFO  (qtp429313384-16) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\managed-schema
+2015-09-09 13:35:38.401 INFO  (qtp429313384-16) [   ] o.a.s.s.IndexSchema [mio] Schema name=example-data-driven-schema
+2015-09-09 13:35:38.459 INFO  (qtp429313384-16) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-09-09 13:35:38.473 INFO  (qtp429313384-16) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-09 13:35:38.474 INFO  (qtp429313384-16) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-09 13:35:38.487 INFO  (qtp429313384-16) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Users\MyUse\Desktop\solr\server\solr\mio\conf'
+2015-09-09 13:35:38.487 INFO  (qtp429313384-16) [   ] o.a.s.c.CoreContainer Reloading SolrCore 'mio' using configuration from instancedir C:\Users\MyUse\Desktop\solr\server\solr\mio\
+2015-09-09 13:35:38.488 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.SolrCore [[mio] ] Opening new SolrCore at [C:\Users\MyUse\Desktop\solr\server\solr\mio\], dataDir=[C:\Users\MyUse\Desktop\solr\server\solr\mio\data\]
+2015-09-09 13:35:38.488 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-09-09 13:35:38.488 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.SolrCore [[mio] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-09-09 13:35:38.488 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.SolrCore [[mio] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-09-09 13:35:38.488 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index/
+2015-09-09 13:35:38.488 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2015-09-09 13:35:38.488 INFO  (OldIndexDirectoryCleanupThreadForCore-mio) [   x:mio] o.a.s.c.SolrCore Looking for old index directories to cleanup for core mio in C:\Users\MyUse\Desktop\solr\server\solr\mio\data\
+2015-09-09 13:35:38.488 INFO  (qtp429313384-16) [   x:mio] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2015-09-09 13:35:38.489 INFO  (qtp429313384-16) [   x:mio] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "add-unknown-fields-to-the-schema"
+2015-09-09 13:35:38.490 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2015-09-09 13:35:38.491 INFO  (qtp429313384-16) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:35:38.491 INFO  (qtp429313384-16) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:35:38.492 INFO  (qtp429313384-16) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:35:38.492 INFO  (qtp429313384-16) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:35:38.505 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2015-09-09 13:35:38.505 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-09-09 13:35:38.505 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-09-09 13:35:38.505 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2015-09-09 13:35:38.506 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2015-09-09 13:35:38.506 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-09-09 13:35:38.506 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2015-09-09 13:35:38.506 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/replication,/config,/stream,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/update/extract
+2015-09-09 13:35:38.506 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-09-09 13:35:38.507 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2015-09-09 13:35:38.507 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2015-09-09 13:35:38.507 INFO  (qtp429313384-16) [   x:mio] o.a.s.s.SolrIndexSearcher Opening Searcher@7ae638d7[mio] main
+2015-09-09 13:35:38.508 INFO  (qtp429313384-16) [   x:mio] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\MyUse\Desktop\solr\server\solr\mio\conf
+2015-09-09 13:35:38.508 INFO  (qtp429313384-16) [   x:mio] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=C:\Users\MyUse\Desktop\solr\server\solr\mio\conf}
+2015-09-09 13:35:38.508 INFO  (qtp429313384-16) [   x:mio] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=C:\Users\MyUse\Desktop\solr\server\solr\mio\conf
+2015-09-09 13:35:38.508 INFO  (qtp429313384-16) [   x:mio] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2015-09-09 13:35:38.508 INFO  (qtp429313384-16) [   x:mio] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2015-09-09 13:35:38.508 INFO  (qtp429313384-16) [   x:mio] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2015-09-09 13:35:38.508 INFO  (qtp429313384-16) [   x:mio] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2015-09-09 13:35:38.508 INFO  (qtp429313384-16) [   x:mio] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\elevate.xml
+2015-09-09 13:35:38.511 INFO  (qtp429313384-16) [   x:mio] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2015-09-09 13:35:38.511 INFO  (qtp429313384-16) [   x:mio] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2015-09-09 13:35:38.511 INFO  (searcherExecutor-24-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@7ae638d7[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(5.3.0):C433860)))}
+2015-09-09 13:35:38.512 INFO  (searcherExecutor-24-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-09 13:35:38.512 INFO  (searcherExecutor-24-thread-1-processing-x:mio) [   x:mio] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2015-09-09 13:35:38.512 INFO  (searcherExecutor-24-thread-1-processing-x:mio) [   x:mio] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2015-09-09 13:35:38.512 INFO  (searcherExecutor-24-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore [mio] Registered new searcher Searcher@7ae638d7[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(5.3.0):C433860)))}
+2015-09-09 13:35:38.512 INFO  (qtp429313384-16) [   x:mio] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2015-09-09 13:35:38.512 INFO  (qtp429313384-16) [   x:mio] o.a.s.u.VersionInfo Found MAX value 1511841966694858755 from Terms for _version_ in index
+2015-09-09 13:35:38.514 INFO  (qtp429313384-16) [   x:mio] o.a.s.u.UpdateLog Took 3 ms to seed version buckets with highest version 1511841966694858755
+2015-09-09 13:35:38.514 INFO  (qtp429313384-16) [   x:mio] o.a.s.u.DefaultSolrCoreState Creating new IndexWriter...
+2015-09-09 13:35:38.514 INFO  (qtp429313384-16) [   x:mio] o.a.s.u.DefaultSolrCoreState Waiting until IndexWriter is unused... core=mio
+2015-09-09 13:35:38.514 INFO  (qtp429313384-16) [   x:mio] o.a.s.u.DefaultSolrCoreState Closing old IndexWriter... core=mio
+2015-09-09 13:35:38.516 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@5d17ad54; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_6,generation=6}
+2015-09-09 13:35:38.516 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.SolrCore newest commit generation = 6
+2015-09-09 13:35:38.516 INFO  (qtp429313384-16) [   x:mio] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2015-09-09 13:35:38.518 INFO  (qtp429313384-16) [   x:mio] o.a.s.s.SolrIndexSearcher Opening Searcher@7308d0c6[mio] main
+2015-09-09 13:35:38.518 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.CoreContainer replacing core: mio
+2015-09-09 13:35:38.518 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.SolrCore [mio]  CLOSING SolrCore org.apache.solr.core.SolrCore@51495ca7
+2015-09-09 13:35:38.519 INFO  (qtp429313384-16) [   x:mio] o.a.s.u.UpdateHandler closing DirectUpdateHandler2{commits=1,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=24460815,transaction_logs_total_number=1}
+2015-09-09 13:35:38.519 INFO  (searcherExecutor-24-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@7308d0c6[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(5.3.0):C433860)))}
+2015-09-09 13:35:38.519 INFO  (searcherExecutor-24-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-09 13:35:38.519 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.SolrCore [mio] Closing main searcher on request.
+2015-09-09 13:35:38.519 INFO  (searcherExecutor-24-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore [mio] Registered new searcher Searcher@7308d0c6[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(5.3.0):C433860)))}
+2015-09-09 13:35:38.519 INFO  (qtp429313384-16) [   x:mio] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={core=mio&action=RELOAD&wt=json&_=1441805738319} status=0 QTime=168 
+2015-09-09 13:35:38.524 INFO  (qtp429313384-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1441805738493} status=0 QTime=0 
+2015-09-09 13:35:40.462 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1441805740423} status=0 QTime=0 
+2015-09-09 13:35:40.462 INFO  (qtp429313384-14) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/replication params={wt=json&command=details&_=1441805740427} status=0 QTime=0 
+2015-09-09 13:35:40.463 ERROR (qtp429313384-20) [   x:mio] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\admin-extra.html]
+2015-09-09 13:35:40.463 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1441805740429} status=404 QTime=0 
+2015-09-09 13:35:40.464 INFO  (qtp429313384-13) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/system params={wt=json&_=1441805740429} status=0 QTime=0 
+2015-09-09 13:35:40.468 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1441805740431} status=503 QTime=0 
+2015-09-09 13:35:53.865 INFO  (qtp429313384-22) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/select params={q=*:*&indent=true&fq=answer:cicero&wt=json&_=1441805753827} hits=0 status=0 QTime=0 
+2015-09-09 13:35:56.877 INFO  (qtp429313384-22) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/select params={q=*:*&indent=true&fq=answer:Cicero&wt=json&_=1441805756845} hits=18 status=0 QTime=0 
+2015-09-09 13:36:21.308 INFO  (qtp429313384-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1441805781266} status=0 QTime=0 
+2015-09-09 13:36:21.332 INFO  (qtp429313384-22) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1441805781297} status=0 QTime=0 
+2015-09-09 13:36:23.182 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MyUse\Desktop\solr\server\solr\mio\'
+2015-09-09 13:36:23.189 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2015-09-09 13:36:23.189 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-3.11.jar' to classloader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/rome-1.0.jar' to classloader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2015-09-09 13:36:23.190 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2015-09-09 13:36:23.191 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2015-09-09 13:36:23.191 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2015-09-09 13:36:23.191 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2015-09-09 13:36:23.191 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2015-09-09 13:36:23.191 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2015-09-09 13:36:23.191 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2015-09-09 13:36:23.191 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2015-09-09 13:36:23.191 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/extraction/lib/xz-1.5.jar' to classloader
+2015-09-09 13:36:23.191 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-cell-5.3.0.jar' to classloader
+2015-09-09 13:36:23.191 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2015-09-09 13:36:23.191 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2015-09-09 13:36:23.191 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2015-09-09 13:36:23.191 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2015-09-09 13:36:23.191 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2015-09-09 13:36:23.192 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2015-09-09 13:36:23.192 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2015-09-09 13:36:23.192 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2015-09-09 13:36:23.192 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-clustering-5.3.0.jar' to classloader
+2015-09-09 13:36:23.192 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2015-09-09 13:36:23.192 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2015-09-09 13:36:23.192 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-langid-5.3.0.jar' to classloader
+2015-09-09 13:36:23.193 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2015-09-09 13:36:23.193 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2015-09-09 13:36:23.193 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2015-09-09 13:36:23.193 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2015-09-09 13:36:23.193 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MyUse/Desktop/solr/dist/solr-velocity-5.3.0.jar' to classloader
+2015-09-09 13:36:23.213 INFO  (qtp429313384-15) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.0
+2015-09-09 13:36:23.225 INFO  (qtp429313384-15) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-09-09 13:36:23.226 WARN  (qtp429313384-15) [   ] o.a.s.s.ManagedIndexSchemaFactory The schema has been upgraded to managed, but the non-managed schema schema.xml is still loadable.  PLEASE REMOVE THIS FILE.
+2015-09-09 13:36:23.226 INFO  (qtp429313384-15) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\managed-schema
+2015-09-09 13:36:23.229 INFO  (qtp429313384-15) [   ] o.a.s.s.IndexSchema [mio] Schema name=example-data-driven-schema
+2015-09-09 13:36:23.287 INFO  (qtp429313384-15) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-09-09 13:36:23.300 INFO  (qtp429313384-15) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-09 13:36:23.301 INFO  (qtp429313384-15) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-09 13:36:23.314 INFO  (qtp429313384-15) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Users\MyUse\Desktop\solr\server\solr\mio\conf'
+2015-09-09 13:36:23.314 INFO  (qtp429313384-15) [   ] o.a.s.c.CoreContainer Reloading SolrCore 'mio' using configuration from instancedir C:\Users\MyUse\Desktop\solr\server\solr\mio\
+2015-09-09 13:36:23.315 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.SolrCore [[mio] ] Opening new SolrCore at [C:\Users\MyUse\Desktop\solr\server\solr\mio\], dataDir=[C:\Users\MyUse\Desktop\solr\server\solr\mio\data\]
+2015-09-09 13:36:23.315 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-09-09 13:36:23.315 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.SolrCore [[mio] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-09-09 13:36:23.315 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.SolrCore [[mio] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2015-09-09 13:36:23.315 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index/
+2015-09-09 13:36:23.315 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2015-09-09 13:36:23.316 INFO  (qtp429313384-15) [   x:mio] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2015-09-09 13:36:23.316 INFO  (OldIndexDirectoryCleanupThreadForCore-mio) [   x:mio] o.a.s.c.SolrCore Looking for old index directories to cleanup for core mio in C:\Users\MyUse\Desktop\solr\server\solr\mio\data\
+2015-09-09 13:36:23.317 INFO  (qtp429313384-15) [   x:mio] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "add-unknown-fields-to-the-schema"
+2015-09-09 13:36:23.317 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2015-09-09 13:36:23.318 INFO  (qtp429313384-15) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:36:23.318 INFO  (qtp429313384-15) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:36:23.319 INFO  (qtp429313384-15) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:36:23.319 INFO  (qtp429313384-15) [   x:mio] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:36:23.321 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2015-09-09 13:36:23.321 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-09-09 13:36:23.321 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-09-09 13:36:23.321 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2015-09-09 13:36:23.321 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2015-09-09 13:36:23.321 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-09-09 13:36:23.321 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2015-09-09 13:36:23.321 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/replication,/config,/stream,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/update/extract
+2015-09-09 13:36:23.322 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-09-09 13:36:23.322 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2015-09-09 13:36:23.322 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2015-09-09 13:36:23.323 INFO  (qtp429313384-15) [   x:mio] o.a.s.s.SolrIndexSearcher Opening Searcher@9bd65a2[mio] main
+2015-09-09 13:36:23.323 INFO  (qtp429313384-15) [   x:mio] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\MyUse\Desktop\solr\server\solr\mio\conf
+2015-09-09 13:36:23.323 INFO  (qtp429313384-15) [   x:mio] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=C:\Users\MyUse\Desktop\solr\server\solr\mio\conf}
+2015-09-09 13:36:23.324 INFO  (qtp429313384-15) [   x:mio] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=C:\Users\MyUse\Desktop\solr\server\solr\mio\conf
+2015-09-09 13:36:23.324 INFO  (qtp429313384-15) [   x:mio] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2015-09-09 13:36:23.324 INFO  (qtp429313384-15) [   x:mio] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2015-09-09 13:36:23.324 INFO  (qtp429313384-15) [   x:mio] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2015-09-09 13:36:23.324 INFO  (qtp429313384-15) [   x:mio] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2015-09-09 13:36:23.324 INFO  (qtp429313384-15) [   x:mio] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\elevate.xml
+2015-09-09 13:36:23.326 INFO  (qtp429313384-15) [   x:mio] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2015-09-09 13:36:23.327 INFO  (qtp429313384-15) [   x:mio] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2015-09-09 13:36:23.327 INFO  (searcherExecutor-28-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@9bd65a2[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(5.3.0):C433860)))}
+2015-09-09 13:36:23.327 INFO  (searcherExecutor-28-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-09 13:36:23.327 INFO  (searcherExecutor-28-thread-1-processing-x:mio) [   x:mio] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2015-09-09 13:36:23.327 INFO  (searcherExecutor-28-thread-1-processing-x:mio) [   x:mio] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2015-09-09 13:36:23.327 INFO  (searcherExecutor-28-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore [mio] Registered new searcher Searcher@9bd65a2[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(5.3.0):C433860)))}
+2015-09-09 13:36:23.327 INFO  (qtp429313384-15) [   x:mio] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2015-09-09 13:36:23.327 INFO  (qtp429313384-15) [   x:mio] o.a.s.u.VersionInfo Found MAX value 1511841966694858755 from Terms for _version_ in index
+2015-09-09 13:36:23.329 INFO  (qtp429313384-15) [   x:mio] o.a.s.u.UpdateLog Took 2 ms to seed version buckets with highest version 1511841966694858755
+2015-09-09 13:36:23.329 INFO  (qtp429313384-15) [   x:mio] o.a.s.u.DefaultSolrCoreState Creating new IndexWriter...
+2015-09-09 13:36:23.329 INFO  (qtp429313384-15) [   x:mio] o.a.s.u.DefaultSolrCoreState Waiting until IndexWriter is unused... core=mio
+2015-09-09 13:36:23.329 INFO  (qtp429313384-15) [   x:mio] o.a.s.u.DefaultSolrCoreState Closing old IndexWriter... core=mio
+2015-09-09 13:36:23.331 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MyUse\Desktop\solr\server\solr\mio\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@5d17ad54; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_6,generation=6}
+2015-09-09 13:36:23.332 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.SolrCore newest commit generation = 6
+2015-09-09 13:36:23.332 INFO  (qtp429313384-15) [   x:mio] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2015-09-09 13:36:23.334 INFO  (qtp429313384-15) [   x:mio] o.a.s.s.SolrIndexSearcher Opening Searcher@4ff6a6c6[mio] main
+2015-09-09 13:36:23.335 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.CoreContainer replacing core: mio
+2015-09-09 13:36:23.335 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.SolrCore [mio]  CLOSING SolrCore org.apache.solr.core.SolrCore@6f853f8f
+2015-09-09 13:36:23.335 INFO  (qtp429313384-15) [   x:mio] o.a.s.u.UpdateHandler closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=24460815,transaction_logs_total_number=1}
+2015-09-09 13:36:23.335 INFO  (searcherExecutor-28-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@4ff6a6c6[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(5.3.0):C433860)))}
+2015-09-09 13:36:23.335 INFO  (searcherExecutor-28-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore QuerySenderListener done.
+2015-09-09 13:36:23.335 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.SolrCore [mio] Closing main searcher on request.
+2015-09-09 13:36:23.335 INFO  (searcherExecutor-28-thread-1-processing-x:mio) [   x:mio] o.a.s.c.SolrCore [mio] Registered new searcher Searcher@4ff6a6c6[mio] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_a(5.3.0):C433860)))}
+2015-09-09 13:36:23.335 INFO  (qtp429313384-15) [   x:mio] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={core=mio&action=RELOAD&wt=json&_=1441805783151} status=0 QTime=153 
+2015-09-09 13:36:23.342 INFO  (qtp429313384-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={wt=json&_=1441805783309} status=0 QTime=1 
+2015-09-09 13:36:25.504 INFO  (qtp429313384-22) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1441805785466} status=0 QTime=0 
+2015-09-09 13:36:25.509 INFO  (qtp429313384-14) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/replication params={wt=json&command=details&_=1441805785469} status=0 QTime=0 
+2015-09-09 13:36:25.509 INFO  (qtp429313384-15) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/system params={wt=json&_=1441805785471} status=0 QTime=0 
+2015-09-09 13:36:25.511 ERROR (qtp429313384-20) [   x:mio] o.a.s.h.a.ShowFileRequestHandler Can not find: admin-extra.html [C:\Users\MyUse\Desktop\solr\server\solr\mio\conf\admin-extra.html]
+2015-09-09 13:36:25.511 INFO  (qtp429313384-20) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1441805785471} status=404 QTime=0 
+2015-09-09 13:36:25.511 INFO  (qtp429313384-13) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1441805785472} status=503 QTime=0 
+2015-09-09 13:36:35.717 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/select params={q=*:*&indent=true&fq=answer:Cicero&wt=json&_=1441805795683} hits=18 status=0 QTime=0 
+2015-09-09 13:36:53.075 INFO  (qtp429313384-19) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21402174448663983859_1441805810048&indent=trueselect?q%3D*:*&fq=answer:cicero*&wt=json&wt=json&_=1441805810049} hits=0 status=0 QTime=1 
+2015-09-09 13:37:07.976 INFO  (qtp429313384-19) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/select params={q=*:*&indent=true&fq=answer:*Cicero*&wt=json&_=1441805827904} hits=20 status=0 QTime=37 
+2015-09-09 13:37:25.346 INFO  (qtp429313384-22) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/select params={q=*:*&indent=true&fq=answer:*Cicero*&wt=json} hits=20 status=0 QTime=3 
+2015-09-09 13:42:33.638 INFO  (qtp429313384-22) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21409541344225854853_1441806146146&indent=trueselect?q%3D*:*&fq=answer:*cicero*&wt=json&wt=json&_=1441806146147} hits=0 status=0 QTime=47 
+2015-09-09 13:42:42.099 INFO  (qtp429313384-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1441806162090} status=0 QTime=0 
+2015-09-09 13:42:42.116 INFO  (qtp429313384-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1441806162109} status=0 QTime=0 
+2015-09-09 13:42:51.538 INFO  (qtp429313384-22) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/select params={q=*:*&indent=true&fq=answer:cicero&wt=json&_=1441806171526} hits=0 status=0 QTime=0 
+2015-09-09 13:43:09.318 INFO  (qtp429313384-16) [   x:mio] o.a.s.c.S.Request [mio] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21409541344225854853_1441806146146&indent=trueselect?q%3D*:*&fq=answer:*Cicero*&wt=json&wt=json&_=1441806146148} hits=20 status=0 QTime=2 
+2015-09-09 13:46:32.404 INFO  (qtp429313384-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=0 
+2015-09-09 13:46:32.423 INFO  (qtp429313384-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=0 
+2015-09-09 13:46:32.427 INFO  (qtp429313384-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={core=mycore&action=STATUS&wt=json} status=0 QTime=0 
+2015-09-09 13:46:32.455 INFO  (qtp429313384-14) [   ] o.a.s.h.a.CoreAdminHandler core create command name=mycore&action=CREATE&instanceDir=mycore&wt=json
+2015-09-09 13:46:32.456 INFO  (qtp429313384-14) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=mycore, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=mycore, absoluteInstDir=C:\Users\MyUse\Desktop\solr\server\solr\mycore\, dataDir=data\}
+2015-09-09 13:46:32.456 INFO  (qtp429313384-14) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MyUse\Desktop\solr\server\solr\mycore\'
+2015-09-09 13:46:32.466 INFO  (qtp429313384-14) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2015-09-09 13:46:32.468 INFO  (qtp429313384-14) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2015-09-09 13:46:32.469 INFO  (qtp429313384-14) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.0
+2015-09-09 13:46:32.475 INFO  (qtp429313384-14) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-09-09 13:46:32.476 INFO  (qtp429313384-14) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf\schema.xml
+2015-09-09 13:46:32.479 INFO  (qtp429313384-14) [   ] o.a.s.s.IndexSchema [mycore] Schema name=example
+2015-09-09 13:46:32.505 INFO  (qtp429313384-14) [   ] o.a.s.s.IndexSchema unique key field: id
+2015-09-09 13:46:32.510 INFO  (qtp429313384-14) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-09 13:46:32.511 INFO  (qtp429313384-14) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2015-09-09 13:46:32.513 INFO  (qtp429313384-14) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf'
+2015-09-09 13:46:32.513 INFO  (qtp429313384-14) [   ] o.a.s.c.CoreContainer Creating SolrCore 'mycore' using configuration from instancedir C:\Users\MyUse\Desktop\solr\server\solr\mycore\
+2015-09-09 13:46:32.513 INFO  (qtp429313384-14) [   x:mycore] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2015-09-09 13:46:32.513 INFO  (qtp429313384-14) [   x:mycore] o.a.s.c.SolrCore [[mycore] ] Opening new SolrCore at [C:\Users\MyUse\Desktop\solr\server\solr\mycore\], dataDir=[null]
+2015-09-09 13:46:32.513 INFO  (qtp429313384-14) [   x:mycore] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-09-09 13:46:32.514 INFO  (qtp429313384-14) [   x:mycore] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MyUse\Desktop\solr\server\solr\mycore\data
+2015-09-09 13:46:32.514 INFO  (qtp429313384-14) [   x:mycore] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Users\MyUse\Desktop\solr\server\solr\mycore\data\index/
+2015-09-09 13:46:32.514 WARN  (qtp429313384-14) [   x:mycore] o.a.s.c.SolrCore [mycore] Solr index directory 'C:\Users\MyUse\Desktop\solr\server\solr\mycore\data\index' doesn't exist. Creating new index...
+2015-09-09 13:46:32.514 INFO  (qtp429313384-14) [   x:mycore] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MyUse\Desktop\solr\server\solr\mycore\data\index
+2015-09-09 13:46:32.528 INFO  (qtp429313384-14) [   x:mycore] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MyUse\Desktop\solr\server\solr\mycore\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@5d17ad54; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+2015-09-09 13:46:32.528 INFO  (qtp429313384-14) [   x:mycore] o.a.s.c.SolrCore newest commit generation = 1
+2015-09-09 13:46:32.530 INFO  (qtp429313384-14) [   x:mycore] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2015-09-09 13:46:32.530 INFO  (OldIndexDirectoryCleanupThreadForCore-mycore) [   x:mycore] o.a.s.c.SolrCore Looking for old index directories to cleanup for core mycore in C:\Users\MyUse\Desktop\solr\server\solr\mycore\data\
+2015-09-09 13:46:32.538 INFO  (qtp429313384-14) [   x:mycore] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:46:32.539 INFO  (qtp429313384-14) [   x:mycore] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:46:32.539 INFO  (qtp429313384-14) [   x:mycore] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:46:32.540 INFO  (qtp429313384-14) [   x:mycore] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-09 13:46:32.558 INFO  (qtp429313384-14) [   x:mycore] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-09-09 13:46:32.559 INFO  (qtp429313384-14) [   x:mycore] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-09-09 13:46:32.559 INFO  (qtp429313384-14) [   x:mycore] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-09-09 13:46:32.559 INFO  (qtp429313384-14) [   x:mycore] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/update/csv,/select,/admin/segments,/admin/system,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms
+2015-09-09 13:46:32.559 INFO  (qtp429313384-14) [   x:mycore] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-09-09 13:46:32.560 INFO  (qtp429313384-14) [   x:mycore] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2015-09-09 13:46:32.560 INFO  (qtp429313384-14) [   x:mycore] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2015-09-09 13:46:32.561 INFO  (qtp429313384-14) [   x:mycore] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2015-09-09 13:46:32.561 INFO  (qtp429313384-14) [   x:mycore] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2015-09-09 13:46:32.563 INFO  (qtp429313384-14) [   x:mycore] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MyUse\Desktop\solr\server\solr\mycore\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@5d17ad54; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+2015-09-09 13:46:32.563 INFO  (qtp429313384-14) [   x:mycore] o.a.s.c.SolrCore newest commit generation = 1
+2015-09-09 13:46:32.563 INFO  (qtp429313384-14) [   x:mycore] o.a.s.s.SolrIndexSearcher Opening Searcher@3f52a367[mycore] main
+2015-09-09 13:46:32.564 INFO  (qtp429313384-14) [   x:mycore] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf
+2015-09-09 13:46:32.564 INFO  (qtp429313384-14) [   x:mycore] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf}
+2015-09-09 13:46:32.564 INFO  (qtp429313384-14) [   x:mycore] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf
+2015-09-09 13:46:32.564 INFO  (qtp429313384-14) [   x:mycore] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _rest_managed.json using file:dir=C:\Users\MyUse\Desktop\solr\server\solr\mycore\conf
+2015-09-09 13:46:32.564 INFO  (qtp429313384-14) [   x:mycore] o.a.s.r.ManagedResource Loaded initArgs {} for /rest/managed
+2015-09-09 13:46:32.564 INFO  (qtp429313384-14) [   x:mycore] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2015-09-09 13:46:32.564 INFO  (qtp429313384-14) [   x:mycore] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2015-09-09 13:46:32.564 INFO  (qtp429313384-14) [   x:mycore] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2015-09-09 13:46:32.564 INFO  (searcherExecutor-32-thread-1-processing-x:mycore) [   x:mycore] o.a.s.c.SolrCore [mycore] Registered new searcher Searcher@3f52a367[mycore] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2015-09-09 13:46:32.564 INFO  (qtp429313384-14) [   x:mycore] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2015-09-09 13:46:32.564 INFO  (qtp429313384-14) [   x:mycore] o.a.s.u.VersionInfo No terms found for _version_, cannot seed version bucket highest value from index
+2015-09-09 13:46:32.564 INFO  (qtp429313384-14) [   x:mycore] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1511843579889188864
+2015-09-09 13:46:32.565 INFO  (qtp429313384-14) [   x:mycore] o.a.s.u.UpdateLog Took 1 ms to seed version buckets with highest version 1511843579889188864
+2015-09-09 13:46:32.565 INFO  (qtp429313384-14) [   x:mycore] o.a.s.c.CoreContainer registering core: mycore
+2015-09-09 13:46:32.568 INFO  (qtp429313384-14) [   x:mycore] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={name=mycore&action=CREATE&instanceDir=mycore&wt=json} status=0 QTime=112 
+2015-09-09 13:46:55.108 INFO  (qtp429313384-19) [   x:mycore] o.a.s.u.p.LogUpdateProcessor [mycore] webapp=/solr path=/update params={} {} 0 0
+2015-09-09 13:46:55.109 ERROR (qtp429313384-19) [   x:mycore] o.a.s.c.SolrCore org.apache.solr.common.SolrException: Document is missing mandatory uniqueKey field: id
+	at org.apache.solr.update.AddUpdateCommand.getIndexedId(AddUpdateCommand.java:98)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:968)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:706)
+	at org.apache.solr.update.processor.LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:104)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.handleAdds(JsonLoader.java:470)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:134)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:113)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:76)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:98)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+
+2015-09-09 13:46:55.417 INFO  (qtp429313384-22) [   x:mycore] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-09 13:46:55.417 INFO  (qtp429313384-22) [   x:mycore] o.a.s.u.UpdateHandler No uncommitted changes. Skipping IW.commit.
+2015-09-09 13:46:55.418 INFO  (qtp429313384-22) [   x:mycore] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2015-09-09 13:46:55.418 INFO  (qtp429313384-22) [   x:mycore] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-09 13:46:55.418 INFO  (qtp429313384-22) [   x:mycore] o.a.s.u.p.LogUpdateProcessor [mycore] webapp=/solr path=/update params={commit=true} {commit=} 0 1
+2015-09-09 14:23:08.887 INFO  (qtp429313384-19) [   x:mycore] o.a.s.u.p.LogUpdateProcessor [mycore] webapp=/solr path=/update params={} {} 0 0
+2015-09-09 14:23:08.888 ERROR (qtp429313384-19) [   x:mycore] o.a.s.c.SolrCore org.apache.solr.common.SolrException: Document is missing mandatory uniqueKey field: id
+	at org.apache.solr.update.AddUpdateCommand.getIndexedId(AddUpdateCommand.java:98)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:968)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:706)
+	at org.apache.solr.update.processor.LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:104)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.handleAdds(JsonLoader.java:470)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:134)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:113)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:76)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:98)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+
+2015-09-09 14:23:09.245 INFO  (qtp429313384-22) [   x:mycore] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-09 14:23:09.245 INFO  (qtp429313384-22) [   x:mycore] o.a.s.u.UpdateHandler No uncommitted changes. Skipping IW.commit.
+2015-09-09 14:23:09.246 INFO  (qtp429313384-22) [   x:mycore] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2015-09-09 14:23:09.246 INFO  (qtp429313384-22) [   x:mycore] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-09 14:23:09.246 INFO  (qtp429313384-22) [   x:mycore] o.a.s.u.p.LogUpdateProcessor [mycore] webapp=/solr path=/update params={commit=true} {commit=} 0 0
+2015-09-09 14:27:15.290 INFO  (qtp429313384-13) [   x:mycore] o.a.s.u.p.LogUpdateProcessor [mycore] webapp=/solr path=/update params={} {} 0 0
+2015-09-09 14:27:15.290 ERROR (qtp429313384-13) [   x:mycore] o.a.s.c.SolrCore org.apache.solr.common.SolrException: Document is missing mandatory uniqueKey field: id
+	at org.apache.solr.update.AddUpdateCommand.getIndexedId(AddUpdateCommand.java:98)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:968)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:706)
+	at org.apache.solr.update.processor.LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:104)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.handleAdds(JsonLoader.java:470)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:134)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:113)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:76)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:98)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+
+2015-09-09 14:27:15.586 INFO  (qtp429313384-14) [   x:mycore] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-09 14:27:15.586 INFO  (qtp429313384-14) [   x:mycore] o.a.s.u.UpdateHandler No uncommitted changes. Skipping IW.commit.
+2015-09-09 14:27:15.587 INFO  (qtp429313384-14) [   x:mycore] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2015-09-09 14:27:15.587 INFO  (qtp429313384-14) [   x:mycore] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-09 14:27:15.587 INFO  (qtp429313384-14) [   x:mycore] o.a.s.u.p.LogUpdateProcessor [mycore] webapp=/solr path=/update params={commit=true} {commit=} 0 1
+2015-09-09 14:29:28.321 INFO  (qtp429313384-19) [   x:mycore] o.a.s.u.p.LogUpdateProcessor [mycore] webapp=/solr path=/update params={} {} 0 0
+2015-09-09 14:29:28.322 ERROR (qtp429313384-19) [   x:mycore] o.a.s.c.SolrCore org.apache.solr.common.SolrException: Document is missing mandatory uniqueKey field: id
+	at org.apache.solr.update.AddUpdateCommand.getIndexedId(AddUpdateCommand.java:98)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:968)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:706)
+	at org.apache.solr.update.processor.LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:104)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.handleAdds(JsonLoader.java:470)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:134)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:113)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:76)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:98)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+
+2015-09-09 14:29:28.636 INFO  (qtp429313384-22) [   x:mycore] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2015-09-09 14:29:28.636 INFO  (qtp429313384-22) [   x:mycore] o.a.s.u.UpdateHandler No uncommitted changes. Skipping IW.commit.
+2015-09-09 14:29:28.636 INFO  (qtp429313384-22) [   x:mycore] o.a.s.c.SolrCore SolrIndexSearcher has not changed - not re-opening: org.apache.solr.search.SolrIndexSearcher
+2015-09-09 14:29:28.636 INFO  (qtp429313384-22) [   x:mycore] o.a.s.u.UpdateHandler end_commit_flush
+2015-09-09 14:29:28.636 INFO  (qtp429313384-22) [   x:mycore] o.a.s.u.p.LogUpdateProcessor [mycore] webapp=/solr path=/update params={commit=true} {commit=} 0 0

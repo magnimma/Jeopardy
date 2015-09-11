@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<schema name="example" version="1.5">
+    <types>
+        <fieldType name="string" class="solr.StrField"/>
+        <fieldType name="random" class="solr.RandomSortField" />
+        <fieldType name="long" class="solr.TrieLongField" precisionStep="0" positionIncrementGap="0"/>
+        <fieldType name="text" class="solr.TextField" positionIncrementGap="100">
+            <analyzer type="index">
+                <tokenizer class="solr.StandardTokenizerFactory"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.StopFilterFactory" words="stopwords.txt" ignoreCase="true"/>
+            </analyzer> 
+            <analyzer type="query">
+                <tokenizer class="solr.StandardTokenizerFactory"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.StopFilterFactory" words="stopwords.txt" ignoreCase="true"/>
+            </analyzer>
+            <analyzer type="select">
+                <tokenizer class="solr.StandardTokenizerFactory"/>
+                <filter class="solr.LowerCaseFilterFactory"/>
+                <filter class="solr.StopFilterFactory" words="stopwords.txt" ignoreCase="true"/>
+            </analyzer>
+        </fieldType>
+        <fieldType name="alphaOnlySort" class="solr.TextField" sortMissingLast="true" omitNorms="true">
+            <analyzer>
+                <!-- KeywordTokenizer does no actual tokenizing, so the entire
+            input string is preserved as a single token
+            -->
+                <tokenizer class="solr.KeywordTokenizerFactory"/>
+                <!-- The LowerCase TokenFilter does what you expect, which can be
+                when you want your sorting to be case insensitive
+                -->
+                <filter class="solr.LowerCaseFilterFactory" />
+                <!-- The TrimFilter removes any leading or trailing whitespace -->
+                <filter class="solr.TrimFilterFactory" />
+                <!-- The PatternReplaceFilter gives you the flexibility to use
+                Java Regular expression to replace any sequence of characters
+                matching a pattern with an arbitrary replacement string, 
+                which may include back references to portions of the original
+                string matched by the pattern.
+
+                See the Java Regular Expression documentation for more
+                information on pattern and replacement string syntax.
+
+                http://java.sun.com/j2se/1.6.0/docs/api/java/util/regex/package-summary.html
+                -->
+                <filter class="solr.PatternReplaceFilterFactory"
+                        pattern="([^a-z])" replacement="" replace="all"
+                />
+            </analyzer>
+        </fieldType>
+    </types>
+    <fields>
+        <field name="_version_" type="long" indexed="true" stored="true"/>
+        <field name="_root_" type="string" indexed="true" stored="false"/>
+        <field name="_id" type="string" indexed="true"  stored="true" multiValued="false" /> 
+        <uniqueKey>_id</uniqueKey>
+        <field name="category" type="string" indexed="true" stored="true"/> 
+        <field name="air_date" type="string" indexed="true" stored="true"/>
+        <field name="question" type="string" indexed="true" stored="true"  required="true"/>
+        <field name="value" type="string" indexed="true" stored="true"/>
+        <field name="answer" type="text" indexed="true" stored="true"  required="true" multiValued="false"/>
+        <field name="round" type="string" indexed="true" stored="true"/>
+        <field name="show_number" type="string" indexed="true" stored="true"/>
+        <field name="sort" type="alphaOnlySort" indexed="true" stored="false" required="false" multiValued="false" />
+        <dynamicField name="random*" type="random" indexed="true" stored="false"/>
+    </fields>
+    
+</schema>
+
