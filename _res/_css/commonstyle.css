@@ -130,6 +130,12 @@ audio{
         border-bottom-left-radius: 5px 5px;
 		
 }
+#catbutton {	
+    display: none;
+}
+#cattext {
+    display: none;
+}
 
 .selector {
         width:100%;

@@ -2,94 +2,86 @@
 AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
     beforeRequest: function(){
          $(this.target).empty();
-         $(this.target).append('<div class="resultList"><h2 class="answer">Einen Moment bitte...</h2></div>');
-        $("#navigation").css("display", "block");
-        $("#feedback").css("display", "none");
+         $(this.target).append('<div class="resultList"><h2 class="answer">Network problem... You may wait or try again.</h2></div>');
+         $("#navigation").css("display", "block");
+         $("#feedback").css("display", "block");
     },
 
     afterRequest: function () {
     $(this.target).empty();
-        
-    /*
-    *   If it is a search result
-    */
-    if($(this.id).selector == "result"){
-        var resultWidget  = document.getElementById("docs"),
-            currentSearch = document.getElementById("tftext").value.charAt(0).toUpperCase()
-                            +document.getElementById("tftext").value.substring(1);
-        if(currentSearch.charAt(0)==0){//if not defined
-            $(this.target).append(this.template("NF",0)); 
-        }
-        else {//normal search
-            if(this.manager.response.response.docs.length > 0){//if there is any hit
-                    for (var i = 0, l = this.manager.response.response.docs.length; i < l; i++) {
+    if(this.manager.response.response.numFound > 0){
+        var currentSearch = document.getElementById("tftext").value;
+        if($(this.id).selector == ("result") && currentSearch.charAt(0)!=0){//normal search
+             for (var i = 0, l = this.manager.response.response.docs.length; i < l; i++) {
                         var doc = this.manager.response.response.docs[i];
                         $(this.target).append(this.template(doc,i));
-                    } 
-            }
-            else{//if there is no single hit
-                var txt;
-                var r = confirm("Leider keine Ergebnisse. Möchten Sie in Google nach "+currentSearch+" suchen?");
-                if (r == true) {
-                    var str="http://www.google.de/search?hl=en&source=hp&q=" + currentSearch + "&aq=f&oq=&aqi=";
-                    var replaced=str.replace(" ","+");
-                    window.location.replace(replaced)
-                } else {
-                    $(this.target).append(this.template("NF",0)); 
-                }
-            }
+             } 
         }  
-    }
-        
-        
-        
-    /*
-    *   If it is a random
-    */    
-    if(this.manager.response.response.numFound > 0){
-        if($(this.id).selector == "random"){
+        else if($(this.id).selector == ("cat")){//category search
+             for (var i = 0, l = this.manager.response.response.docs.length; i < l; i++) {
+                        var doc = this.manager.response.response.docs[i];
+                        $(this.target).append(this.template(doc,i));
+             } 
+        }  
+        else if($(this.id).selector == "random"){// if it's a random search
              $("#navigation").css("display", "none");
              var doc = this.manager.response.response.docs[0];
              $(this.target).append(this.template(doc,0)); 
         }
-        else if($(this.id).selector == "letter"){
+        else if($(this.id).selector == "letter"){// if it's a letter search
              for (var i = 0, l = this.manager.response.response.docs.length; i < l; i++) {
                         var doc = this.manager.response.response.docs[i];
                         $(this.target).append(this.letterizer(doc,i));
              } 
         }
-        else if($(this.id).selector == "number"){
-              $("#navigation").css("display", "none");
-              $("#feedback").css("display", "block");
-              $("#feedback").text("Hier sehen sie die neuesten Einträge");
+        else if($(this.id).selector == "number"){// if it's a number search
+             $("#navigation").css("display", "none");
              for (var i = 0, l = this.manager.response.response.docs.length; i < l; i++) {
                         var doc = this.manager.response.response.docs[i];
                         $(this.target).append(this.letterizer(doc,i));
              } 
-         }
+        }
     }
-    else{
-             $("#navigation").css("display", "none");
-             $(this.target).append(this.template("NF",0)); 
+    else{//nothing found
+        $(this.target).append(this.template("NF",0)); 
     }
   },
 
   template: function (doc, i) {
       var output = '<div class="resultList">';
-      if(doc == "NF"){
-            output += ' <div>'+"Ergebnis: "+"Leider keine Ergebnisse. Versuchen Sie es doch mit einer anderen Eingabe."+' </div>';
+      if(doc == "NF"){//if nothing is found
+          var currentSearch = document.getElementById("tftext").value;
+          $("#navigation").css("display", "none");
+          $("#feedback").css("display", "block");
+          $("#feedback").empty();
+          $("#feedback").append('<h2>Result: Sadly you got no results.</h2>');
+          $("#feedback").append('<p>Do you want to Google '+currentSearch+'?</p>');
+          $("#feedback").append('<button id="google" class="button">Google it!</button>');
+          $('body').on('click', '#google', function() {
+              var str="http://www.google.de/search?hl=en&source=hp&q=" + currentSearch + "&aq=f&oq=&aqi=",
+                  replaced=str.replace(" ","+");
+              window.location.replace(replaced);
+          });
+          return null;
       }
-      else{//Normal Search
+      else{//Normal search
             if(doc.round != undefined)output += '<div class="left">'  + "Runde: " +doc.round + '</div>';
             if(doc.value != undefined)output += '<div class="rightened">'  + "Wert: " +doc.value + '</div>';
-            if(doc.answer != undefined)output += '<h2 class="answer">' + doc.answer + '</h2>';
+            if(doc.answer != undefined){
+                output += '<h2 id="answerOf'+i+'" class="answer clickObject">' + doc.answer + '</h2>';
+                $('#answerOf'+i).off();
+                $('body').on('click', '#answerOf' + i, function() {
+                    $("#tftext").val(doc.answer);
+                    $('#tfbutton').click();
+                });
+            }
             if(doc.question != undefined)output += '<p>' + doc.question + '</p>';
-            output += '<p>' + "           " + '</p>';    
             if(doc.category != undefined){
                 output += '<div id="catOf'+i+'" class="left clickObject">'  + "Kategorie: " +doc.category + '</div>';
+                $('#catOf'+i).off();
                 $('body').on('click', '#catOf' + i, function() {
-                    $('#tftext').val('* AND category:\''+doc.category+'\'');
-                    $('#tfbutton').click();
+                    $("#cattext").val(doc.category);
+                    $('#catbutton').click();
                 });
             }
             if(doc.air_date != undefined)output += '<div class="rightened">' + "Datum: " +doc.air_date + '</div>';

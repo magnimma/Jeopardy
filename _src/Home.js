@@ -6,7 +6,6 @@ var Home = (function() {
      
     init = function() {
         _events();
-        localStorage.clear();
         _getLocals();
         
     },
