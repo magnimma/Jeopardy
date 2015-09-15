@@ -37,7 +37,7 @@ var Manager;
        $("#feedback").append('<p>Result: These are the results for search query: '+currentSearch+'</p>');
        localsManager(currentSearch); //add this search to the last searches box
         Manager = new AjaxSolr.Manager({
-            solrUrl:'http://localhost:8983/solr/'+core+'/select?q=*:*&fq={!dismax qf="answer"}'+currentSearch+'&wt=json&indent=true'
+            solrUrl:'http://localhost:8983/solr/'+core+'/select?q=*:*&fq={!dismax qf="answer"}'+currentSearch+'&rows=5&wt=json&indent=true'
         });
 
    	    Manager.addWidget(new AjaxSolr.ResultWidget({
@@ -55,7 +55,7 @@ var Manager;
            nextLabel: '&gt;',
            innerWindow: 1,
            renderHeader: function (perPage, offset, total) {
-               perPage = 20;
+               perPage = 5;
                $('#pager-header').html($('<span></span>').text('displaying ' + Math.min(total, offset + 1) + ' to ' + Math.min(total, offset + perPage) + ' of ' + total));
            }
        }));
@@ -68,7 +68,7 @@ var Manager;
         $("#feedback").append('<p>Result: These are the results for category: '+catSearch+'</p>');
         catSearch = removeR(catSearch); 
         Manager = new AjaxSolr.Manager({
-            solrUrl:'http://localhost:8983/solr/'+core+'/select?q=*:*&fq={!dismax qf="category"}"'+catSearch+'"&sort=sort asc&wt=json&indent=true'
+            solrUrl:'http://localhost:8983/solr/'+core+'/select?q=*:*&fq={!dismax qf="category"}"'+catSearch+'"&rows=5&sort=sort asc&wt=json&indent=true'
         });
 
    	    Manager.addWidget(new AjaxSolr.ResultWidget({
@@ -86,7 +86,7 @@ var Manager;
            nextLabel: '&gt;',
            innerWindow: 1,
            renderHeader: function (perPage, offset, total) {
-               perPage = 20;
+               perPage = 5;
                $('#pager-header').html($('<span></span>').text('displaying ' + Math.min(total, offset + 1) + ' to ' + Math.min(total, offset + perPage) + ' of ' + total));
            }
        }));
@@ -148,7 +148,7 @@ var Manager;
         $("#feedback").empty();
         $("#feedback").append('<p>Result: These are the results for the letter: '+letter+'</p>');
         Manager = new AjaxSolr.Manager({
-            solrUrl: 'http://localhost:8983/solr/'+core+'/select?q=*%3A*&fq=answer%3A'+letter+'*&rows=50&sort=sort asc&wt=json&indent=true'
+            solrUrl: 'http://localhost:8983/solr/'+core+'/select?q=*%3A*&fq=answer%3A'+letter+'*&rows=20&sort=sort asc&wt=json&indent=true'
         });
 
    	    Manager.addWidget(new AjaxSolr.ResultWidget({
@@ -166,7 +166,7 @@ var Manager;
            nextLabel: '&gt;',
            innerWindow: 1,
            renderHeader: function (perPage, offset, total) {
-               perPage = 50;
+               perPage = 20;
                $('#pager-header').html($('<span></span>').text('displaying ' + Math.min(total, offset + 1) + ' to ' + Math.min(total, offset + perPage) + ' of ' + total));
            }
        }));
