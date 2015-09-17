@@ -4,13 +4,16 @@
         <meta charset="utf-8">
         <title>Jeopardy Search</title> 
         <link rel="stylesheet" href="_res/_css/commonstyle.css">
+        
         <script src="_libs/jquery-2.1.4.js"></script> 
+        <script src="_libs/jquery-ui.js"></script>
         <script src="_libs/core/Core.js"></script> 
         <script src="_libs/core/AbstractManager.js"></script> 
         <script src="_libs/managers/Manager.jquery.js"></script>
         <script src="_libs/core/Parameter.js"></script> 
         <script src="_libs/core/ParameterStore.js"></script>
         <script src="_libs/core/AbstractWidget.js"></script>
+        <script src="_libs/core/AbstractFacetWidget.js"></script>
         <script src="_libs/widgets/jquery/PagerWidget.js"</script>
         <script src="_libs/core/AbstractTextWidget.js"></script> 
         <script src="_src/Home.js"></script>
@@ -23,7 +26,6 @@
         <div id="Mainline">
             <img id="logo" src="_res/_img/jeopardy.jpg" alt="#LOGO#"/>
             <h1 id="header">Search</h1>
-            
         </div>
 	   <!-- SEARCH BAR -->
 	     <div class="tfheader">
@@ -35,16 +37,22 @@
              <br/>
              <br/>
              <div id="overall">
-                <div id="tfoldsearch">
-                    <p id="delete">Delete this</p>
-                    <p id="lastsearch">Last Searches</p>
-		        </div>
+                <div class="left" id="leftside">
+                    <div id="tfoldsearch">
+                        <p id="delete">Delete this</p>
+                        <p id="lastsearch">Last Searches</p>
+		            </div>
+                    <div id="calendar">
+                    </div>
+                </div>
                 <div id="tfnewsearch">
                     <p id="tfwhatis">What is...</p>
 		            <input type="text" class="tftextinput" name="q" size="21" maxlength="120" id="tftext">
                     <input type="submit" value="?" class="button" id="tfbutton">
-                    <input type="text" class="tftextinput" name="q" size="21" maxlength="120" id="cattext">
-                    <input type="submit" value="?" class="button" id="catbutton">
+                    <input type="text" class="tftextinput hide" name="q" size="21" maxlength="120" id="cattext">
+                    <input type="submit" value="?" class="button hide" id="catbutton">
+                    <input type="text" class="tftextinput hide" name="q" size="21" maxlength="120" id="datetext">
+                    <input type="submit" value="?" class="button hide" id="datebutton">
                     <div id="divrandom">
                         <input type="submit" value="Random" class="button" id="tfrandom">
                     </div>

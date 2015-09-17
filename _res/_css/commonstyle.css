@@ -122,10 +122,7 @@ audio{
         border-bottom-left-radius: 5px 5px;
 		
 }
-#catbutton {	
-    display: none;
-}
-#cattext {
+.hide{
     display: none;
 }
 
@@ -139,14 +136,15 @@ audio{
 }
 #tfoldsearch{  
         height: auto; 
-        width: 13%;
         margin-left:2%;
         text-align: center;
 		padding:20px;
         padding-top: 5px;
-        float:left;
         border: 3px solid #000080;
         border-radius: 7px;
+}
+#leftside{
+        width: 16%;
 }
 #tfnewsearch{
         float:left;
@@ -166,6 +164,18 @@ audio{
         padding:5px;
         border: 3px solid #000080;
         border-radius: 7px;
+}
+#calendar{
+        height: auto; 
+        margin-left:2%;
+        padding:20px;
+        padding-top: 5px;
+        border: 3px solid #000080;
+        border-radius: 7px;
+        text-align: center;
+        background: #DDDDDD;
+        margin-top: 5px;
+        margin-bottom: 5px;
 }
 
 

@@ -1,6 +1,7 @@
 (function ($) {
 AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
     beforeRequest: function(){
+         $(this.target).off();
          $(this.target).empty();
          $(this.target).append('<div class="resultList"><h2 class="answer">Network problem... You may wait or try again.</h2></div>');
          $("#navigation").css("display", "block");
@@ -34,11 +35,10 @@ AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
                         $(this.target).append(this.letterizer(doc,i));
              } 
         }
-        else if($(this.id).selector == "number"){// if it's a number search
-             $("#navigation").css("display", "none");
+        else if($(this.id).selector == "date"){// if it's a number search
              for (var i = 0, l = this.manager.response.response.docs.length; i < l; i++) {
                         var doc = this.manager.response.response.docs[i];
-                        $(this.target).append(this.letterizer(doc,i));
+                        $(this.target).append(this.template(doc,i));
              } 
         }
     }
@@ -69,8 +69,7 @@ AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
             if(doc.value != undefined)output += '<div class="rightened">'  + "Wert: " +doc.value + '</div>';
             if(doc.answer != undefined){
                 output += '<h2 id="answerOf'+i+'" class="answer clickObject">' + doc.answer + '</h2>';
-                $('#answerOf'+i).off();
-                $('body').on('click', '#answerOf' + i, function() {
+                $(this.target).on('click', '#answerOf' + i, function() {
                     $("#tftext").val(doc.answer);
                     $('#tfbutton').click();
                 });
@@ -78,13 +77,19 @@ AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
             if(doc.question != undefined)output += '<p>' + doc.question + '</p>';
             if(doc.category != undefined){
                 output += '<div id="catOf'+i+'" class="left clickObject">'  + "Kategorie: " +doc.category + '</div>';
-                $('#catOf'+i).off();
-                $('body').on('click', '#catOf' + i, function() {
+                $(this.target).on('click', '#catOf' + i, function() {
                     $("#cattext").val(doc.category);
                     $('#catbutton').click();
+                    $('#catOf'+i).off();
                 });
             }
-            if(doc.air_date != undefined)output += '<div class="rightened">' + "Datum: " +doc.air_date + '</div>';
+            if(doc.air_date != undefined){
+                output += '<div id="dateOf'+i+'" class="rightened clickObject">' + "Datum: " +doc.air_date + '</div>';
+                $(this.target).on('click', "#dateOf" + i, function() {
+                    $("#datetext").val(doc.air_date);
+                    $('#datebutton').click();
+                });
+            }
       }
       output += '</div>';
       return output;

@@ -1,0 +1,92 @@
+2015-09-15 16:22:58.537 INFO  (main) [   ] o.e.j.u.log Logging initialized @228ms
+2015-09-15 16:22:58.654 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2015-09-15 16:22:58.666 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2015-09-15 16:22:58.668 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/C:/Users/MyUse/Desktop/Jeopardy/solr/server/contexts/] at interval 0
+2015-09-15 16:22:59.052 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2015-09-15 16:22:59.059 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@239963d8{/solr,file:/C:/Users/MyUse/Desktop/Jeopardy/solr/server/solr-webapp/webapp/,STARTING}{C:\Users\MyUse\Desktop\Jeopardy\solr\server/solr-webapp/webapp} has uncovered http methods for path: /
+2015-09-15 16:22:59.064 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1454127753@56ac3a89
+2015-09-15 16:22:59.074 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2015-09-15 16:22:59.074 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr
+2015-09-15 16:22:59.075 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr\'
+2015-09-15 16:22:59.168 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr\solr.xml
+2015-09-15 16:22:59.208 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr
+2015-09-15 16:22:59.225 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 943870983
+2015-09-15 16:22:59.225 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr\]
+2015-09-15 16:22:59.225 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr\lib
+2015-09-15 16:22:59.225 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr\lib).
+2015-09-15 16:22:59.236 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2015-09-15 16:22:59.327 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2015-09-15 16:22:59.328 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2015-09-15 16:22:59.329 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2015-09-15 16:22:59.330 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2015-09-15 16:22:59.330 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2015-09-15 16:22:59.383 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr
+2015-09-15 16:22:59.419 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=hopes, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr\hopes, absoluteInstDir=C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr\hopes\, dataDir=data\}
+2015-09-15 16:22:59.420 INFO  (main) [   ] o.a.s.c.CoresLocator Found core hopes in C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr\hopes\
+2015-09-15 16:22:59.420 INFO  (main) [   ] o.a.s.c.CoresLocator Found 1 core definitions
+2015-09-15 16:22:59.423 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=C:\Users\MyUse\Desktop\Jeopardy\solr\server
+2015-09-15 16:22:59.423 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2015-09-15 16:22:59.423 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr\hopes\'
+2015-09-15 16:22:59.431 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@239963d8{/solr,file:/C:/Users/MyUse/Desktop/Jeopardy/solr/server/solr-webapp/webapp/,AVAILABLE}{C:\Users\MyUse\Desktop\Jeopardy\solr\server/solr-webapp/webapp}
+2015-09-15 16:22:59.445 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2015-09-15 16:22:59.465 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2015-09-15 16:22:59.469 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.0
+2015-09-15 16:22:59.509 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@663c9e7a{HTTP/1.1}{0.0.0.0:8983}
+2015-09-15 16:22:59.509 INFO  (main) [   ] o.e.j.s.Server Started @1205ms
+2015-09-15 16:22:59.524 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2015-09-15 16:22:59.528 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr\hopes\conf\schema.xml
+2015-09-15 16:22:59.540 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [hopes] Schema name=example
+2015-09-15 16:22:59.571 WARN  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema no uniqueKey specified in schema.
+2015-09-15 16:22:59.580 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr\hopes\conf'
+2015-09-15 16:22:59.580 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'hopes' using configuration from instancedir C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr\hopes\
+2015-09-15 16:22:59.581 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2015-09-15 16:22:59.588 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.c.SolrCore [[hopes] ] Opening new SolrCore at [C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr\hopes\], dataDir=[null]
+2015-09-15 16:22:59.589 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2015-09-15 16:22:59.596 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr\hopes\data
+2015-09-15 16:22:59.597 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr\hopes\data\index/
+2015-09-15 16:22:59.597 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr\hopes\data\index
+2015-09-15 16:22:59.607 INFO  (OldIndexDirectoryCleanupThreadForCore-hopes) [   x:hopes] o.a.s.c.SolrCore Looking for old index directories to cleanup for core hopes in C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr\hopes\data\
+2015-09-15 16:22:59.655 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2015-09-15 16:22:59.674 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-15 16:22:59.675 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-15 16:22:59.676 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-15 16:22:59.676 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2015-09-15 16:22:59.684 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2015-09-15 16:22:59.684 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2015-09-15 16:22:59.685 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2015-09-15 16:22:59.686 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/update/csv,/select,/admin/segments,/admin/system,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms
+2015-09-15 16:22:59.687 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2015-09-15 16:22:59.692 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2015-09-15 16:22:59.693 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2015-09-15 16:22:59.704 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2015-09-15 16:22:59.704 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2015-09-15 16:22:59.734 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr\hopes\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@ff84a94; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+2015-09-15 16:22:59.734 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.c.SolrCore newest commit generation = 2
+2015-09-15 16:22:59.772 INFO  (qtp429313384-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=7 
+2015-09-15 16:22:59.781 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.s.SolrIndexSearcher Opening Searcher@282dea22[hopes] main
+2015-09-15 16:22:59.785 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr\hopes\conf
+2015-09-15 16:22:59.786 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr\hopes\conf}
+2015-09-15 16:22:59.794 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr\hopes\conf
+2015-09-15 16:22:59.794 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _rest_managed.json using file:dir=C:\Users\MyUse\Desktop\Jeopardy\solr\server\solr\hopes\conf
+2015-09-15 16:22:59.794 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.r.ManagedResource Loaded initArgs {} for /rest/managed
+2015-09-15 16:22:59.794 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2015-09-15 16:22:59.799 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2015-09-15 16:22:59.799 INFO  (searcherExecutor-7-thread-1-processing-x:hopes) [   x:hopes] o.a.s.c.SolrCore [hopes] Registered new searcher Searcher@282dea22[hopes] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C216930)))}
+2015-09-15 16:22:59.800 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2015-09-15 16:22:59.800 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2015-09-15 16:22:59.801 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.u.VersionInfo No terms found for _version_, cannot seed version bucket highest value from index
+2015-09-15 16:22:59.801 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1512397004919013376
+2015-09-15 16:22:59.804 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.u.UpdateLog Took 4 ms to seed version buckets with highest version 1512397004919013376
+2015-09-15 16:22:59.805 INFO  (coreLoadExecutor-6-thread-1) [   x:hopes] o.a.s.c.CoreContainer registering core: hopes
+2015-09-15 16:23:00.926 INFO  (qtp429313384-18) [   x:hopes] o.a.s.c.S.Request [hopes] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140009220498194011162_1442334179077&indent=trueselect?q%3D*:*&sort=random_4172+asc&rows=1&wt=json&wt=json&_=1442334179078} hits=216930 status=0 QTime=30 
+2015-09-15 16:23:08.142 INFO  (qtp429313384-22) [   x:hopes] o.a.s.c.S.Request [hopes] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140009220498194011162_1442334179077&indent=trueselect?q%3D*:*&sort=random_19788+asc&rows=1&wt=json&wt=json&_=1442334179079} hits=216930 status=0 QTime=2 
+2015-09-15 16:26:53.278 INFO  (qtp429313384-19) [   x:hopes] o.a.s.c.S.Request [hopes] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21405382560532374712_1442334408217&indent=trueselect?q%3D*:*&sort=random_86334+asc&rows=1&wt=json&wt=json&_=1442334408218} hits=216930 status=0 QTime=1 
+2015-09-15 16:26:54.370 INFO  (qtp429313384-16) [   x:hopes] o.a.s.c.S.Request [hopes] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21405382560532374712_1442334408217&indent=trueselect?q%3D*:*&fq={!dismax+qf%3D"answer"}Max+Weinberg&rows=5&wt=json&wt=json&_=1442334408219} hits=60 status=0 QTime=24 
+2015-09-15 16:27:42.703 INFO  (qtp429313384-20) [   x:hopes] o.a.s.c.S.Request [hopes] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21408212284539923372_1442334461575&indent=trueselect?q%3D*:*&sort=random_22722+asc&rows=1&wt=json&wt=json&_=1442334461576} hits=216930 status=0 QTime=5 
+2015-09-15 16:28:15.118 INFO  (qtp429313384-18) [   x:hopes] o.a.s.c.S.Request [hopes] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21405023704725378084_1442334494057&indent=trueselect?q%3D*:*&sort=random_67131+asc&rows=1&wt=json&wt=json&_=1442334494058} hits=216930 status=0 QTime=2 
+2015-09-15 16:28:31.221 INFO  (qtp429313384-20) [   x:hopes] o.a.s.c.S.Request [hopes] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21405023704725378084_1442334494057&indent=trueselect?q%3D*:*&sort=random_72699+asc&rows=1&wt=json&wt=json&_=1442334494059} hits=216930 status=0 QTime=1 
+2015-09-15 16:28:31.688 INFO  (qtp429313384-22) [   x:hopes] o.a.s.c.S.Request [hopes] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21405023704725378084_1442334494057&indent=trueselect?q%3D*:*&sort=random_27393+asc&rows=1&wt=json&wt=json&_=1442334494060} hits=216930 status=0 QTime=1 
+2015-09-15 16:29:02.995 INFO  (qtp429313384-19) [   x:hopes] o.a.s.c.S.Request [hopes] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery2140833942931853753_1442334542003&indent=trueselect?q%3D*:*&sort=random_56446+asc&rows=1&wt=json&wt=json&_=1442334542004} hits=216930 status=0 QTime=1 
+2015-09-15 16:30:25.671 INFO  (qtp429313384-20) [   x:hopes] o.a.s.c.S.Request [hopes] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21401195416995178189_1442334619548&indent=trueselect?q%3D*:*&sort=random_97262+asc&rows=1&wt=json&wt=json&_=1442334619549} hits=216930 status=0 QTime=1 
+2015-09-15 16:30:26.671 INFO  (qtp429313384-22) [   x:hopes] o.a.s.c.S.Request [hopes] webapp=/solr path=/select params={q=*:*&json.wrf=jQuery21401195416995178189_1442334619548&indent=trueselect?q%3D*:*&fq={!dismax+qf%3D"answer"}Henry+VIII&rows=5&wt=json&wt=json&_=1442334619550} hits=680 status=0 QTime=2 
